@@ -2886,7 +2886,7 @@
         <name>ПанельРезультата</name>
         <id>5</id>
         <items xsi:type="form:FormGroup">
-          <name>ДинСписок</name>
+          <name>DynamicList</name>
           <id>229</id>
           <items xsi:type="form:FormGroup">
             <name>ГруппаДинСписков</name>
@@ -2984,7 +2984,7 @@
             <value>Список</value>
           </toolTip>
           <extendedTooltip>
-            <name>ДинСписокРасширеннаяПодсказка</name>
+            <name>DynamicListРасширеннаяПодсказка</name>
             <id>230</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3008,7 +3008,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>Результат</name>
+          <name>ValueTable</name>
           <id>13</id>
           <items xsi:type="form:FormGroup">
             <name>Группа1</name>
@@ -3682,7 +3682,7 @@
             <value>Таблица</value>
           </toolTip>
           <extendedTooltip>
-            <name>РезультатРасширеннаяПодсказка</name>
+            <name>ValueTableРасширеннаяПодсказка</name>
             <id>14</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3706,7 +3706,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>Дерево</name>
+          <name>ValueTree</name>
           <id>227</id>
           <items xsi:type="form:Table">
             <name>РезультатЗапросаДЗ</name>
@@ -4303,7 +4303,7 @@
             <value>Дерево</value>
           </toolTip>
           <extendedTooltip>
-            <name>ДеревоРасширеннаяПодсказка</name>
+            <name>ValueTreeРасширеннаяПодсказка</name>
             <id>228</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4327,7 +4327,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ТабДок</name>
+          <name>SpreadsheetDocument</name>
           <id>300</id>
           <items xsi:type="form:FormGroup">
             <name>Группа3</name>
@@ -5107,10 +5107,10 @@
           </title>
           <toolTip>
             <key>ru</key>
-            <value>Таб док</value>
+            <value>Таб. док.</value>
           </toolTip>
           <extendedTooltip>
-            <name>ТабДокРасширеннаяПодсказка</name>
+            <name>SpreadsheetDocumentРасширеннаяПодсказка</name>
             <id>301</id>
             <visible>true</visible>
             <enabled>true</enabled>
