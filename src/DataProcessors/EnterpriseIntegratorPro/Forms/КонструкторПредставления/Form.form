@@ -5925,6 +5925,10 @@
     <name>ОбработкаВыбора</name>
   </handlers>
   <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
