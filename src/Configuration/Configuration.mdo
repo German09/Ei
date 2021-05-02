@@ -29,7 +29,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.3.08</version>
+  <version>0.3.09</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
@@ -47,12 +47,13 @@
   <commonPictures>CommonPicture.СинхронизацияДанныхДлительнаяОперация_Ei</commonPictures>
   <commonTemplates>CommonTemplate.офСвойства</commonTemplates>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульЗакрытыйВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульЗакрытыйКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульЗакрытыйКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ВыборТипаКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
@@ -63,9 +64,10 @@
   <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
+  <commonForms>CommonForm.СлужебнаяФорма</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_ПроизвольныйАлгоритм</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ДляКаждого</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Выполнить</dataProcessors>
 </mdclass:Configuration>

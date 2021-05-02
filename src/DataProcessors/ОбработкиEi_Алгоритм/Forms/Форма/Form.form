@@ -854,7 +854,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ОбработкиEi_ПроизвольныйАлгоритм</types>
+      <types>DataProcessorObject.ОбработкиEi_Алгоритм</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1026,10 +1026,7 @@
         <value>Ссылка</value>
       </title>
       <id>7</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>

@@ -4,12 +4,12 @@
     <objectType typeId="6739b674-d638-441d-9ca1-d373b370069a" valueTypeId="acaa5339-6968-460a-879b-295518f35964"/>
     <managerType typeId="e0338956-ec89-4d40-8f7c-8b6771c3ae6e" valueTypeId="c8b906c8-3bcb-4423-9a10-0ae6d7b2c602"/>
   </producedTypes>
-  <name>ОбработкиEi_ПроизвольныйАлгоритм</name>
+  <name>ОбработкиEi_Алгоритм</name>
   <synonym>
     <key>ru</key>
     <value>Алгоритм</value>
   </synonym>
-  <defaultForm>DataProcessor.ОбработкиEi_ПроизвольныйАлгоритм.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ОбработкиEi_Алгоритм.Form.Форма</defaultForm>
   <forms uuid="5396ec4c-516d-47e5-b540-3b2ef06c6c4b">
     <name>Форма</name>
     <synonym>

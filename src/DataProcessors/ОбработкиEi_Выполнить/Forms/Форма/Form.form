@@ -13,6 +13,10 @@
         <segments>Вариант</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВариантыПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ВариантыРасширеннаяПодсказка</name>
       <id>3</id>
@@ -50,7 +54,6 @@
       <choiceButton>false</choiceButton>
       <listChoiceMode>true</listChoiceMode>
       <autoMarkIncomplete>true</autoMarkIncomplete>
-      <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
     </extInfo>
   </items>
@@ -67,6 +70,10 @@
         <segments>Тип</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ТипПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ТипРасширеннаяПодсказка</name>
       <id>6</id>
@@ -183,9 +190,8 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <chooseType>true</chooseType>
+      <listChoiceMode>true</listChoiceMode>
       <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -271,7 +277,8 @@
     </title>
     <id>4</id>
     <valueType>
-      <types>TypeDescription</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

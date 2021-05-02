@@ -796,10 +796,7 @@
         <value>Ссылка</value>
       </title>
       <id>7</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>
