@@ -1711,6 +1711,11 @@
                   <excludedCommands>InsertItemCondition</excludedCommands>
                   <excludedCommands>InsertItemProcessing</excludedCommands>
                   <excludedCommands>InsertItemSubBusinessProcess</excludedCommands>
+                  <toolTip>
+                    <key>ru</key>
+                    <value>Если процесс заканчивается блоком &quot;Завершение&quot; он может возвращать результат</value>
+                  </toolTip>
+                  <toolTipRepresentation>ShowBottom</toolTipRepresentation>
                   <handlers>
                     <event>OnChange</event>
                     <name>ПолеГрафСхемыПриИзменении</name>
