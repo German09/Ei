@@ -939,6 +939,270 @@
                 <items xsi:type="form:FormGroup">
                   <name>Группа9</name>
                   <id>436</id>
+                  <items xsi:type="form:FormGroup">
+                    <name>Группа10</name>
+                    <id>467</id>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка2</name>
+                      <id>469</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка2РасширеннаяПодсказка</name>
+                        <id>470</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemStart</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка1</name>
+                      <id>471</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка1РасширеннаяПодсказка</name>
+                        <id>472</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemCompletion</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка3</name>
+                      <id>473</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка3РасширеннаяПодсказка</name>
+                        <id>474</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemSplit</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка4</name>
+                      <id>475</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка4РасширеннаяПодсказка</name>
+                        <id>476</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemJoin</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка5</name>
+                      <id>477</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка5РасширеннаяПодсказка</name>
+                        <id>478</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemDecorativeLine</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка6</name>
+                      <id>479</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка6РасширеннаяПодсказка</name>
+                        <id>480</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemDecoration</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <items xsi:type="form:Button">
+                      <name>Кнопка7</name>
+                      <id>481</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <extendedTooltip>
+                        <name>Кнопка7РасширеннаяПодсказка</name>
+                        <id>482</id>
+                        <visible>true</visible>
+                        <enabled>true</enabled>
+                        <userVisible>
+                          <common>true</common>
+                        </userVisible>
+                        <type>Label</type>
+                        <autoMaxWidth>true</autoMaxWidth>
+                        <autoMaxHeight>true</autoMaxHeight>
+                        <extInfo xsi:type="form:LabelDecorationExtInfo">
+                          <horizontalAlign>Left</horizontalAlign>
+                        </extInfo>
+                      </extendedTooltip>
+                      <commandName>Form.Item.Процессы_ГрафСхема.StandardCommand.InsertItemSwitch</commandName>
+                      <representation>Auto</representation>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <placementArea>UserCmds</placementArea>
+                      <representationInContextMenu>Auto</representationInContextMenu>
+                    </items>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>Группа10РасширеннаяПодсказка</name>
+                      <id>468</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <extInfo xsi:type="form:ButtonGroupExtInfo">
+                      <representation>Compact</representation>
+                    </extInfo>
+                  </items>
+                  <items xsi:type="form:FormGroup">
+                    <name>Группа11</name>
+                    <id>483</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>Группа11РасширеннаяПодсказка</name>
+                      <id>484</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <extInfo xsi:type="form:ButtonGroupExtInfo">
+                      <commandSource>Item.Процессы_ГрафСхема</commandSource>
+                    </extInfo>
+                  </items>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -962,7 +1226,6 @@
                   <type>CommandBar</type>
                   <extInfo xsi:type="form:CommandBarExtInfo">
                     <horizontalAlign>Left</horizontalAlign>
-                    <commandSource>Item.Процессы_ГрафСхема</commandSource>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -979,6 +1242,10 @@
                     </paths>
                   </dataPath>
                   <titleLocation>None</titleLocation>
+                  <excludedCommands>InsertItemActivity</excludedCommands>
+                  <excludedCommands>InsertItemCondition</excludedCommands>
+                  <excludedCommands>InsertItemProcessing</excludedCommands>
+                  <excludedCommands>InsertItemSubBusinessProcess</excludedCommands>
                   <handlers>
                     <event>OnChange</event>
                     <name>ПолеГрафСхемыПриИзменении</name>
