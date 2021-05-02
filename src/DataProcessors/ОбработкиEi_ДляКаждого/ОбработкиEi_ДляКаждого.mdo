@@ -27,4 +27,12 @@
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>
+  <templates uuid="9143401a-d967-4262-9233-1cfb6acac73c">
+    <name>СхемаПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема по умолчанию</value>
+    </synonym>
+    <templateType>GraphicalSchema</templateType>
+  </templates>
 </mdclass:DataProcessor>

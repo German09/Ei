@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3e2d2d5-431f-4ece-926e-7bd5cdefee6d">
+  <name>СхемаПроцессаПоУмолчанию_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема процесса по умолчанию ei</value>
+  </synonym>
+  <templateType>GraphicalSchema</templateType>
+</mdclass:CommonTemplate>
