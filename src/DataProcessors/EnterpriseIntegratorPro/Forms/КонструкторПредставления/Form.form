@@ -5331,8 +5331,10 @@
               <event>Tuning</event>
               <name>ДеревоЗначенийПредставлениеРегулирование</name>
             </handlers>
-            <autoMaxWidth>true</autoMaxWidth>
+            <width>1</width>
+            <maxWidth>5</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>false</horizontalStretch>
             <wrap>true</wrap>
             <spinButton>true</spinButton>
             <chooseType>true</chooseType>
@@ -5340,180 +5342,26 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormGroup">
-          <name>ДереваВыбораГруппаЗначений</name>
-          <id>386</id>
-          <items xsi:type="form:FormField">
-            <name>ДеревоВыбораЗначение</name>
-            <id>409</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоВыбора.Значение</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>ДеревоВыбораЗначениеРасширеннаяПодсказка</name>
-              <id>411</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДеревоВыбораЗначениеКонтекстноеМеню</name>
-              <id>410</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <readOnly>true</readOnly>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ДеревоВыбораСсылкаПредставление</name>
-            <id>415</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоВыбора.СсылкаПредставление</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>ДеревоВыбораСсылкаПредставлениеРасширеннаяПодсказка</name>
-              <id>417</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДеревоВыбораСсылкаПредставлениеКонтекстноеМеню</name>
-              <id>416</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>EnterOnInput</editMode>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ДеревоВыбораКэшПредставление</name>
-            <id>424</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоВыбора.КэшПредставление</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>ДеревоВыбораКэшПредставлениеРасширеннаяПодсказка</name>
-              <id>426</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДеревоВыбораКэшПредставлениеКонтекстноеМеню</name>
-              <id>425</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>EnterOnInput</editMode>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
+        <items xsi:type="form:FormField">
+          <name>ДеревоВыбораПредставлениеЗначения</name>
+          <id>485</id>
+          <title>
+            <key>ru</key>
+            <value>Значение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Дерева выбора группа значений</value>
-          </title>
-          <toolTip>
-            <key>ru</key>
-            <value>Дерева выбора группа значений</value>
-          </toolTip>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ДеревоВыбора.ПредставлениеЗначения</segments>
+            </paths>
+          </dataPath>
           <extendedTooltip>
-            <name>ДереваВыбораГруппаЗначенийРасширеннаяПодсказка</name>
-            <id>387</id>
+            <name>ДеревоВыбораПредставлениеЗначенияРасширеннаяПодсказка</name>
+            <id>487</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5526,10 +5374,28 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>InCell</group>
-            <showTitle>true</showTitle>
+          <contextMenu>
+            <name>ДеревоВыбораПредставлениеЗначенияКонтекстноеМеню</name>
+            <id>486</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <commandBarLocation>None</commandBarLocation>
@@ -6717,81 +6583,13 @@
       </edit>
     </columns>
     <columns>
-      <name>Значение</name>
+      <name>ОбъемКоллекции</name>
       <title>
         <key>ru</key>
-        <value>Значение</value>
-      </title>
-      <id>5</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ДополнениеПредставления</name>
-      <title>
-        <key>ru</key>
-        <value>Дополнение представления</value>
-      </title>
-      <id>6</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>СсылкаПредставление</name>
-      <title>
-        <key>ru</key>
-        <value>Ссылка представление</value>
-      </title>
-      <id>2</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Ссылка</name>
-      <title>
-        <key>ru</key>
-        <value>Ссылка</value>
-      </title>
-      <id>7</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ЭтоКоллекция</name>
-      <title>
-        <key>ru</key>
-        <value>Это коллекция</value>
+        <value>Объем коллекции</value>
       </title>
       <id>8</id>
-      <valueType>
-        <types>Boolean</types>
-      </valueType>
+      <valueType/>
       <view>
         <common>true</common>
       </view>
@@ -6800,8 +6598,12 @@
       </edit>
     </columns>
     <columns>
-      <name>КэшПредставление</name>
-      <id>9</id>
+      <name>ПредставлениеЗначения</name>
+      <title>
+        <key>ru</key>
+        <value>Представление значения</value>
+      </title>
+      <id>10</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
