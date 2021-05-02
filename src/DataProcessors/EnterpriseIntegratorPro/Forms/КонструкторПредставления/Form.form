@@ -762,7 +762,7 @@
                 <id>298</id>
                 <title>
                   <key>ru</key>
-                  <value>Импорт Excel</value>
+                  <value>Импорт Excel, Mxl, Ods</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -883,7 +883,7 @@
         <name>СКД</name>
         <id>349</id>
         <items xsi:type="form:FormField">
-          <name>ДеревоЗапросовТекстСКД</name>
+          <name>ТекстСКД</name>
           <id>351</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -896,8 +896,12 @@
             </paths>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ДеревоЗапросовТекстСКДПриИзменении</name>
+          </handlers>
           <extendedTooltip>
-            <name>ДеревоЗапросовТекстСКДРасширеннаяПодсказка</name>
+            <name>ТекстСКДРасширеннаяПодсказка</name>
             <id>353</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -912,7 +916,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДеревоЗапросовТекстСКДКонтекстноеМеню</name>
+            <name>ТекстСКДКонтекстноеМеню</name>
             <id>352</id>
             <items xsi:type="form:Button">
               <name>ДеревоЗапросовТекстСКДКонтекстноеМенюКонструкторСКД</name>
@@ -4226,6 +4230,10 @@
           </paths>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>РезультатЗапросаТДПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>РезультатЗапросаТДРасширеннаяПодсказка</name>
           <id>304</id>
