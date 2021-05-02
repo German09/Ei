@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b713ade-1257-44da-8764-c02388a504c8">
+  <producedTypes>
+    <objectType typeId="99629a11-4b8c-4c84-af50-5be60355f7f3" valueTypeId="dfc7ef64-817e-4e9a-83d9-4a36b09bf8a9"/>
+    <managerType typeId="9dd27369-d06f-493d-a19c-c0c5df4e9b56" valueTypeId="74cb2c0b-03b2-4fc5-b5be-46d6d90df12e"/>
+  </producedTypes>
+  <name>ОбработкиПредопределенныеEi_НачалоФоновогоПотока</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработки предопределенные ei начало фонового потока</value>
+  </synonym>
+</mdclass:DataProcessor>
