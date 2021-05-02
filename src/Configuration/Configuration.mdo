@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.5.05</version>
+  <version>0.5.06</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">

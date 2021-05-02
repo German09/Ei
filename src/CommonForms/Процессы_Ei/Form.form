@@ -297,11 +297,11 @@
         <name>ОшибкаПроцессы</name>
         <id>55</id>
         <items xsi:type="form:Decoration">
-          <name>ОшибкаПроцессыКартинка</name>
+          <name>ОшибкаКартинка</name>
           <id>57</id>
           <title>
             <key>ru</key>
-            <value>Ошибка процессы картинка</value>
+            <value>Ошибка картинка</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -309,7 +309,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОшибкаПроцессыКартинкаРасширеннаяПодсказка</name>
+            <name>ОшибкаКартинкаРасширеннаяПодсказка</name>
             <id>59</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -324,7 +324,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ОшибкаПроцессыКартинкаКонтекстноеМеню</name>
+            <name>ОшибкаКартинкаКонтекстноеМеню</name>
             <id>58</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -349,7 +349,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>ОшибкаПроцессыТекст</name>
+          <name>ОшибкаТекст</name>
           <id>60</id>
           <displayImportance>Low</displayImportance>
           <title>
@@ -363,7 +363,7 @@
           </userVisible>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <extendedTooltip>
-            <name>ОшибкаПроцессыТекстРасширеннаяПодсказка</name>
+            <name>ОшибкаТекстРасширеннаяПодсказка</name>
             <id>62</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -378,7 +378,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ОшибкаПроцессыТекстКонтекстноеМеню</name>
+            <name>ОшибкаТекстКонтекстноеМеню</name>
             <id>61</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -979,22 +979,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
-  </handlers>
-  <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
