@@ -9,6 +9,16 @@
     <key>ru</key>
     <value>Провести док.</value>
   </synonym>
+  <defaultForm>DataProcessor.ОбработкиEi_ПровестиДокументы.Form.Форма</defaultForm>
+  <forms uuid="3e35dd3f-f5ea-42ca-86bf-cca77c019f66">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="f1b41f1b-168a-4c18-a99d-7f5ce7e13453">
     <name>Картинка18</name>
     <synonym>

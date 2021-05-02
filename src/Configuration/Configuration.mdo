@@ -29,7 +29,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.4.05</version>
+  <version>0.4.06</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.13</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
@@ -69,10 +69,11 @@
   <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
-  <commonModules>CommonModule.СтруктурыЗначенийСервер_Ei</commonModules>
+  <commonModules>CommonModule.СтруктурыЗначенийВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТаблицаОткрытьВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КопированиеФорм_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.СлужебнаяФорма</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>

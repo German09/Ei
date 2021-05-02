@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aeee5586-f661-451a-ae88-ed5c43966293">
-  <name>СтруктурыЗначенийСервер_Ei</name>
+  <name>СтруктурыЗначенийВызовСервера_Ei</name>
   <synonym>
     <key>ru</key>
-    <value>Структуры значений сервер ei</value>
+    <value>Структуры значений вызов сервера ei</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>

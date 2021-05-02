@@ -518,6 +518,10 @@
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
+    <title>
+      <key>ru</key>
+      <value>Объект</value>
+    </title>
     <id>1</id>
     <valueType>
       <types>DataProcessorObject.EnterpriseIntegratorPro</types>
