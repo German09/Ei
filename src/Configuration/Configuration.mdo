@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.5.04</version>
+  <version>0.5.05</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
@@ -41,6 +41,7 @@
   <subsystems>Subsystem.Выбор_Ei</subsystems>
   <subsystems>Subsystem.Наследование_Ei</subsystems>
   <subsystems>Subsystem.Процессы_Ei</subsystems>
+  <subsystems>Subsystem.Варианты_Ei</subsystems>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
@@ -81,9 +82,13 @@
   <commonModules>CommonModule.НаследованиеФормВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.СлужебнаяФорма</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
+  <commonForms>CommonForm.Процессы_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>

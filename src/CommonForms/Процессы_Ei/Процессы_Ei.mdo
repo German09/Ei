@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="810154f8-6cfe-4b08-805a-02283db8be4e">
+  <name>Процессы_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы ei</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>
