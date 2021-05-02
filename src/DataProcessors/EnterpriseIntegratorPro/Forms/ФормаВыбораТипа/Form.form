@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>Выбор типа данных</value>
@@ -7,6 +7,74 @@
   <items xsi:type="form:FormGroup">
     <name>ДеревоВыбораОбычнаяГруппа</name>
     <id>40</id>
+    <items xsi:type="form:FormGroup">
+      <name>ДеревоВыбора_КомПанель</name>
+      <id>42</id>
+      <items xsi:type="form:Button">
+        <name>ДеревоВыбораКнопкаЗакрыть</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДеревоВыбораКнопкаЗакрытьРасширеннаяПодсказка</name>
+          <id>45</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ДеревоВыбораЗакрыть</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <shape>Usual</shape>
+        <shapeRepresentation>None</shapeRepresentation>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дерево выбора ком панель</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Дерево выбора ком панель</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ДеревоВыбора_КомПанельРасширеннаяПодсказка</name>
+        <id>43</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>CommandBar</type>
+      <extInfo xsi:type="form:CommandBarExtInfo">
+        <horizontalAlign>Right</horizontalAlign>
+      </extInfo>
+    </items>
     <items xsi:type="form:Table">
       <name>ДеревоВыбора</name>
       <id>1</id>
@@ -65,7 +133,7 @@
         <extInfo xsi:type="form:InputFieldExtInfo">
           <handlers>
             <event>Tuning</event>
-            <name>ДеревоЗначенийПредставлениеРегулирование</name>
+            <name>ДеревоВыбораПредставлениеРегулирование</name>
           </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -286,31 +354,31 @@
       </autoCommandBar>
       <handlers>
         <event>Selection</event>
-        <name>ДеревоЗначенийВыбор</name>
+        <name>ДеревоВыбораВыбор</name>
       </handlers>
       <handlers>
         <event>BeforeAddRow</event>
-        <name>ДеревоЗначенийПередНачаломДобавления</name>
+        <name>ДеревоВыбораПередНачаломДобавления</name>
       </handlers>
       <handlers>
         <event>BeforeEditEnd</event>
-        <name>ДеревоЗначенийПередОкончаниемРедактирования</name>
+        <name>ДеревоВыбораПередОкончаниемРедактирования</name>
       </handlers>
       <handlers>
         <event>OnActivateRow</event>
-        <name>ДеревоЗначенийПриАктивизацииСтроки</name>
+        <name>ДеревоВыбораПриАктивизацииСтроки</name>
       </handlers>
       <handlers>
         <event>BeforeExpand</event>
-        <name>ДеревоЗначенийПередРазворачиванием</name>
+        <name>ДеревоВыбораПередРазворачиванием</name>
       </handlers>
       <handlers>
         <event>BeforeRowChange</event>
-        <name>ДеревоЗначенийПередНачаломИзменения</name>
+        <name>ДеревоВыбораПередНачаломИзменения</name>
       </handlers>
       <handlers>
         <event>OnStartEdit</event>
-        <name>ДеревоЗначенийПриНачалеРедактирования</name>
+        <name>ДеревоВыбораПриНачалеРедактирования</name>
       </handlers>
       <searchStringAddition>
         <visible>true</visible>
@@ -470,7 +538,6 @@
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
-      <enableDrag>true</enableDrag>
     </items>
     <items xsi:type="form:FormField">
       <name>ДеревоВыбора_Путь</name>
@@ -577,14 +644,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <width>40</width>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -795,6 +854,30 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>ДеревоВыбораЗакрыть</name>
+    <title>
+      <key>ru</key>
+      <value>Дерево выбора закрыть</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Дерево выбора закрыть</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Close</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДеревоВыбораЗакрыть</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
