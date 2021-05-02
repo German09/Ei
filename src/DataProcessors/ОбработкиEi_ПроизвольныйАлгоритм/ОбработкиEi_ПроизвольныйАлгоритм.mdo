@@ -7,8 +7,18 @@
   <name>ОбработкиEi_ПроизвольныйАлгоритм</name>
   <synonym>
     <key>ru</key>
-    <value>Произвольный алгоритм</value>
+    <value>Алгоритм</value>
   </synonym>
+  <defaultForm>DataProcessor.ОбработкиEi_ПроизвольныйАлгоритм.Form.Форма</defaultForm>
+  <forms uuid="5396ec4c-516d-47e5-b540-3b2ef06c6c4b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="14b9eac2-82ad-4702-88f2-cce099f3e3c1">
     <name>Картинка18</name>
     <synonym>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="feff9767-a0ab-4834-a6a1-0dacf04e706e">
-  <name>КонстантыГС</name>
+  <name>КонстантыГС_Ei</name>
   <synonym>
     <key>ru</key>
     <value>Константы графических схем</value>

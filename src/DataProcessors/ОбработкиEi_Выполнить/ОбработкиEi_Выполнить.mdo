@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba28e272-fee7-4718-b7e0-c0fd1ec1d85c">
+  <producedTypes>
+    <objectType typeId="e8fc89f8-0dae-47bb-9f94-b087d2fac5f3" valueTypeId="6cea6438-7cf6-4d20-8739-d6c9581f0a4e"/>
+    <managerType typeId="73187932-3460-4255-a455-1cef65d14b5e" valueTypeId="332aa290-0254-4bdc-80de-84febbb9b338"/>
+  </producedTypes>
+  <name>ОбработкиEi_Выполнить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбработкиEi_Выполнить.Form.Форма</defaultForm>
+  <forms uuid="02cc003e-f1a4-47bc-b96d-bcd621d1b946">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3b097345-175a-4889-a9b4-876bad0239ce">
+    <name>Картинка18</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка18</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

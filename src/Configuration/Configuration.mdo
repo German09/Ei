@@ -29,7 +29,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.3.05</version>
+  <version>0.3.06</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
@@ -44,6 +44,7 @@
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei60</commonPictures>
+  <commonPictures>CommonPicture.СинхронизацияДанныхДлительнаяОперация_Ei</commonPictures>
   <commonTemplates>CommonTemplate.офСвойства</commonTemplates>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
@@ -58,11 +59,13 @@
   <commonModules>CommonModule.ВыборВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ПеретаскиваниеКлиент_Ei</commonModules>
   <commonModules>CommonModule.РаботаСГС_Ei</commonModules>
-  <commonModules>CommonModule.КонстантыГС</commonModules>
+  <commonModules>CommonModule.КонстантыГС_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПроизвольныйАлгоритм</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ДляКаждого</dataProcessors>
+  <dataProcessors>DataProcessor.ОбработкиEi_Выполнить</dataProcessors>
 </mdclass:Configuration>
