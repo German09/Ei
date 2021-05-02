@@ -23,13 +23,13 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="86117293-5478-48c6-aaed-b80dbbf5608d"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Ei</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.2.9</version>
+  <version>0.2.11</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
