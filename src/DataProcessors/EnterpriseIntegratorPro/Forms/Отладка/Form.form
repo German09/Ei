@@ -402,28 +402,119 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
   </items>
-  <items xsi:type="form:FormField">
-    <name>РежимОтладки</name>
-    <id>26</id>
+  <items xsi:type="form:FormGroup">
+    <name>Группа1</name>
+    <id>32</id>
+    <items xsi:type="form:FormField">
+      <name>РежимОтладки</name>
+      <id>26</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.РежимОтладки</segments>
+        </paths>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <toolTip>
+        <key>ru</key>
+        <value>Выводтся структура всех выполняемых действий</value>
+      </toolTip>
+      <toolTipRepresentation>ShowRight</toolTipRepresentation>
+      <extendedTooltip>
+        <name>РежимОтладкиРасширеннаяПодсказка</name>
+        <id>28</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РежимОтладкиКонтекстноеМеню</name>
+        <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ЖурналРегистрации</name>
+      <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;img 0:723765ab-0b92-4745-a621-1ba0f77c92c9/>&lt;fontsize 10> &lt;/>&lt;fontsize 10>Журнал регистрации&lt;/></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ЖурналРегистрацииРасширеннаяПодсказка</name>
+        <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЖурналРегистрацииКонтекстноеМеню</name>
+        <id>30</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Right</groupHorizontalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ЖурналРегистрацииНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Right</horizontalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.РежимОтладки</segments>
-      </paths>
-    </dataPath>
-    <titleLocation>Right</titleLocation>
-    <toolTip>
-      <key>ru</key>
-      <value>Выводтся структура всех выполняемых действий</value>
-    </toolTip>
-    <toolTipRepresentation>ShowRight</toolTipRepresentation>
     <extendedTooltip>
-      <name>РежимОтладкиРасширеннаяПодсказка</name>
-      <id>28</id>
+      <name>Группа1РасширеннаяПодсказка</name>
+      <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -436,22 +527,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>РежимОтладкиКонтекстноеМеню</name>
-      <id>27</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>CheckBoxField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
@@ -465,10 +548,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

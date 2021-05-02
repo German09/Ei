@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.5.06</version>
+  <version>0.5.08</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
@@ -59,19 +59,21 @@
   <commonModules>CommonModule.ОбщийМодульЗакрытыйВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульЗакрытыйКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ВыборТипаКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОтладкаКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыборВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ПеретаскиваниеКлиент_Ei</commonModules>
   <commonModules>CommonModule.РаботаСГС_Ei</commonModules>
   <commonModules>CommonModule.КонстантыГС_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ПроцессыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
   <commonModules>CommonModule.СтруктурыЗначенийВызовСервера_Ei</commonModules>
