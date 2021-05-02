@@ -12,4 +12,5 @@
   <content>CommonModule.НаследованиеФормКлиентСервер_Ei</content>
   <content>CommonTemplate.НаследованиеФормСобытия_Ei</content>
   <content>CommonTemplate.НаследованиеФормСвойства_Ei</content>
+  <content>CommonTemplate.НаследованиеОбластьМодуляФормы</content>
 </mdclass:Subsystem>

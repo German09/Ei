@@ -215,35 +215,35 @@
       </autoCommandBar>
       <handlers>
         <event>Selection</event>
-        <name>Выбор_FormTable</name>
+        <name>Выбор_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>BeforeAddRow</event>
-        <name>ПередНачаломДобавления_FormTable</name>
+        <name>ПередНачаломДобавления_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>BeforeEditEnd</event>
-        <name>ПередОкончаниемРедактирования_FormTable</name>
+        <name>ПередОкончаниемРедактирования_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>OnActivateRow</event>
-        <name>ПриАктивизацииСтроки_FormTable</name>
+        <name>ПриАктивизацииСтроки_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>DragStart</event>
-        <name>НачалоПеретаскивания_FormTable</name>
+        <name>НачалоПеретаскивания_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>BeforeExpand</event>
-        <name>ПередРазворачиванием_FormTable</name>
+        <name>ПередРазворачиванием_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>BeforeRowChange</event>
-        <name>ПередНачаломИзменения_FormTable</name>
+        <name>ПередНачаломИзменения_ТаблицаФормы</name>
       </handlers>
       <handlers>
         <event>OnStartEdit</event>
-        <name>ПриНачалеРедактирования_FormTable</name>
+        <name>ПриНачалеРедактирования_ТаблицаФормы</name>
       </handlers>
       <searchStringAddition>
         <visible>true</visible>

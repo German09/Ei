@@ -642,7 +642,7 @@
         <excludedCommands>InsertItemSubBusinessProcess</excludedCommands>
         <handlers>
           <event>OnChange</event>
-          <name>ПолеГрафСхемыПриИзменении</name>
+          <name>ПриИзменении_ПолеФормыПолеГрафическойСхемы</name>
         </handlers>
         <extendedTooltip>
           <name>Процессы_ГрафСхемаРасширеннаяПодсказка</name>
@@ -711,11 +711,11 @@
         <extInfo xsi:type="form:FlowchartFieldExtInfo">
           <handlers>
             <event>Selection</event>
-            <name>ПолеГрафСхемыВыбор</name>
+            <name>Выбор_ПолеГрафическойСхемы</name>
           </handlers>
           <handlers>
             <event>OnActivate</event>
-            <name>ПолеГрафСхемыПриАктивизации</name>
+            <name>ПриАктивизации_ПолеГрафическойСхемы</name>
           </handlers>
           <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>

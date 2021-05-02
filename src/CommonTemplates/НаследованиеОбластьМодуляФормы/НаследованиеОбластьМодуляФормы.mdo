@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41b26c34-7ce2-454c-9d28-8595503dae04">
+  <name>НаследованиеОбластьМодуляФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наследование область модуля формы</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>
