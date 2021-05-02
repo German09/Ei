@@ -12,6 +12,11 @@
   <comment>Интегратор Предприятия</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.EnterpriseIntegratorPro.Form.КонструкторПредставления</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <attributes uuid="e8a32150-ab59-401e-a227-1afabd5501b8">
     <name>РежимОтладки</name>
     <synonym>
