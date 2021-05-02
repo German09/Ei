@@ -275,6 +275,151 @@
           <items xsi:type="form:FormGroup">
             <name>Предприятие</name>
             <id>11</id>
+            <items xsi:type="form:FormGroup">
+              <name>ОшибкаЗапроса</name>
+              <id>491</id>
+              <items xsi:type="form:Decoration">
+                <name>ОшибкаЗапросаКартинка</name>
+                <id>493</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ошибка запроса картинка</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ОшибкаЗапросаКартинкаРасширеннаяПодсказка</name>
+                  <id>495</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ОшибкаЗапросаКартинкаКонтекстноеМеню</name>
+                  <id>494</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <groupVerticalAlign>Center</groupVerticalAlign>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ОшибкаКартинкаНажатие</name>
+                  </handlers>
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.Предупреждение_Ei</picture>
+                  </picture>
+                  <hyperlink>true</hyperlink>
+                  <fileDragMode>AsFileRef</fileDragMode>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>ОшибкаЗапросаТекст</name>
+                <id>488</id>
+                <displayImportance>Low</displayImportance>
+                <title>
+                  <key>ru</key>
+                  <value>Ошибка</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <toolTipRepresentation>Button</toolTipRepresentation>
+                <extendedTooltip>
+                  <name>ОшибкаЗапросаТекстРасширеннаяПодсказка</name>
+                  <id>490</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ОшибкаЗапросаТекстКонтекстноеМеню</name>
+                  <id>489</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Style.SpecialTextColor</color>
+                </textColor>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ОшибкаТекстНажатие</name>
+                  </handlers>
+                  <hyperlink>true</hyperlink>
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Ошибка запроса</value>
+              </title>
+              <toolTip>
+                <key>ru</key>
+                <value>Ошибка запроса</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>ОшибкаЗапросаРасширеннаяПодсказка</name>
+                <id>492</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>HorizontalIfPossible</group>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
             <items xsi:type="form:FormField">
               <name>ТекстЗапроса</name>
               <id>31</id>
@@ -551,6 +696,151 @@
           <items xsi:type="form:FormGroup">
             <name>ВстроенныйЯзык</name>
             <id>256</id>
+            <items xsi:type="form:FormGroup">
+              <name>ОшибкаВыражения</name>
+              <id>496</id>
+              <items xsi:type="form:Decoration">
+                <name>ОшибкаВыраженияКартинка</name>
+                <id>498</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ошибка выражения картинка</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ОшибкаВыраженияКартинкаРасширеннаяПодсказка</name>
+                  <id>500</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ОшибкаВыраженияКартинкаКонтекстноеМеню</name>
+                  <id>499</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <groupVerticalAlign>Center</groupVerticalAlign>
+                <extInfo xsi:type="form:PictureDecorationExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ОшибкаКартинкаНажатие</name>
+                  </handlers>
+                  <picture xsi:type="core:PictureRef">
+                    <picture>CommonPicture.Предупреждение_Ei</picture>
+                  </picture>
+                  <hyperlink>true</hyperlink>
+                  <fileDragMode>AsFileRef</fileDragMode>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>ОшибкаВыраженияТекст</name>
+                <id>501</id>
+                <displayImportance>Low</displayImportance>
+                <title>
+                  <key>ru</key>
+                  <value>Ошибка</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <toolTipRepresentation>Button</toolTipRepresentation>
+                <extendedTooltip>
+                  <name>ОшибкаВыраженияТекстРасширеннаяПодсказка</name>
+                  <id>503</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ОшибкаВыраженияТекстКонтекстноеМеню</name>
+                  <id>502</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Style.SpecialTextColor</color>
+                </textColor>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ОшибкаТекстНажатие</name>
+                  </handlers>
+                  <hyperlink>true</hyperlink>
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Ошибка запроса</value>
+              </title>
+              <toolTip>
+                <key>ru</key>
+                <value>Ошибка запроса</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>ОшибкаВыраженияРасширеннаяПодсказка</name>
+                <id>497</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>HorizontalIfPossible</group>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
             <items xsi:type="form:FormField">
               <name>Язык</name>
               <id>258</id>
@@ -1176,6 +1466,36 @@
                       <representation>Compact</representation>
                     </extInfo>
                   </items>
+                  <items xsi:type="form:Button">
+                    <name>ОтобразитьПоказателиПроцесса</name>
+                    <id>504</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>ОтобразитьПоказателиПроцессаРасширеннаяПодсказка</name>
+                      <id>505</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <commandName>Form.Command.ОтобразитьПоказателиПроцесса</commandName>
+                    <representation>Auto</representation>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <placementArea>UserCmds</placementArea>
+                    <representationInContextMenu>Auto</representationInContextMenu>
+                  </items>
                   <items xsi:type="form:FormGroup">
                     <name>Группа11</name>
                     <id>483</id>
@@ -1226,6 +1546,151 @@
                   <type>CommandBar</type>
                   <extInfo xsi:type="form:CommandBarExtInfo">
                     <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormGroup">
+                  <name>ОшибкаПроцесса</name>
+                  <id>506</id>
+                  <items xsi:type="form:Decoration">
+                    <name>ОшибкаПроцессаКартинка</name>
+                    <id>508</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Ошибка процесса картинка</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <extendedTooltip>
+                      <name>ОшибкаПроцессаКартинкаРасширеннаяПодсказка</name>
+                      <id>510</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <contextMenu>
+                      <name>ОшибкаПроцессаКартинкаКонтекстноеМеню</name>
+                      <id>509</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <autoFill>true</autoFill>
+                    </contextMenu>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <groupVerticalAlign>Center</groupVerticalAlign>
+                    <extInfo xsi:type="form:PictureDecorationExtInfo">
+                      <handlers>
+                        <event>Click</event>
+                        <name>ОшибкаКартинкаНажатие</name>
+                      </handlers>
+                      <picture xsi:type="core:PictureRef">
+                        <picture>CommonPicture.Предупреждение_Ei</picture>
+                      </picture>
+                      <hyperlink>true</hyperlink>
+                      <fileDragMode>AsFileRef</fileDragMode>
+                    </extInfo>
+                  </items>
+                  <items xsi:type="form:Decoration">
+                    <name>ОшибкаПроцессаТекст</name>
+                    <id>511</id>
+                    <displayImportance>Low</displayImportance>
+                    <title>
+                      <key>ru</key>
+                      <value>Ошибка</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <toolTipRepresentation>Button</toolTipRepresentation>
+                    <extendedTooltip>
+                      <name>ОшибкаПроцессаТекстРасширеннаяПодсказка</name>
+                      <id>513</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <type>Label</type>
+                      <autoMaxWidth>true</autoMaxWidth>
+                      <autoMaxHeight>true</autoMaxHeight>
+                      <extInfo xsi:type="form:LabelDecorationExtInfo">
+                        <horizontalAlign>Left</horizontalAlign>
+                      </extInfo>
+                    </extendedTooltip>
+                    <contextMenu>
+                      <name>ОшибкаПроцессаТекстКонтекстноеМеню</name>
+                      <id>512</id>
+                      <visible>true</visible>
+                      <enabled>true</enabled>
+                      <userVisible>
+                        <common>true</common>
+                      </userVisible>
+                      <autoFill>true</autoFill>
+                    </contextMenu>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <textColor xsi:type="core:ColorRef">
+                      <color>Style.SpecialTextColor</color>
+                    </textColor>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <handlers>
+                        <event>Click</event>
+                        <name>ОшибкаПроцессНажатие</name>
+                      </handlers>
+                      <hyperlink>true</hyperlink>
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </items>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Ошибка процесса</value>
+                  </title>
+                  <toolTip>
+                    <key>ru</key>
+                    <value>Ошибка запроса</value>
+                  </toolTip>
+                  <extendedTooltip>
+                    <name>ОшибкаПроцессаРасширеннаяПодсказка</name>
+                    <id>507</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <type>UsualGroup</type>
+                  <extInfo xsi:type="form:UsualGroupExtInfo">
+                    <group>HorizontalIfPossible</group>
+                    <showLeftMargin>true</showLeftMargin>
+                    <united>true</united>
+                    <throughAlign>Auto</throughAlign>
+                    <currentRowUse>Auto</currentRowUse>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -6205,6 +6670,21 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ПоказателиВыполненияПроцесса</name>
+      <title>
+        <key>ru</key>
+        <value>Показатели выполнения процесса</value>
+      </title>
+      <id>14</id>
+      <valueType/>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
         <segments>ДеревоЗапросов.ПараметрыЗапроса</segments>
@@ -7173,6 +7653,30 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ДеревоВыбораЗакрыть</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтобразитьПоказателиПроцесса</name>
+    <title>
+      <key>ru</key>
+      <value>Отобразить показатели выполнения</value>
+    </title>
+    <id>23</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отобразить показатели процесса</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Часы_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтобразитьПоказателиПроцесса</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
