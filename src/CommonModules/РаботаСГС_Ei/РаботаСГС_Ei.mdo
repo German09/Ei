@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faf43132-022c-4f47-8ca4-4246a5872da4">
-  <name>РаботаСГС</name>
+  <name>РаботаСГС_Ei</name>
   <synonym>
     <key>ru</key>
     <value>Работа с графической схемой</value>

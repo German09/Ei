@@ -4,16 +4,16 @@
     <objectType typeId="5d5e31ed-bf17-4219-82d6-16a1b16a9fad" valueTypeId="3880e862-ff55-476e-a13f-874b061b10c6"/>
     <managerType typeId="0a197118-c6f8-4f8c-94a3-862980a5459b" valueTypeId="8921a651-56ad-409a-8a6b-fc710c644dbd"/>
   </producedTypes>
-  <name>ОбработкаРезультатаEi_ПровестиДокументы</name>
+  <name>ОбработкиEi_ПровестиДокументы</name>
   <synonym>
     <key>ru</key>
     <value>Провести документы</value>
   </synonym>
   <templates uuid="f1b41f1b-168a-4c18-a99d-7f5ce7e13453">
-    <name>Картинка</name>
+    <name>Картинка18</name>
     <synonym>
       <key>ru</key>
-      <value>Картинка</value>
+      <value>Картинка18</value>
     </synonym>
     <templateType>BinaryData</templateType>
   </templates>

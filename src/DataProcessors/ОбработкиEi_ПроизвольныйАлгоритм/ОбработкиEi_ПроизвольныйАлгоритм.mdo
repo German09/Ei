@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63865278-f1e9-4495-843f-1d24cf96baf2">
+  <producedTypes>
+    <objectType typeId="6739b674-d638-441d-9ca1-d373b370069a" valueTypeId="acaa5339-6968-460a-879b-295518f35964"/>
+    <managerType typeId="e0338956-ec89-4d40-8f7c-8b6771c3ae6e" valueTypeId="c8b906c8-3bcb-4423-9a10-0ae6d7b2c602"/>
+  </producedTypes>
+  <name>ОбработкиEi_ПроизвольныйАлгоритм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Произвольный алгоритм</value>
+  </synonym>
+  <templates uuid="14b9eac2-82ad-4702-88f2-cce099f3e3c1">
+    <name>Картинка18</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка18</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>
