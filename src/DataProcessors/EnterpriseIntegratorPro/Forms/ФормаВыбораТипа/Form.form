@@ -369,6 +369,10 @@
         <name>ДеревоВыбораПриАктивизацииСтроки</name>
       </handlers>
       <handlers>
+        <event>DragStart</event>
+        <name>ДеревоВыбораНачалоПеретаскивания</name>
+      </handlers>
+      <handlers>
         <event>BeforeExpand</event>
         <name>ДеревоВыбораПередРазворачиванием</name>
       </handlers>
@@ -524,7 +528,6 @@
       <maxWidth>40</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
-      <selectionMode>MultiRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad083448-94e3-45cc-81b3-7310d6e40251">
+  <name>ПеретаскиваниеКлиент_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перетаскивание клиент ei</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
