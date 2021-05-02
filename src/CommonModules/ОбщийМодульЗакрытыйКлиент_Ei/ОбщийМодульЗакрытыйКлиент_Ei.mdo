@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34d07af4-e155-4237-be81-dafee6556536">
+  <name>ОбщийМодульЗакрытыйКлиент_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль закрытый клиент ei</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
