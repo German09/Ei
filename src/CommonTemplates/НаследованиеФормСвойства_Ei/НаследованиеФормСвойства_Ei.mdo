@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b24430dc-629d-4645-957e-b71a7fcffe3d">
+  <name>НаследованиеФормСвойства_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наследование форм свойства ei</value>
+  </synonym>
+</mdclass:CommonTemplate>

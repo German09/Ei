@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f88aa2a2-1d45-48e8-937b-e50ac6e62521">
+  <name>Выбор_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор ei</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ВыборКлиент_Ei</content>
+  <content>CommonForm.Выбор_Ei</content>
+  <content>CommonModule.ВыборВызовСервера_Ei</content>
+</mdclass:Subsystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a177ae-1ba5-41d6-b969-7bd1beb9623b">
+  <name>Наследование_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наследование ei</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.НаследованиеФормКлиент_Ei</content>
+  <content>CommonModule.НаследованиеФормВызовСервера_Ei</content>
+  <content>CommonModule.НаследованиеФормСерверПовторноеИспользование_Ei</content>
+  <content>CommonModule.НаследованиеФормКлиентСервер_Ei</content>
+  <content>CommonTemplate.НаследованиеФормСобытия_Ei</content>
+  <content>CommonTemplate.НаследованиеФормСвойства_Ei</content>
+</mdclass:Subsystem>

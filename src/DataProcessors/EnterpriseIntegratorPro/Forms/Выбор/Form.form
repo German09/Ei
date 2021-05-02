@@ -133,7 +133,7 @@
         <extInfo xsi:type="form:InputFieldExtInfo">
           <handlers>
             <event>Tuning</event>
-            <name>ДеревоВыбораПредставлениеРегулирование</name>
+            <name>Регулирование_ПолеВвода</name>
           </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -215,7 +215,7 @@
       </autoCommandBar>
       <handlers>
         <event>Selection</event>
-        <name>ДеревоВыбораВыбор</name>
+        <name>Выбор_FormTable</name>
       </handlers>
       <handlers>
         <event>BeforeAddRow</event>
@@ -227,15 +227,15 @@
       </handlers>
       <handlers>
         <event>OnActivateRow</event>
-        <name>ДеревоВыбораПриАктивизацииСтроки</name>
+        <name>ПриАктивизацииСтроки_FormTable</name>
       </handlers>
       <handlers>
         <event>DragStart</event>
-        <name>ДеревоВыбораНачалоПеретаскивания</name>
+        <name>НачалоПеретаскивания_FormTable</name>
       </handlers>
       <handlers>
         <event>BeforeExpand</event>
-        <name>ДеревоВыбораПередРазворачиванием</name>
+        <name>ПередРазворачиванием_FormTable</name>
       </handlers>
       <handlers>
         <event>BeforeRowChange</event>

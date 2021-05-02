@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b56d69ea-34ee-48c7-9942-b3cf3fd5ced0">
-  <name>КопированиеФорм_Ei</name>
+  <name>НаследованиеФормВызовСервера_Ei</name>
   <synonym>
     <key>ru</key>
-    <value>Копирование форм ei</value>
+    <value>Наследование форм вызов сервера ei</value>
   </synonym>
   <server>true</server>
   <serverCall>true</serverCall>

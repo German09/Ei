@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d249ea56-8ef0-4891-bcf9-a9f4ec333bfc">
+  <name>НаследованиеФормКлиент_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наследование форм клиент ei</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

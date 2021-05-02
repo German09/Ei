@@ -11,8 +11,6 @@
     <usePurposes>Checked</usePurposes>
     <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
-    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
-    <compatibilityMode>Checked</compatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8519ed58-387d-43d6-bbe5-527c6e5a54b3"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ad609fff-576c-46bf-a609-770de2e6ae7f"/>
@@ -24,14 +22,14 @@
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Ei</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
-  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.4.06</version>
+  <version>0.5.01</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.13</compatibilityMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -40,6 +38,8 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Выбор_Ei</subsystems>
+  <subsystems>Subsystem.Наследование_Ei</subsystems>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
@@ -50,6 +50,8 @@
   <commonPictures>CommonPicture.Часы_Ei</commonPictures>
   <commonTemplates>CommonTemplate.офСвойства_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
+  <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
+  <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульЗакрытыйВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
@@ -73,9 +75,13 @@
   <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТаблицаОткрытьВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.КопированиеФорм_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.СлужебнаяФорма</commonForms>
+  <commonForms>CommonForm.Выбор_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
