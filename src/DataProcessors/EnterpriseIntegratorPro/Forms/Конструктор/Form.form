@@ -5592,10 +5592,10 @@
       </edit>
     </columns>
     <columns>
-      <name>КлючПользовательскихНастроекДС</name>
+      <name>КлючНастроек</name>
       <title>
         <key>ru</key>
-        <value>Ключ пользовательских настроек ДС</value>
+        <value>Ключ настроек</value>
       </title>
       <id>4</id>
       <valueType>
@@ -5900,6 +5900,23 @@
         </title>
         <id>6</id>
         <valueType/>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>КлючНастроек</name>
+        <title>
+          <key>ru</key>
+          <value>Ключ настроек</value>
+        </title>
+        <id>7</id>
+        <valueType>
+          <types>UUID</types>
+        </valueType>
         <view>
           <common>true</common>
         </view>

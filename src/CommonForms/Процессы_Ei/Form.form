@@ -733,6 +733,10 @@
           <event>BeforeRowChange</event>
           <name>ПередНачаломИзменения_ТаблицаФормы</name>
         </handlers>
+        <handlers>
+          <event>OnStartEdit</event>
+          <name>ПриНачалеРедактирования_ТаблицаФормы</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1115,6 +1119,23 @@
       </title>
       <id>6</id>
       <valueType/>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КлючНастроек</name>
+      <title>
+        <key>ru</key>
+        <value>Ключ настроек</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>UUID</types>
+      </valueType>
       <view>
         <common>true</common>
       </view>
