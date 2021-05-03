@@ -606,7 +606,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>PictureField</type>
-            <editMode>Enter</editMode>
+            <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -675,7 +675,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <readOnly>true</readOnly>
           <extendedTooltip>
             <name>ДеревоЗапросовДоступныеОбработкиГруппа1РасширеннаяПодсказка</name>
             <id>24</id>
