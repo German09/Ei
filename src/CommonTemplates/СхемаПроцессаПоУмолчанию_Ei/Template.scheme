@@ -143,10 +143,7 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Right</PictureLocation>
 				<Location top="17" left="465" bottom="79" right="663"/>
-				<Picture>
-					<Abs xmlns="http://v8.1c.ru/8.3/xcf/readable">Picture.svg</Abs>
-					<LoadTransparent xmlns="http://v8.1c.ru/8.3/xcf/readable">false</LoadTransparent>
-				</Picture>
+				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
 				<Shape>VerticalBrackets</Shape>
 				<FlipMode>0</FlipMode>
@@ -176,10 +173,7 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<Location top="233" left="211" bottom="277" right="431"/>
-				<Picture>
-					<Abs xmlns="http://v8.1c.ru/8.3/xcf/readable">Picture.svg</Abs>
-					<LoadTransparent xmlns="http://v8.1c.ru/8.3/xcf/readable">false</LoadTransparent>
-				</Picture>
+				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
 				<Shape>None</Shape>
 				<FlipMode>0</FlipMode>
