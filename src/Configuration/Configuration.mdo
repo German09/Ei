@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.5.10</version>
+  <version>0.5.11</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
@@ -46,11 +46,9 @@
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei60</commonPictures>
-  <commonPictures>CommonPicture.СинхронизацияДанныхДлительнаяОперация_Ei</commonPictures>
   <commonPictures>CommonPicture.Информация_Ei</commonPictures>
   <commonPictures>CommonPicture.Предупреждение_Ei</commonPictures>
   <commonPictures>CommonPicture.Часы_Ei</commonPictures>
-  <commonTemplates>CommonTemplate.офСвойства_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
@@ -64,7 +62,6 @@
   <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтороноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ВыборТипаКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
@@ -88,7 +85,6 @@
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
-  <commonForms>CommonForm.СлужебнаяФорма</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
