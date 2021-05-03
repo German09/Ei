@@ -420,246 +420,6 @@
                 <currentRowUse>Auto</currentRowUse>
               </extInfo>
             </items>
-            <items xsi:type="form:FormField">
-              <name>ТекстЗапроса</name>
-              <id>31</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Items.ДеревоЗапросов.CurrentData.ТекстЗапроса</segments>
-                </paths>
-              </dataPath>
-              <titleLocation>None</titleLocation>
-              <handlers>
-                <event>OnChange</event>
-                <name>ТекстЗапросаПриИзменении</name>
-              </handlers>
-              <extendedTooltip>
-                <name>ТекстЗапросаРасширеннаяПодсказка</name>
-                <id>33</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ТекстЗапросаКонтекстноеМеню</name>
-                <id>32</id>
-                <items xsi:type="form:FormGroup">
-                  <name>ТекстЗапросаКонтекстноеМенюГруппа1</name>
-                  <id>272</id>
-                  <items xsi:type="form:Button">
-                    <name>ТекстЗапросаКонтекстноеМенюПредприятиеВЯзыкПараметрыСсылка</name>
-                    <id>274</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <extendedTooltip>
-                      <name>ТекстЗапросаКонтекстноеМенюПредприятиеВЯзыкПараметрыСсылкаРасширеннаяПодсказка</name>
-                      <id>275</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <type>Label</type>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <extInfo xsi:type="form:LabelDecorationExtInfo">
-                        <horizontalAlign>Left</horizontalAlign>
-                      </extInfo>
-                    </extendedTooltip>
-                    <commandName>Form.Command.ПредприятиеВЯзыкПараметрыСсылка</commandName>
-                    <representation>Auto</representation>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <placementArea>UserCmds</placementArea>
-                    <representationInContextMenu>Auto</representationInContextMenu>
-                  </items>
-                  <items xsi:type="form:Button">
-                    <name>ТекстЗапросаКонтекстноеМенюПредприятиеВЯзыкПараметрыЯвные</name>
-                    <id>276</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <extendedTooltip>
-                      <name>ТекстЗапросаКонтекстноеМенюПредприятиеВЯзыкПараметрыЯвныеРасширеннаяПодсказка</name>
-                      <id>277</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <type>Label</type>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <extInfo xsi:type="form:LabelDecorationExtInfo">
-                        <horizontalAlign>Left</horizontalAlign>
-                      </extInfo>
-                    </extendedTooltip>
-                    <commandName>Form.Command.ПредприятиеВЯзыкПараметрыЯвные</commandName>
-                    <representation>Auto</representation>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <placementArea>UserCmds</placementArea>
-                    <representationInContextMenu>Auto</representationInContextMenu>
-                  </items>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <title>
-                    <key>ru</key>
-                    <value>Во встроенный язык</value>
-                  </title>
-                  <extendedTooltip>
-                    <name>ТекстЗапросаКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
-                    <id>273</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <type>Popup</type>
-                  <extInfo xsi:type="form:PopupGroupExtInfo">
-                    <representation>Auto</representation>
-                  </extInfo>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>КонструкторЗапроса</name>
-                  <id>53</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>КонструкторЗапросаРасширеннаяПодсказка</name>
-                    <id>54</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.КонструкторЗапроса</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ТекстЗапросаКонтекстноеМенюВыполнитьЗапрос</name>
-                  <id>212</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ТекстЗапросаКонтекстноеМенюВыполнитьЗапросРасширеннаяПодсказка</name>
-                    <id>213</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.ВыполнитьЗапрос</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                  <pictureLocation>Right</pictureLocation>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ТекстЗапросаКонтекстноеМенюВыполнитьИЗ</name>
-                  <id>292</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ТекстЗапросаКонтекстноеМенюВыполнитьИЗРасширеннаяПодсказка</name>
-                    <id>293</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.ВыполнитьИЗ</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>TextDocumentField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:TextDocFieldExtInfo">
-                <width>50</width>
-                <autoMaxWidth>true</autoMaxWidth>
-                <height>10</height>
-                <autoMaxHeight>true</autoMaxHeight>
-                <horizontalStretch>true</horizontalStretch>
-                <verticalStretch>true</verticalStretch>
-              </extInfo>
-            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1566,10 +1326,6 @@
                     <value>Если процесс заканчивается блоком &quot;Завершение&quot; он может возвращать результат</value>
                   </toolTip>
                   <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-                  <handlers>
-                    <event>OnChange</event>
-                    <name>ПолеГрафСхемыПриИзменении</name>
-                  </handlers>
                   <extendedTooltip>
                     <name>Процессы_ГрафСхемаРасширеннаяПодсказка</name>
                     <id>435</id>
@@ -1601,14 +1357,6 @@
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:FlowchartFieldExtInfo">
-                    <handlers>
-                      <event>Selection</event>
-                      <name>ПолеГрафСхемыВыбор</name>
-                    </handlers>
-                    <handlers>
-                      <event>OnActivate</event>
-                      <name>ПолеГрафСхемыПриАктивизации</name>
-                    </handlers>
                     <width>50</width>
                     <autoMaxWidth>true</autoMaxWidth>
                     <height>10</height>
@@ -6109,56 +5857,6 @@
     <extInfo xsi:type="form:GraphicalSchemeExtInfo"/>
   </attributes>
   <formCommands>
-    <name>ВыполнитьЗапрос</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить запрос</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>F7</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Выполнить_Ei</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьЗапрос</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КонструкторЗапроса</name>
-    <title>
-      <key>ru</key>
-      <value>Конструктор запроса</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Конструктор запроса</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.QueryWizard</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КонструкторЗапроса</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ДСВКоллекцию</name>
     <title>
       <key>ru</key>
@@ -6307,48 +6005,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПредприятиеВЯзыкПараметрыЯвные</name>
-    <title>
-      <key>ru</key>
-      <value>Явные значения параметров -->></value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Предприятие в язык параметры явные</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПредприятиеВЯзыкПараметрыЯвные</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ПредприятиеВЯзыкПараметрыСсылка</name>
-    <title>
-      <key>ru</key>
-      <value>Параметры.&lt;ИмяПарамера> -->></value>
-    </title>
-    <id>10</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Предприятие в язык параметры явные</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПредприятиеВЯзыкПараметрыСсылка</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ВыполнитьВстроенныйЯзык</name>
     <title>
       <key>ru</key>
@@ -6442,27 +6098,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыполнитьИЗ</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить &quot;Выбрать * Из [....]&quot;</value>
-    </title>
-    <id>15</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить ИЗ</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьИЗ</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>

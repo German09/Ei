@@ -11,4 +11,6 @@
   <content>CommonModule.ВариантКлиент_Ei_Запрос</content>
   <content>CommonModule.ВариантКлиент_Ei_Алгоритм</content>
   <content>CommonModule.ВариантКлиент_Ei_СКД</content>
+  <subsystems>Запрос_Ei</subsystems>
+  <subsystems>Процессы_Ei</subsystems>
 </mdclass:Subsystem>
