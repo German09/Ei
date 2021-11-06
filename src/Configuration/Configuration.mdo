@@ -41,6 +41,7 @@
   <subsystems>Subsystem.Наследование_Ei</subsystems>
   <subsystems>Subsystem.Процессы_Ei</subsystems>
   <subsystems>Subsystem.Варианты_Ei</subsystems>
+  <subsystems>Subsystem.ВозвращаемоеЗначение_Ei</subsystems>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
