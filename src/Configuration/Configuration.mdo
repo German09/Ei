@@ -82,14 +82,17 @@
   <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Запрос</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_СКД</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
-  <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантыКлиентПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>

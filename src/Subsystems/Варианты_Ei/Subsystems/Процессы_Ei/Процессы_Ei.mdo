@@ -10,7 +10,7 @@
   <content>CommonModule.ПроцессыКлиент_Ei</content>
   <content>CommonModule.ПроцессыКлиентСервер_Ei</content>
   <content>CommonModule.ПроцессыВызовСервера_Ei</content>
-  <content>CommonModule.ВариантКлиент_Ei_Процессы</content>
+  <content>CommonModule.ВариантКлиентСервер_Ei_Процессы</content>
   <content>CommonForm.Процессы_Ei</content>
   <content>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</content>
   <content>DataProcessor.ОбработкиEi_ДляКаждого</content>
