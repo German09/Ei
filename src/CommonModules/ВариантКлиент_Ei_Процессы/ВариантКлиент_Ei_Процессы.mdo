@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad529a5e-e4e4-4bfe-80b1-94172e5dc4b7">
+  <name>ВариантКлиент_Ei_Процессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант клиент ei процессы</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
