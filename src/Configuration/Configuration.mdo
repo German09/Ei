@@ -86,6 +86,7 @@
   <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_СКД</commonModules>

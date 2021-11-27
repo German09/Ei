@@ -9,6 +9,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</content>
   <content>CommonModule.ВариантКлиентСервер_Ei_Процессы</content>
+  <content>CommonModule.ВариантКлиентСервер_Запрос_Ei</content>
   <subsystems>Запрос_Ei</subsystems>
   <subsystems>Процессы_Ei</subsystems>
 </mdclass:Subsystem>
