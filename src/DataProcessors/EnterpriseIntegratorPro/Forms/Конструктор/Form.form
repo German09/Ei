@@ -2696,9 +2696,6 @@
           </extendedTooltip>
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.CustomizeList</picture>
-            </picture>
             <group>Vertical</group>
             <showTitle>true</showTitle>
           </extInfo>
@@ -3394,9 +3391,6 @@
           </extendedTooltip>
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.ExternalDataSourceTable</picture>
-            </picture>
             <group>Vertical</group>
             <showTitle>true</showTitle>
           </extInfo>
@@ -4015,9 +4009,6 @@
           </extendedTooltip>
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.ИерархическийСписок_Ei</picture>
-            </picture>
             <group>Vertical</group>
             <showTitle>true</showTitle>
           </extInfo>
@@ -4822,9 +4813,6 @@
           </extendedTooltip>
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.SpreadsheetShowHeaders</picture>
-            </picture>
             <group>Vertical</group>
             <showTitle>true</showTitle>
           </extInfo>

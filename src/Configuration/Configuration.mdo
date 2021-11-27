@@ -42,6 +42,7 @@
   <subsystems>Subsystem.Процессы_Ei</subsystems>
   <subsystems>Subsystem.Варианты_Ei</subsystems>
   <subsystems>Subsystem.ВозвращаемоеЗначение_Ei</subsystems>
+  <subsystems>Subsystem.Результаты_Ei</subsystems>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
@@ -84,7 +85,7 @@
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_Запрос</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_СКД</commonModules>
@@ -92,7 +93,14 @@
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиентСервер_Таблица_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиентСервер_Дерево_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</commonModules>
+  <commonModules>CommonModule.РезультатСервер_ДинСписок_Ei</commonModules>
   <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>

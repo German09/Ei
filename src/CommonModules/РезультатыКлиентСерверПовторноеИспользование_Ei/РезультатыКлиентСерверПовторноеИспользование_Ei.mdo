@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="116c3e0a-8203-4891-9351-e49d57e99446">
+  <name>РезультатыКлиентСерверПовторноеИспользование_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты клиент сервер повторное использование ei</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>
