@@ -2582,7 +2582,7 @@
         <name>ПанельРезультата</name>
         <id>5</id>
         <items xsi:type="form:FormGroup">
-          <name>DynamicList</name>
+          <name>Query</name>
           <id>229</id>
           <items xsi:type="form:FormGroup">
             <name>ГруппаДинСписков</name>
@@ -2680,7 +2680,7 @@
             <value>Список</value>
           </toolTip>
           <extendedTooltip>
-            <name>DynamicListРасширеннаяПодсказка</name>
+            <name>QueryРасширеннаяПодсказка</name>
             <id>230</id>
             <visible>true</visible>
             <enabled>true</enabled>
