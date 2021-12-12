@@ -2663,7 +2663,9 @@
             <groupHorizontalAlign>Center</groupHorizontalAlign>
             <groupVerticalAlign>Center</groupVerticalAlign>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
-              <picture xsi:type="form:FormPicture"/>
+              <picture xsi:type="core:PictureRef">
+                <picture>CommonPicture.Логотип_Ei</picture>
+              </picture>
             </extInfo>
           </items>
           <visible>true</visible>

@@ -50,6 +50,7 @@
   <commonPictures>CommonPicture.Информация_Ei</commonPictures>
   <commonPictures>CommonPicture.Предупреждение_Ei</commonPictures>
   <commonPictures>CommonPicture.Часы_Ei</commonPictures>
+  <commonPictures>CommonPicture.Логотип_Ei</commonPictures>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
