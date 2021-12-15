@@ -6,10 +6,10 @@
     <value>Варианты ei</value>
   </synonym>
   <comment>В составе предполагается указывать только общие модули</comment>
-  <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</content>
   <content>CommonModule.ВариантКлиентСервер_Ei_Процессы</content>
   <content>CommonModule.ВариантКлиентСервер_Запрос_Ei</content>
+  <content>CommonModule.ВариантКлиентСервер_СКД_Ei</content>
   <subsystems>Запрос_Ei</subsystems>
   <subsystems>Процессы_Ei</subsystems>
 </mdclass:Subsystem>

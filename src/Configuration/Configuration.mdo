@@ -90,7 +90,8 @@
   <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_СКД</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
