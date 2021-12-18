@@ -5197,10 +5197,6 @@
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
@@ -5477,6 +5473,24 @@
       </title>
       <id>14</id>
       <valueType/>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>НастройкиПользователя</name>
+      <title>
+        <key>ru</key>
+        <value>Настройки пользователя</value>
+      </title>
+      <id>17</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
       <view>
         <common>true</common>
       </view>
@@ -5845,6 +5859,25 @@
       <common>true</common>
     </edit>
     <extInfo xsi:type="form:GraphicalSchemeExtInfo"/>
+  </attributes>
+  <attributes>
+    <name>НастройкиПользователя</name>
+    <title>
+      <key>ru</key>
+      <value>Настройки пользователя</value>
+    </title>
+    <id>19</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>НастройкиПользователя</segments>
+    </settingsSavedData>
+    <savedData>true</savedData>
   </attributes>
   <formCommands>
     <name>ДСВКоллекцию</name>
