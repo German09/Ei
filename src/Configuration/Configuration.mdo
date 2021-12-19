@@ -84,6 +84,7 @@
   <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
@@ -106,7 +107,6 @@
   <commonModules>CommonModule.РезультатВызовСервера_ДинСписок_Ei</commonModules>
   <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
