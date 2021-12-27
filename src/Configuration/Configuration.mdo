@@ -93,9 +93,11 @@
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантВызовСервера_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ПараметрыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
@@ -112,6 +114,7 @@
   <commonForms>CommonForm.Процессы_Ei</commonForms>
   <commonForms>CommonForm.Запрос_Ei</commonForms>
   <commonForms>CommonForm.ВозврЗначение_Ei</commonForms>
+  <commonForms>CommonForm.СКД_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>

@@ -937,124 +937,7 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>СКД</name>
-            <id>349</id>
-            <items xsi:type="form:FormField">
-              <name>ТекстСКД</name>
-              <id>351</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>Items.ДеревоЗапросов.CurrentData.ТекстСКД</segments>
-                </paths>
-              </dataPath>
-              <titleLocation>None</titleLocation>
-              <handlers>
-                <event>OnChange</event>
-                <name>ДеревоЗапросовТекстСКДПриИзменении</name>
-              </handlers>
-              <extendedTooltip>
-                <name>ТекстСКДРасширеннаяПодсказка</name>
-                <id>353</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ТекстСКДКонтекстноеМеню</name>
-                <id>352</id>
-                <items xsi:type="form:Button">
-                  <name>ДеревоЗапросовТекстСКДКонтекстноеМенюКонструкторСКД</name>
-                  <id>354</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ДеревоЗапросовТекстСКДКонтекстноеМенюКонструкторСКДРасширеннаяПодсказка</name>
-                    <id>355</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.КонструкторСКД</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Button">
-                  <name>ДеревоЗапросовТекстСКДКонтекстноеМенюВыполнитьСКД</name>
-                  <id>356</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ДеревоЗапросовТекстСКДКонтекстноеМенюВыполнитьСКДРасширеннаяПодсказка</name>
-                    <id>357</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>Form.Command.ВыполнитьСКД</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>TextDocumentField</type>
-              <editMode>Enter</editMode>
-              <showInHeader>true</showInHeader>
-              <headerHorizontalAlign>Left</headerHorizontalAlign>
-              <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:TextDocFieldExtInfo">
-                <width>50</width>
-                <autoMaxWidth>true</autoMaxWidth>
-                <height>10</height>
-                <autoMaxHeight>true</autoMaxHeight>
-                <horizontalStretch>true</horizontalStretch>
-                <verticalStretch>true</verticalStretch>
-              </extInfo>
-            </items>
+            <id>523</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1062,15 +945,11 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>СКД</value>
+              <value>Группа2</value>
             </title>
-            <toolTip>
-              <key>ru</key>
-              <value>СКД</value>
-            </toolTip>
             <extendedTooltip>
               <name>СКДРасширеннаяПодсказка</name>
-              <id>350</id>
+              <id>524</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2152,7 +2031,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>Form.Command.ПараметрыПолучитьИзТекстаЗапроса</commandName>
+                <commandName>Form.Command.ПараметрыПолучить</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6196,7 +6075,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПараметрыПолучитьИзТекстаЗапроса</name>
+    <name>ПараметрыПолучить</name>
     <title>
       <key>ru</key>
       <value>Получить параметры</value>
@@ -6214,7 +6093,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПолучитьПараметрыТекстаЗапроса</name>
+        <name>ПолучитьПараметры</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -6453,55 +6332,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ШаблонExcel_Начало</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КонструкторСКД</name>
-    <title>
-      <key>ru</key>
-      <value>Конструктор СКД</value>
-    </title>
-    <id>18</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Конструктор СКД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.QueryWizard</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КонструкторСКД</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыполнитьСКД</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить</value>
-    </title>
-    <id>19</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить СКД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>F7</shortcut>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Выполнить_Ei</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьСКД</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
