@@ -12,4 +12,5 @@
   <content>CommonModule.ВариантКлиентСервер_СКД_Ei</content>
   <subsystems>Запрос_Ei</subsystems>
   <subsystems>Процессы_Ei</subsystems>
+  <subsystems>СКД</subsystems>
 </mdclass:Subsystem>
