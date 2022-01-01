@@ -2732,6 +2732,7 @@
                 <key>ru</key>
                 <value>Логотип</value>
               </title>
+              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
