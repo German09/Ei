@@ -51,6 +51,7 @@
   <commonPictures>CommonPicture.Предупреждение_Ei</commonPictures>
   <commonPictures>CommonPicture.Часы_Ei</commonPictures>
   <commonPictures>CommonPicture.Логотип_Ei</commonPictures>
+  <commonPictures>CommonPicture.Увеличение_Ei</commonPictures>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
@@ -112,7 +113,9 @@
   <commonModules>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</commonModules>
   <commonModules>CommonModule.РезультатВызовСервера_ДинСписок_Ei</commonModules>
   <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ПользовательКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.КэшПользователяКлиентСервер_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
