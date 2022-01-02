@@ -52,6 +52,15 @@
   <commonPictures>CommonPicture.Часы_Ei</commonPictures>
   <commonPictures>CommonPicture.Логотип_Ei</commonPictures>
   <commonPictures>CommonPicture.Увеличение_Ei</commonPictures>
+  <commonPictures>CommonPicture.Запрос_Ei</commonPictures>
+  <commonPictures>CommonPicture.Комментарий_Ei</commonPictures>
+  <commonPictures>CommonPicture.Алгоритм_Ei</commonPictures>
+  <commonPictures>CommonPicture.Процессы_Ei</commonPictures>
+  <commonPictures>CommonPicture.СКД_Ei</commonPictures>
+  <commonPictures>CommonPicture.Список_Ei</commonPictures>
+  <commonPictures>CommonPicture.ТабДокумент_Ei</commonPictures>
+  <commonPictures>CommonPicture.Таблица_Ei</commonPictures>
+  <commonPictures>CommonPicture.Дерево_Ei</commonPictures>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>

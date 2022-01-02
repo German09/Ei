@@ -1332,6 +1332,9 @@
               </extendedTooltip>
               <type>Page</type>
               <extInfo xsi:type="form:PageGroupExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.Комментарий_Ei</picture>
+                </picture>
                 <group>Vertical</group>
                 <showTitle>true</showTitle>
               </extInfo>
