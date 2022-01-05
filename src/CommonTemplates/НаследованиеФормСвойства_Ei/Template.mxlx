@@ -17790,7 +17790,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ОтображениеСостояния</v8:content>
+							<v8:content>РазрешитьНачалоПеретаскивания</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -17828,7 +17828,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РазрешитьНачалоПеретаскивания</v8:content>
+							<v8:content>РазрешитьПеретаскивание</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -17866,7 +17866,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РазрешитьПеретаскивание</v8:content>
+							<v8:content>РастягиватьПоВертикали</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -17904,7 +17904,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РастягиватьПоВертикали</v8:content>
+							<v8:content>РастягиватьПоГоризонтали</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -17942,7 +17942,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РастягиватьПоГоризонтали</v8:content>
+							<v8:content>Редактирование</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -17980,7 +17980,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Редактирование</v8:content>
+							<v8:content>РежимМасштабированияПросмотра</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18018,7 +18018,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РежимМасштабированияПросмотра</v8:content>
+							<v8:content>РежимОтображенияВыделения</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18056,7 +18056,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РежимОтображенияВыделения</v8:content>
+							<v8:content>ТекущаяОбласть</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18094,7 +18094,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ТекущаяОбласть</v8:content>
+							<v8:content>ТипКурсоров</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18132,7 +18132,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ТипКурсоров</v8:content>
+							<v8:content>ЦветРамки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18170,7 +18170,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветРамки</v8:content>
+							<v8:content>ЧерноБелыйПросмотр</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18208,7 +18208,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЧерноБелыйПросмотр</v8:content>
+							<v8:content>Ширина</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18231,11 +18231,11 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ВидПоляФормы.ПолеТабличногоДокумента</v8:content>
+							<v8:content>ВидПоляФормы.ПолеТекстовогоДокумента</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18246,7 +18246,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ширина</v8:content>
+							<v8:content>АвтоМаксимальнаяВысота</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18284,7 +18284,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>АвтоМаксимальнаяВысота</v8:content>
+							<v8:content>АвтоМаксимальнаяШирина</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18322,7 +18322,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>АвтоМаксимальнаяШирина</v8:content>
+							<v8:content>Вывод</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18360,7 +18360,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вывод</v8:content>
+							<v8:content>Высота</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18398,7 +18398,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Высота</v8:content>
+							<v8:content>МаксимальнаяВысота</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18436,7 +18436,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МаксимальнаяВысота</v8:content>
+							<v8:content>МаксимальнаяШирина</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18474,7 +18474,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МаксимальнаяШирина</v8:content>
+							<v8:content>РастягиватьПоВертикали</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18512,7 +18512,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РастягиватьПоВертикали</v8:content>
+							<v8:content>РастягиватьПоГоризонтали</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18550,7 +18550,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РастягиватьПоГоризонтали</v8:content>
+							<v8:content>ЦветРамки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18588,7 +18588,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветРамки</v8:content>
+							<v8:content>ЦветТекста</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18626,7 +18626,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветТекста</v8:content>
+							<v8:content>ЦветФона</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18664,7 +18664,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветФона</v8:content>
+							<v8:content>Ширина</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -18702,44 +18702,6 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ширина</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>519</index>
-		<row>
-			<c>
-				<c>
-					<f>9</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>FormField</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>12</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ВидПоляФормы.ПолеТекстовогоДокумента</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
 							<v8:content>Шрифт</v8:content>
 						</v8:item>
 					</tl>
@@ -18748,7 +18710,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>520</index>
+		<index>519</index>
 		<row>
 			<c>
 				<c>
@@ -18786,7 +18748,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>521</index>
+		<index>520</index>
 		<row>
 			<c>
 				<c>
@@ -18824,7 +18786,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>522</index>
+		<index>521</index>
 		<row>
 			<c>
 				<c>
@@ -18862,7 +18824,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>523</index>
+		<index>522</index>
 		<row>
 			<c>
 				<c>
@@ -18900,7 +18862,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>524</index>
+		<index>523</index>
 		<row>
 			<c>
 				<c>
@@ -18938,7 +18900,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>525</index>
+		<index>524</index>
 		<row>
 			<c>
 				<c>
@@ -18976,7 +18938,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>526</index>
+		<index>525</index>
 		<row>
 			<c>
 				<c>
@@ -19007,6 +18969,44 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>ЦветРамки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>526</index>
+		<row>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FormField</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВидПоляФормы.ПолеФлажка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЦветТекста</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19044,7 +19044,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветТекста</v8:content>
+							<v8:content>ЦветФона</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19082,7 +19082,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветФона</v8:content>
+							<v8:content>ШиринаЭлемента</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19120,44 +19120,6 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ШиринаЭлемента</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>530</index>
-		<row>
-			<c>
-				<c>
-					<f>9</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>FormField</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>9</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ВидПоляФормы.ПолеФлажка</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
 							<v8:content>Шрифт</v8:content>
 						</v8:item>
 					</tl>
@@ -19166,7 +19128,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>531</index>
+		<index>530</index>
 		<row>
 			<c>
 				<c>
@@ -19204,7 +19166,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>532</index>
+		<index>531</index>
 		<row>
 			<c>
 				<c>
@@ -19242,7 +19204,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>533</index>
+		<index>532</index>
 		<row>
 			<c>
 				<c>
@@ -19280,7 +19242,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>534</index>
+		<index>533</index>
 		<row>
 			<c>
 				<c>
@@ -19311,6 +19273,44 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Высота</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>534</index>
+		<row>
+			<c>
+				<c>
+					<f>9</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FormField</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВидПоляФормы.ПолеФорматированногоДокумента</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>МаксимальнаяВысота</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19348,7 +19348,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МаксимальнаяВысота</v8:content>
+							<v8:content>МаксимальнаяШирина</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19386,7 +19386,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>МаксимальнаяШирина</v8:content>
+							<v8:content>РастягиватьПоВертикали</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19424,7 +19424,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РастягиватьПоВертикали</v8:content>
+							<v8:content>РастягиватьПоГоризонтали</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19462,7 +19462,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>РастягиватьПоГоризонтали</v8:content>
+							<v8:content>ЦветРамки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19500,7 +19500,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветРамки</v8:content>
+							<v8:content>ЦветТекста</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19538,7 +19538,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветТекста</v8:content>
+							<v8:content>ЦветФона</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19576,7 +19576,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЦветФона</v8:content>
+							<v8:content>Ширина</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19614,44 +19614,6 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ширина</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>543</index>
-		<row>
-			<c>
-				<c>
-					<f>9</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>FormField</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>13</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ВидПоляФормы.ПолеФорматированногоДокумента</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
 							<v8:content>Шрифт</v8:content>
 						</v8:item>
 					</tl>
@@ -19660,7 +19622,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>544</index>
+		<index>543</index>
 		<row>
 			<c>
 				<c>
@@ -19688,7 +19650,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>545</index>
+		<index>544</index>
 		<row>
 			<c>
 				<c>
@@ -19716,7 +19678,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>546</index>
+		<index>545</index>
 		<row>
 			<c>
 				<c>
@@ -19744,7 +19706,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>547</index>
+		<index>546</index>
 		<row>
 			<c>
 				<c>
@@ -19772,7 +19734,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>548</index>
+		<index>547</index>
 		<row>
 			<c>
 				<c>
@@ -19800,7 +19762,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>549</index>
+		<index>548</index>
 		<row>
 			<c>
 				<c>
@@ -19828,7 +19790,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>550</index>
+		<index>549</index>
 		<row>
 			<c>
 				<c>
@@ -19856,7 +19818,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>551</index>
+		<index>550</index>
 		<row>
 			<c>
 				<c>
@@ -19884,7 +19846,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>552</index>
+		<index>551</index>
 		<row>
 			<c>
 				<c>
@@ -19912,7 +19874,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>553</index>
+		<index>552</index>
 		<row>
 			<c>
 				<c>
@@ -19940,7 +19902,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>554</index>
+		<index>553</index>
 		<row>
 			<c>
 				<c>
@@ -19968,7 +19930,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>555</index>
+		<index>554</index>
 		<row>
 			<c>
 				<c>
@@ -19996,7 +19958,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>556</index>
+		<index>555</index>
 		<row>
 			<c>
 				<c>
@@ -20024,7 +19986,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>557</index>
+		<index>556</index>
 		<row>
 			<c>
 				<c>
@@ -20052,7 +20014,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>558</index>
+		<index>557</index>
 		<row>
 			<c>
 				<c>
@@ -20080,7 +20042,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>559</index>
+		<index>558</index>
 		<row>
 			<c>
 				<c>
@@ -20108,7 +20070,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>560</index>
+		<index>559</index>
 		<row>
 			<c>
 				<c>
@@ -20136,7 +20098,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>561</index>
+		<index>560</index>
 		<row>
 			<c>
 				<c>
@@ -20164,7 +20126,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>562</index>
+		<index>561</index>
 		<row>
 			<c>
 				<c>
@@ -20192,7 +20154,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>563</index>
+		<index>562</index>
 		<row>
 			<c>
 				<c>
@@ -20220,7 +20182,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>564</index>
+		<index>563</index>
 		<row>
 			<c>
 				<c>
@@ -20248,7 +20210,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>565</index>
+		<index>564</index>
 		<row>
 			<c>
 				<c>
@@ -20276,7 +20238,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>566</index>
+		<index>565</index>
 		<row>
 			<c>
 				<c>
@@ -20304,7 +20266,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>567</index>
+		<index>566</index>
 		<row>
 			<c>
 				<c>
@@ -20332,7 +20294,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>568</index>
+		<index>567</index>
 		<row>
 			<c>
 				<c>
@@ -20360,7 +20322,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>569</index>
+		<index>568</index>
 		<row>
 			<c>
 				<c>
@@ -20398,7 +20360,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>570</index>
+		<index>569</index>
 		<row>
 			<c>
 				<c>
@@ -20436,7 +20398,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>571</index>
+		<index>570</index>
 		<row>
 			<c>
 				<c>
@@ -20474,7 +20436,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>572</index>
+		<index>571</index>
 		<row>
 			<c>
 				<c>
@@ -20512,7 +20474,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>573</index>
+		<index>572</index>
 		<row>
 			<c>
 				<c>
@@ -20550,7 +20512,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>574</index>
+		<index>573</index>
 		<row>
 			<c>
 				<c>
@@ -20588,7 +20550,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>575</index>
+		<index>574</index>
 		<row>
 			<c>
 				<c>
@@ -20626,7 +20588,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>576</index>
+		<index>575</index>
 		<row>
 			<c>
 				<c>
@@ -20664,7 +20626,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>577</index>
+		<index>576</index>
 		<row>
 			<c>
 				<c>
@@ -20702,7 +20664,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>578</index>
+		<index>577</index>
 		<row>
 			<c>
 				<c>
@@ -20740,7 +20702,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>579</index>
+		<index>578</index>
 		<row>
 			<c>
 				<c>
@@ -20778,7 +20740,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>580</index>
+		<index>579</index>
 		<row>
 			<c>
 				<c>
@@ -20816,7 +20778,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>581</index>
+		<index>580</index>
 		<row>
 			<c>
 				<c>
@@ -20854,7 +20816,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>582</index>
+		<index>581</index>
 		<row>
 			<c>
 				<c>
@@ -20892,7 +20854,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>583</index>
+		<index>582</index>
 		<row>
 			<c>
 				<c>
@@ -20930,7 +20892,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>584</index>
+		<index>583</index>
 		<row>
 			<c>
 				<c>
@@ -20968,7 +20930,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>585</index>
+		<index>584</index>
 		<row>
 			<c>
 				<c>
@@ -21006,7 +20968,7 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>586</index>
+		<index>585</index>
 		<row>
 			<c>
 				<c>
@@ -21045,8 +21007,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>14</defaultFormatIndex>
-	<height>587</height>
-	<vgRows>587</vgRows>
+	<height>586</height>
+	<vgRows>586</vgRows>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
