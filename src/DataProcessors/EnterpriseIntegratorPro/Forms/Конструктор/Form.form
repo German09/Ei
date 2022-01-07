@@ -1333,9 +1333,6 @@
               </extendedTooltip>
               <type>Page</type>
               <extInfo xsi:type="form:PageGroupExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.Комментарий_Ei</picture>
-                </picture>
                 <group>Vertical</group>
                 <showTitle>true</showTitle>
               </extInfo>
@@ -2767,34 +2764,6 @@
           <items xsi:type="form:FormGroup">
             <name>ValueTable</name>
             <id>13</id>
-            <items xsi:type="form:FormGroup">
-              <name>Группа1</name>
-              <id>288</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>Группа1РасширеннаяПодсказка</name>
-                <id>289</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>CommandBar</type>
-              <extInfo xsi:type="form:CommandBarExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </items>
             <items xsi:type="form:Table">
               <name>РезультатЗапросаТЗ</name>
               <id>89</id>
@@ -2807,58 +2776,6 @@
                 <segments>РезультатЗапросаТЗ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
-              <excludedCommands>CancelSearch</excludedCommands>
-              <excludedCommands>Find</excludedCommands>
-              <items xsi:type="form:FormField">
-                <name>РезультатЗапросаТЗПометка_Ei</name>
-                <id>102</id>
-                <title>
-                  <key>ru</key>
-                  <value>Пометка_Ei</value>
-                </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>РезультатЗапросаТЗ.Пометка_Ei</segments>
-                  </paths>
-                </dataPath>
-                <titleLocation>None</titleLocation>
-                <extendedTooltip>
-                  <name>РезультатЗапросаТЗПометка_EiРасширеннаяПодсказка</name>
-                  <id>104</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>РезультатЗапросаТЗПометка_EiКонтекстноеМеню</name>
-                  <id>103</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>CheckBoxField</type>
-                <editMode>EnterOnInput</editMode>
-                <fixingInTable>Left</fixingInTable>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-              </items>
               <commandBarLocation>None</commandBarLocation>
               <autoCommandBar>
                 <name>РезультатЗапросаТЗКоманднаяПанель</name>
@@ -3425,6 +3342,55 @@
               <searchStringLocation>Top</searchStringLocation>
               <rowFilter xsi:type="core:UndefinedValue"/>
             </items>
+            <items xsi:type="form:Decoration">
+              <name>ЛоготипТЗ</name>
+              <id>540</id>
+              <title>
+                <key>ru</key>
+                <value>Логотип</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ЛоготипТЗРасширеннаяПодсказка</name>
+                <id>542</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ЛоготипТЗКонтекстноеМеню</name>
+                <id>541</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <horizontalStretch>true</horizontalStretch>
+              <verticalStretch>true</verticalStretch>
+              <groupHorizontalAlign>Center</groupHorizontalAlign>
+              <groupVerticalAlign>Center</groupVerticalAlign>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.Логотип_Ei</picture>
+                </picture>
+              </extInfo>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3474,56 +3440,6 @@
                 <segments>РезультатЗапросаДЗ</segments>
               </dataPath>
               <titleLocation>None</titleLocation>
-              <items xsi:type="form:FormField">
-                <name>РезультатЗапросаДЗПометка_Ei</name>
-                <id>189</id>
-                <title>
-                  <key>ru</key>
-                  <value>Пометка_Ei</value>
-                </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>РезультатЗапросаДЗ.Пометка_Ei</segments>
-                  </paths>
-                </dataPath>
-                <titleLocation>None</titleLocation>
-                <extendedTooltip>
-                  <name>РезультатЗапросаДЗПометка_EiРасширеннаяПодсказка</name>
-                  <id>191</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>РезультатЗапросаДЗПометка_EiКонтекстноеМеню</name>
-                  <id>190</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>CheckBoxField</type>
-                <editMode>EnterOnInput</editMode>
-                <fixingInTable>Left</fixingInTable>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-              </items>
               <commandBarLocation>None</commandBarLocation>
               <autoCommandBar>
                 <name>РезультатЗапросаДЗКоманднаяПанель</name>
@@ -4042,6 +3958,55 @@
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
               <enableStartDrag>true</enableStartDrag>
+            </items>
+            <items xsi:type="form:Decoration">
+              <name>ЛоготипДЗ</name>
+              <id>543</id>
+              <title>
+                <key>ru</key>
+                <value>Логотип</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ЛоготипДЗРасширеннаяПодсказка</name>
+                <id>545</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ЛоготипДЗКонтекстноеМеню</name>
+                <id>544</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <horizontalStretch>true</horizontalStretch>
+              <verticalStretch>true</verticalStretch>
+              <groupHorizontalAlign>Center</groupHorizontalAlign>
+              <groupVerticalAlign>Center</groupVerticalAlign>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.Логотип_Ei</picture>
+                </picture>
+              </extInfo>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -5530,23 +5495,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <columns>
-      <name>Пометка_Ei</name>
-      <title>
-        <key>ru</key>
-        <value>Пометка ei</value>
-      </title>
-      <id>1</id>
-      <valueType>
-        <types>Boolean</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
   </attributes>
   <attributes>
     <name>РезультатЗапросаДЗ</name>
@@ -5564,23 +5512,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <columns>
-      <name>Пометка_Ei</name>
-      <title>
-        <key>ru</key>
-        <value>Пометка ei</value>
-      </title>
-      <id>1</id>
-      <valueType>
-        <types>Boolean</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
   </attributes>
   <attributes>
     <name>ИмяФайлаНастройки</name>

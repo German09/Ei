@@ -107,6 +107,7 @@
   <commonModules>CommonModule.ВариантВызовСервера_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПараметрыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
@@ -125,6 +126,7 @@
   <commonModules>CommonModule.ПользовательКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.КэшПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.КонструкторКлиент_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c29ce47-4009-41ef-89d6-70bde02411dc">
+  <name>ВариантКлиентСервер_Комментарий_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант клиент сервер комментарий</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>
