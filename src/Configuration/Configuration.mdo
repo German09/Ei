@@ -115,7 +115,9 @@
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатКлиентСервер_Таблица_Ei</commonModules>
+  <commonModules>CommonModule.РезультатВызовСервера_Таблица_Ei</commonModules>
   <commonModules>CommonModule.РезультатКлиентСервер_Дерево_Ei</commonModules>
+  <commonModules>CommonModule.РезультатВызовСервера_Дерево_Ei</commonModules>
   <commonModules>CommonModule.РезультатКлиент_ТД_Ei</commonModules>
   <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
   <commonModules>CommonModule.РезультатВызовСервера_ТД_Ei</commonModules>
