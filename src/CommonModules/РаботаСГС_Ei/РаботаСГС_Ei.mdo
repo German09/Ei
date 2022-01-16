@@ -7,5 +7,4 @@
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

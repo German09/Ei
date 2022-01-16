@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae3e821f-e708-484b-a79f-3741f29c62e3">
+  <producedTypes>
+    <objectType typeId="03aa181d-3387-4ade-99cf-35aaba85d876" valueTypeId="087bc81f-3023-4703-9a7c-479bbfa27acc"/>
+    <managerType typeId="605506d5-de10-4886-bb10-277455432052" valueTypeId="73aa100a-c9f2-4bbd-bde7-6a4b501c086d"/>
+  </producedTypes>
+  <name>ОбъектВарианта_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект варианта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="a9b57aeb-83a2-4609-ab7d-931595ec3117">
+    <name>ИмяВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя варианта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
