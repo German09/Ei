@@ -70,7 +70,6 @@
   <commonTemplates>CommonTemplate.НаследованиеОбластьМодуляФормы</commonTemplates>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульЗакрытыйКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
