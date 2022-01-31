@@ -55,6 +55,8 @@
         <key>ru</key>
         <value>Дерево выбора ком панель</value>
       </toolTip>
+      <width>40</width>
+      <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
         <name>ДеревоВыбора_КомПанельРасширеннаяПодсказка</name>
         <id>43</id>
@@ -385,10 +387,9 @@
       </contextMenu>
       <representation>Tree</representation>
       <changeRowSet>true</changeRowSet>
-      <autoMaxWidth>true</autoMaxWidth>
       <maxWidth>40</maxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <autoMaxRowsCount>true</autoMaxRowsCount>
+      <maxHeight>60</maxHeight>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -448,7 +449,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
         <maxWidth>40</maxWidth>
         <maxHeight>2</maxHeight>
         <verticalStretch>false</verticalStretch>

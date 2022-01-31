@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6eb8c8d8-7c67-41ad-ba64-bff5cd526a39">
+  <name>ВариантВыбор_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант выбор</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

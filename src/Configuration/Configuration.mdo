@@ -140,6 +140,7 @@
   <commonForms>CommonForm.ВозврЗначение_Ei</commonForms>
   <commonForms>CommonForm.СКД_Ei</commonForms>
   <commonForms>CommonForm.ТД_Ei</commonForms>
+  <commonForms>CommonForm.ВариантВыбор_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
