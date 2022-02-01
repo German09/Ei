@@ -149,5 +149,6 @@
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_НачалоФоновогоПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеФоновогоПотока</dataProcessors>
+  <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>
