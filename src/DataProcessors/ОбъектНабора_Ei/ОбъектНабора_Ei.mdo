@@ -11,10 +11,10 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <attributes uuid="b2a8ca8d-627c-472a-bc51-e5c9dbef9a06">
-    <name>ИмяВарианта</name>
+    <name>ИмяНабора</name>
     <synonym>
       <key>ru</key>
-      <value>Имя варианта</value>
+      <value>Имя набора</value>
     </synonym>
     <type>
       <types>String</types>

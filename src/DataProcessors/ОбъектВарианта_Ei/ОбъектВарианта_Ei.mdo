@@ -10,6 +10,21 @@
     <value>Объект варианта</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="c3b2dec2-8b86-488d-9f65-8dd0e162cf18">
+    <name>ИмяНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя набора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="a9b57aeb-83a2-4609-ab7d-931595ec3117">
     <name>ИмяВарианта</name>
     <synonym>

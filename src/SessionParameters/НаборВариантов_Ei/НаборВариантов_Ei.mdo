@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f04c3d80-1fae-4e1e-8585-5da64f5ccfde">
-  <name>Варианты_Ei</name>
+  <name>НаборВариантов_Ei</name>
   <synonym>
     <key>ru</key>
     <value>Вариант</value>

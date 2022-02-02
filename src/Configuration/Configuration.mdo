@@ -62,7 +62,7 @@
   <commonPictures>CommonPicture.ТабДокумент_Ei</commonPictures>
   <commonPictures>CommonPicture.Таблица_Ei</commonPictures>
   <commonPictures>CommonPicture.Дерево_Ei</commonPictures>
-  <sessionParameters>SessionParameter.Варианты_Ei</sessionParameters>
+  <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Вариант_Ei</sessionParameters>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
@@ -98,6 +98,8 @@
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.НаборВариантовКлиент_Ei</commonModules>
+  <commonModules>CommonModule.НаборВариантовВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантВызовСервера_Запрос_Ei</commonModules>
