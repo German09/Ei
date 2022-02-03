@@ -55,7 +55,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <maxWidth>38</maxWidth>
+          <maxWidth>36</maxWidth>
           <verticalStretch>false</verticalStretch>
           <wrap>true</wrap>
           <openButton>false</openButton>
