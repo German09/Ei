@@ -491,7 +491,7 @@
             <name>ПанельТекстаЗапроса</name>
             <id>3</id>
             <items xsi:type="form:FormGroup">
-              <name>Предприятие</name>
+              <name>Запрос</name>
               <id>11</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -507,7 +507,7 @@
                 <value>Запрос</value>
               </toolTip>
               <extendedTooltip>
-                <name>ПредприятиеРасширеннаяПодсказка</name>
+                <name>ЗапросРасширеннаяПодсказка</name>
                 <id>12</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -528,7 +528,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
-              <name>ВстроенныйЯзык</name>
+              <name>Алгоритм</name>
               <id>256</id>
               <items xsi:type="form:FormField">
                 <name>Язык</name>
@@ -732,7 +732,7 @@
                 <value>Алгоритм</value>
               </toolTip>
               <extendedTooltip>
-                <name>ВстроенныйЯзыкРасширеннаяПодсказка</name>
+                <name>АлгоритмРасширеннаяПодсказка</name>
                 <id>257</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
