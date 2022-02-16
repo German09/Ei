@@ -63,7 +63,7 @@
   <commonPictures>CommonPicture.Таблица_Ei</commonPictures>
   <commonPictures>CommonPicture.Дерево_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
-  <sessionParameters>SessionParameter.Вариант_Ei</sessionParameters>
+  <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
