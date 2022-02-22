@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "settings": {
+    "common-module-name-client-server": {
+      "enabled": false
+    },
+    "common-module-name-client": {
+      "enabled": false
+    },
+    "doc-comment-description-ends-on-dot": {
+      "enabled": true
+    },
+    "common-module-type": {
+      "enabled": false
+    }
+  }
+}
