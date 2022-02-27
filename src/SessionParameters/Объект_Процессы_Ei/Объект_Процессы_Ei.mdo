@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09561e8e-3d39-4747-876a-a548bb60a591">
+  <name>Объект_Процессы_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект процессы</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>
