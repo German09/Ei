@@ -44,6 +44,7 @@
   <subsystems>Subsystem.Варианты_Ei</subsystems>
   <subsystems>Subsystem.ВозвращаемоеЗначение_Ei</subsystems>
   <subsystems>Subsystem.Результаты_Ei</subsystems>
+  <subsystems>Subsystem.Обработки_Ei</subsystems>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
@@ -138,6 +139,9 @@
   <commonModules>CommonModule.КонструкторКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиентСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаКлиентСервер_Алгоритм_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
