@@ -140,6 +140,7 @@
   <commonModules>CommonModule.ВыполнитьКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаКлиентСервер_Алгоритм_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
@@ -150,6 +151,7 @@
   <commonForms>CommonForm.СКД_Ei</commonForms>
   <commonForms>CommonForm.ТД_Ei</commonForms>
   <commonForms>CommonForm.ВариантВыбор_Ei</commonForms>
+  <commonForms>CommonForm.Алгоритм_Обработка_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
