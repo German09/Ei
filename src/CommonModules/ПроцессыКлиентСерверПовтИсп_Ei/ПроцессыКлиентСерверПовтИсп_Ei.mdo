@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65b0cf71-8649-4bed-9b3e-4a0e587d98c2">
+  <name>ПроцессыКлиентСерверПовтИсп_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы клиент сервер повтороное использование</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>
