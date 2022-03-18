@@ -474,6 +474,11 @@
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>
+  <parameters>
+    <name>ИнфоОбОшибке</name>
+    <valueType/>
+    <keyParameter>true</keyParameter>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
