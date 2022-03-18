@@ -6,4 +6,5 @@
     <value>Обработки</value>
   </synonym>
   <content>CommonModule.ОбработкаКлиентСервер_Алгоритм_Ei</content>
+  <content>CommonModule.ОбработкаКлиентСервер_Выполнить_Ei</content>
 </mdclass:Subsystem>

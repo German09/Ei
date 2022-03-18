@@ -102,10 +102,11 @@
   <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ОбработкаКлиентСервер_Алгоритм_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаКлиентСервер_Алгоритм_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаКлиентСервер_Выполнить_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
@@ -153,6 +154,7 @@
   <commonForms>CommonForm.ТД_Ei</commonForms>
   <commonForms>CommonForm.ВариантВыбор_Ei</commonForms>
   <commonForms>CommonForm.Алгоритм_Обработка_Ei</commonForms>
+  <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
