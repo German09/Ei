@@ -75,13 +75,13 @@
   <commonModules>CommonModule.ВариантВызовСервера_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
@@ -157,9 +157,7 @@
   <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ДляКаждого</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_Выполнить</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_НачалоФоновогоПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеФоновогоПотока</dataProcessors>
