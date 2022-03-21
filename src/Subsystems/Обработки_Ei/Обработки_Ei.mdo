@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обработки</value>
   </synonym>
-  <content>CommonModule.ОбработкаКлиентСервер_Алгоритм_Ei</content>
-  <content>CommonModule.ОбработкаКлиентСервер_Выполнить_Ei</content>
+  <content>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</content>
+  <content>CommonModule.ОбработкаВыполнитьКлиентСервер_Ei</content>
+  <content>CommonModule.ОбработкаДляКаждогоКлиентСервер_Ei</content>
 </mdclass:Subsystem>
