@@ -159,7 +159,6 @@
   <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
   <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиEi_ДляКаждого</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_НачалоФоновогоПотока</dataProcessors>
