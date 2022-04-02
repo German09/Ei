@@ -6,7 +6,6 @@
     <value>Процессы ei</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>DataProcessor.ОбработкиEi_ДляКаждого</content>
   <content>CommonModule.ПроцессыКлиент_Ei</content>
   <content>CommonModule.ПроцессыВызовСервера_Ei</content>
   <content>DataProcessor.EnterpriseIntegratorPro</content>

@@ -64,6 +64,8 @@
   <commonPictures>CommonPicture.Таблица_Ei</commonPictures>
   <commonPictures>CommonPicture.Дерево_Ei</commonPictures>
   <commonPictures>CommonPicture.Объект_Ei</commonPictures>
+  <commonPictures>CommonPicture.Разделение_Ei</commonPictures>
+  <commonPictures>CommonPicture.Слияние_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -107,7 +109,11 @@
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаВыполнитьКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаВыполнитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаДляКаждогоКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаДляКаждогоКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаНачалоПотокаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаЗавершениеПотокаКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
@@ -159,7 +165,6 @@
   <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
   <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_ДляКаждого</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_НачалоФоновогоПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеФоновогоПотока</dataProcessors>

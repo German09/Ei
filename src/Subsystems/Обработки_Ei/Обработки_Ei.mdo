@@ -8,4 +8,6 @@
   <content>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</content>
   <content>CommonModule.ОбработкаВыполнитьКлиентСервер_Ei</content>
   <content>CommonModule.ОбработкаДляКаждогоКлиентСервер_Ei</content>
+  <content>CommonModule.ОбработкаНачалоПотокаКлиентСервер_Ei</content>
+  <content>CommonModule.ОбработкаЗавершениеПотокаКлиентСервер_Ei</content>
 </mdclass:Subsystem>
