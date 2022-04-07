@@ -105,15 +105,17 @@
   <commonModules>CommonModule.НаследованиеФормСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ОбработкиКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаВыполнитьКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаВыполнитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаДляКаждогоКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаДляКаждогоКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаНачалоПотокаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаНачалоПотокаВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаЗавершениеПотокаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаЗавершениеПотокаВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>

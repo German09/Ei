@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Вариант</value>
   </synonym>
+  <comment>Имя набора (отображается в дереве вариантов), получаем через  НаборВариантовВызовСервера_Ei.ПолучитьТекущийНабор()</comment>
   <type>
     <types>String</types>
     <stringQualifiers>
