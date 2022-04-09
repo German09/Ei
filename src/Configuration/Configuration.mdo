@@ -107,6 +107,7 @@
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаАлгоритмКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаВыполнитьКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаВыполнитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаДляКаждогоКлиентСервер_Ei</commonModules>
@@ -122,7 +123,7 @@
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтороноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОписаниеЗначенияСервер_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиентСервер_Ei</commonModules>
@@ -133,6 +134,8 @@
   <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ПользовательКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбъектыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбъектыСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиентСерверПовтИсп_Ei</commonModules>
@@ -149,12 +152,14 @@
   <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.РезультатыКлиентСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.РезультатыСервер_Ei</commonModules>
-  <commonModules>CommonModule.СтруктурыЗначенийВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТаблицаОткрытьВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
   <commonModules>CommonModule.КонструкторКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ТипыКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ТипыКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
   <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
