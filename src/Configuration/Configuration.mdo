@@ -66,6 +66,7 @@
   <commonPictures>CommonPicture.Объект_Ei</commonPictures>
   <commonPictures>CommonPicture.Разделение_Ei</commonPictures>
   <commonPictures>CommonPicture.Слияние_Ei</commonPictures>
+  <commonPictures>CommonPicture.Колонки_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -87,9 +88,10 @@
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ВариантыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыборВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВыборВызовСервераПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьКлиентСервер_Ei</commonModules>
@@ -160,7 +162,10 @@
   <commonModules>CommonModule.ТипыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ТипыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
-  <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
+  <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
+  <commonForms>CommonForm.Таблица_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
   <commonForms>CommonForm.Запрос_Ei</commonForms>
@@ -171,6 +176,8 @@
   <commonForms>CommonForm.Алгоритм_Обработка_Ei</commonForms>
   <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
   <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
+  <commonForms>CommonForm.КоллекцияРедактор_Ei</commonForms>
+  <commonForms>CommonForm.КоллекцияСтруктура_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
