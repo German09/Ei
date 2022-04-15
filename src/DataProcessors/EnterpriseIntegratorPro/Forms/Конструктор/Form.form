@@ -41,10 +41,6 @@
                   <segments>ДеревоЗапросов.Запрос</segments>
                 </paths>
               </dataPath>
-              <handlers>
-                <event>OnChange</event>
-                <name>ДеревоЗапросовЗапросПриИзменении</name>
-              </handlers>
               <extendedTooltip>
                 <name>ДеревоЗапросовЗапросРасширеннаяПодсказка</name>
                 <id>30</id>
@@ -111,6 +107,10 @@
             <handlers>
               <event>OnChange</event>
               <name>ДеревоЗапросовПриИзменении</name>
+            </handlers>
+            <handlers>
+              <event>BeforeEditEnd</event>
+              <name>ДеревоЗапросовПередОкончаниемРедактирования</name>
             </handlers>
             <searchStringAddition>
               <visible>true</visible>
@@ -1618,10 +1618,6 @@
                 <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ИмяПараметра</segments>
               </paths>
             </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ДеревоЗапросовПараметрыЗапросаИмяПараметраПриИзменении</name>
-            </handlers>
             <extendedTooltip>
               <name>ДеревоЗапросовПараметрыЗапросаИмяПараметраРасширеннаяПодсказка</name>
               <id>70</id>
@@ -1832,6 +1828,10 @@
           <handlers>
             <event>OnChange</event>
             <name>ДеревоЗапросовПараметрыЗапросаПриИзменении</name>
+          </handlers>
+          <handlers>
+            <event>BeforeEditEnd</event>
+            <name>ДеревоЗапросовПараметрыЗапросаПередОкончаниемРедактирования</name>
           </handlers>
           <searchStringAddition>
             <visible>true</visible>

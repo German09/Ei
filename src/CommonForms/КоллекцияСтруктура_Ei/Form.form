@@ -139,6 +139,14 @@
           <event>OnStartEdit</event>
           <name>СтруктураПриНачалеРедактирования</name>
         </handlers>
+        <handlers>
+          <event>BeforeEditEnd</event>
+          <name>СтруктураПередОкончаниемРедактирования</name>
+        </handlers>
+        <handlers>
+          <event>OnEditEnd</event>
+          <name>СтруктураПриОкончанииРедактирования</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
