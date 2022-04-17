@@ -14,7 +14,7 @@
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ТаблицаКолонка1</name>
-      <id>14</id>
+      <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -25,7 +25,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаКолонка1РасширеннаяПодсказка</name>
-        <id>16</id>
+        <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -40,7 +40,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ТаблицаКолонка1КонтекстноеМеню</name>
-        <id>15</id>
+        <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
