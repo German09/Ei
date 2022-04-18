@@ -83,8 +83,8 @@
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_Комментарий_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантВызовСервера_Комментарий_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
@@ -106,7 +106,7 @@
   <commonModules>CommonModule.НаследованиеФормВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.НаследованиеФормСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
@@ -126,7 +126,7 @@
   <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульСерверПовтороноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияСервер_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
