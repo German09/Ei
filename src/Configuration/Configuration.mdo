@@ -162,10 +162,11 @@
   <commonModules>CommonModule.ТипыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ТипыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
-  <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
