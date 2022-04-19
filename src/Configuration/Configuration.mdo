@@ -158,7 +158,6 @@
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.РезультатыСервер_Ei</commonModules>
-  <commonModules>CommonModule.ТаблицаОткрытьВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
   <commonModules>CommonModule.ТипыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ТипыКлиентСерверПовтИсп_Ei</commonModules>
@@ -166,8 +165,10 @@
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
-  <commonForms>CommonForm.Таблица_Ei</commonForms>
+  <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
+  <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
   <commonForms>CommonForm.Запрос_Ei</commonForms>
