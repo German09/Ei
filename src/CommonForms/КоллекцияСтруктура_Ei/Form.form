@@ -149,6 +149,18 @@
               <event>BeforeEditEnd</event>
               <name>СтруктураПередОкончаниемРедактирования</name>
             </handlers>
+            <handlers>
+              <event>OnChange</event>
+              <name>СтруктураПриИзменении</name>
+            </handlers>
+            <handlers>
+              <event>OnEditEnd</event>
+              <name>СтруктураПриОкончанииРедактирования</name>
+            </handlers>
+            <handlers>
+              <event>AfterDeleteRow</event>
+              <name>СтруктураПослеУдаления</name>
+            </handlers>
             <searchStringAddition>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -297,7 +309,6 @@
             <rowSelectionMode>Row</rowSelectionMode>
             <header>true</header>
             <headerHeight>1</headerHeight>
-            <footer>true</footer>
             <footerHeight>1</footerHeight>
             <horizontalScrollBar>AutoUse</horizontalScrollBar>
             <verticalScrollBar>AutoUse</verticalScrollBar>
@@ -305,6 +316,7 @@
             <verticalLines>true</verticalLines>
             <searchOnInput>Auto</searchOnInput>
             <initialListView>Auto</initialListView>
+            <initialTreeView>ExpandAllLevels</initialTreeView>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
             <fileDragMode>AsFileRef</fileDragMode>
@@ -1038,6 +1050,15 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Настройка</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <keyParameter>true</keyParameter>
   </parameters>
   <commandInterface>
     <navigationPanel/>

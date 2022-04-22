@@ -169,6 +169,7 @@
   <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
