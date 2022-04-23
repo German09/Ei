@@ -67,6 +67,7 @@
   <commonPictures>CommonPicture.Разделение_Ei</commonPictures>
   <commonPictures>CommonPicture.Слияние_Ei</commonPictures>
   <commonPictures>CommonPicture.Колонки_Ei</commonPictures>
+  <commonPictures>CommonPicture.Загрузить_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
