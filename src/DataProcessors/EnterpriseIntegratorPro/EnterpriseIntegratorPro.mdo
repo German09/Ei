@@ -49,12 +49,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="555fe2b7-ac45-4fc3-b89e-606b5a8494aa">
-    <name>ПроцессПоУмолчанию</name>
-    <synonym>
-      <key>ru</key>
-      <value>Процесс по умолчанию</value>
-    </synonym>
-    <templateType>GraphicalSchema</templateType>
-  </templates>
 </mdclass:DataProcessor>

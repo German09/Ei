@@ -11,6 +11,7 @@
   <content>CommonModule.ВариантКлиентСервер_Запрос_Ei</content>
   <content>CommonModule.ВариантКлиентСервер_СКД_Ei</content>
   <content>CommonModule.ВариантКлиентСервер_Комментарий_Ei</content>
+  <content>CommonModule.ВариантКоллекцияКлиентСервер_Ei</content>
   <subsystems>Запрос_Ei</subsystems>
   <subsystems>Процессы_Ei</subsystems>
   <subsystems>СКД</subsystems>

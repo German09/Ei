@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5651049a-3dcb-463e-9928-69eff60e5b93">
+  <name>Выполнить_Обработка_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

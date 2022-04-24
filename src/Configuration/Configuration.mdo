@@ -44,6 +44,7 @@
   <subsystems>Subsystem.Варианты_Ei</subsystems>
   <subsystems>Subsystem.ВозвращаемоеЗначение_Ei</subsystems>
   <subsystems>Subsystem.Результаты_Ei</subsystems>
+  <subsystems>Subsystem.Обработки_Ei</subsystems>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
@@ -63,6 +64,10 @@
   <commonPictures>CommonPicture.Таблица_Ei</commonPictures>
   <commonPictures>CommonPicture.Дерево_Ei</commonPictures>
   <commonPictures>CommonPicture.Объект_Ei</commonPictures>
+  <commonPictures>CommonPicture.Разделение_Ei</commonPictures>
+  <commonPictures>CommonPicture.Слияние_Ei</commonPictures>
+  <commonPictures>CommonPicture.Колонки_Ei</commonPictures>
+  <commonPictures>CommonPicture.Загрузить_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -70,75 +75,103 @@
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеОбластьМодуляФормы</commonTemplates>
-  <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульСерверПовтороноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ОтладкаКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ВыборВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ПеретаскиваниеКлиент_Ei</commonModules>
-  <commonModules>CommonModule.РаботаСГС_Ei</commonModules>
-  <commonModules>CommonModule.КонстантыГС_Ei</commonModules>
-  <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ПроцессыКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
-  <commonModules>CommonModule.СтруктурыЗначенийВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ТаблицаОткрытьВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.НаследованиеФормСерверПовторноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.НаследованиеФормВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантВызовСервера_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантВызовСервера_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантВызовСервера_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВариантыКлиентСерверПовторноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВариантыКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВыборВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВыборВызовСервераПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВыполнитьКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.КонстантыГС_Ei</commonModules>
+  <commonModules>CommonModule.КонструкторКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.КонструкторКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КэшПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.НаборВариантовВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НаборВариантовКлиент_Ei</commonModules>
   <commonModules>CommonModule.НаборВариантовКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.НаборВариантовВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_СКД_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаАлгоритмКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаВыполнитьКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаВыполнитьКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаДляКаждогоКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаДляКаждогоКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкиКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаНачалоПотокаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаНачалоПотокаВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаЗавершениеПотокаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбработкаЗавершениеПотокаВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ОписаниеЗначенияСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОтладкаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ПараметрыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПараметрыКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ПараметрыВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
-  <commonModules>CommonModule.РезультатыКлиентСерверПовторноеИспользование_Ei</commonModules>
-  <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.РезультатыСервер_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_Таблица_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_Таблица_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_Дерево_Ei</commonModules>
+  <commonModules>CommonModule.ПеретаскиваниеКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ПользовательКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбъектыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ОбъектыСервер_Ei</commonModules>
+  <commonModules>CommonModule.ПроцессыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ПроцессыКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ПроцессыКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.РаботаСГС_Ei</commonModules>
   <commonModules>CommonModule.РезультатВызовСервера_Дерево_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиент_ТД_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
+  <commonModules>CommonModule.РезультатВызовСервера_ДинСписок_Ei</commonModules>
+  <commonModules>CommonModule.РезультатВызовСервера_Таблица_Ei</commonModules>
   <commonModules>CommonModule.РезультатВызовСервера_ТД_Ei</commonModules>
   <commonModules>CommonModule.РезультатКлиент_ДинСписок_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиент_ТД_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиентСервер_Дерево_Ei</commonModules>
   <commonModules>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ПользовательКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.КэшПользователяКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.КонструкторКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ВыполнитьКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
-  <commonForms>CommonForm.ТаблицаОткрыть_Ei</commonForms>
+  <commonModules>CommonModule.РезультатКлиентСервер_Таблица_Ei</commonModules>
+  <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.РезультатыСервер_Ei</commonModules>
+  <commonModules>CommonModule.ТекстМодуляКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ТипыКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ТипыКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
+  <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
   <commonForms>CommonForm.Запрос_Ei</commonForms>
@@ -146,14 +179,12 @@
   <commonForms>CommonForm.СКД_Ei</commonForms>
   <commonForms>CommonForm.ТД_Ei</commonForms>
   <commonForms>CommonForm.ВариантВыбор_Ei</commonForms>
+  <commonForms>CommonForm.Алгоритм_Обработка_Ei</commonForms>
+  <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
+  <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
+  <commonForms>CommonForm.КоллекцияРедактор_Ei</commonForms>
+  <commonForms>CommonForm.КоллекцияСтруктура_Ei</commonForms>
   <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_ПровестиДокументы</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_Алгоритм</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_ДляКаждого</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиEi_Выполнить</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеПотока</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_НачалоФоновогоПотока</dataProcessors>
-  <dataProcessors>DataProcessor.ОбработкиПредопределенныеEi_ЗавершениеФоновогоПотока</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>

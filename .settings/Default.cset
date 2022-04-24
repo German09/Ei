@@ -4,13 +4,25 @@
     "common-module-name-client-server": {
       "enabled": false
     },
-    "common-module-name-client": {
+    "common-module-name-client-cached": {
       "enabled": false
     },
     "doc-comment-description-ends-on-dot": {
       "enabled": true
     },
+    "common-module-name-client": {
+      "enabled": false
+    },
+    "common-module-name-server-call-cached": {
+      "enabled": false
+    },
+    "common-module-name-cached": {
+      "enabled": false
+    },
     "common-module-type": {
+      "enabled": false
+    },
+    "common-module-name-server-call": {
       "enabled": false
     }
   }

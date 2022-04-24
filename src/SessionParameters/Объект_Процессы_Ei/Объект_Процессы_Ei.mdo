@@ -6,6 +6,6 @@
     <value>Объект процессы</value>
   </synonym>
   <type>
-    <types>FixedStructure</types>
+    <types>FixedArray</types>
   </type>
 </mdclass:SessionParameter>
