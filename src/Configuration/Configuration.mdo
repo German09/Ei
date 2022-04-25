@@ -127,7 +127,7 @@
   <commonModules>CommonModule.ОбработкаЗавершениеПотокаВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
@@ -174,6 +174,8 @@
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ФайлВызовСервера_Ei</commonModules>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
