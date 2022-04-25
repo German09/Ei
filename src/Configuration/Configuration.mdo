@@ -80,13 +80,16 @@
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантСКДСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантЗапросСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантПроцессыСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
@@ -165,9 +168,9 @@
   <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
