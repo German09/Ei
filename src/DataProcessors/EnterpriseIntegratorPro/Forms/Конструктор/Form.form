@@ -3206,24 +3206,6 @@
         <common>true</common>
       </edit>
     </columns>
-    <columns>
-      <name>НастройкиПользователя</name>
-      <title>
-        <key>ru</key>
-        <value>Настройки пользователя</value>
-      </title>
-      <id>17</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
         <segments>ДеревоЗапросов.ПараметрыЗапроса</segments>
