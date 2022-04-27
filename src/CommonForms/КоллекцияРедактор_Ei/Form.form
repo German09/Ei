@@ -28,7 +28,7 @@
     <name>Колонки</name>
     <title>
       <key>ru</key>
-      <value>Колонки</value>
+      <value>Изменить структуру</value>
     </title>
     <id>1</id>
     <use>
@@ -49,18 +49,39 @@
     <name>Загрузить</name>
     <title>
       <key>ru</key>
-      <value>Загрузить</value>
+      <value>Из набора</value>
     </title>
     <id>2</id>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Загрузить_Ei</picture>
+      <picture>CommonPicture.Объект_Ei</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Загрузить</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьФайл</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить xls, mxl, ods</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ЗагрузитьФайл_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьФайл</name>
       </handler>
     </action>
     <representation>TextPicture</representation>

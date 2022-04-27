@@ -530,194 +530,6 @@
             <items xsi:type="form:FormGroup">
               <name>Алгоритм</name>
               <id>256</id>
-              <items xsi:type="form:FormField">
-                <name>Язык</name>
-                <id>258</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Items.ДеревоЗапросов.CurrentData.Язык</segments>
-                  </paths>
-                </dataPath>
-                <titleLocation>None</titleLocation>
-                <handlers>
-                  <event>OnChange</event>
-                  <name>ДеревоЗапросовЯзыкПриИзменении</name>
-                </handlers>
-                <extendedTooltip>
-                  <name>ЯзыкРасширеннаяПодсказка</name>
-                  <id>260</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ЯзыкКонтекстноеМеню</name>
-                  <id>259</id>
-                  <items xsi:type="form:Button">
-                    <name>ДеревоЗапросовЯзыкКонтекстноеМенюВыполнитьВстроенныйЯзык</name>
-                    <id>282</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <extendedTooltip>
-                      <name>ДеревоЗапросовЯзыкКонтекстноеМенюВыполнитьВстроенныйЯзыкРасширеннаяПодсказка</name>
-                      <id>283</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <type>Label</type>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <extInfo xsi:type="form:LabelDecorationExtInfo">
-                        <horizontalAlign>Left</horizontalAlign>
-                      </extInfo>
-                    </extendedTooltip>
-                    <commandName>Form.Command.ВыполнитьВстроенныйЯзык</commandName>
-                    <representation>Auto</representation>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <placementArea>UserCmds</placementArea>
-                    <representationInContextMenu>Auto</representationInContextMenu>
-                    <pictureLocation>Right</pictureLocation>
-                  </items>
-                  <items xsi:type="form:Button">
-                    <name>ЯзыкКонтекстноеМенюДоступныеПеременные</name>
-                    <id>294</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <extendedTooltip>
-                      <name>ЯзыкКонтекстноеМенюДоступныеПеременныеРасширеннаяПодсказка</name>
-                      <id>295</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <type>Label</type>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <extInfo xsi:type="form:LabelDecorationExtInfo">
-                        <horizontalAlign>Left</horizontalAlign>
-                      </extInfo>
-                    </extendedTooltip>
-                    <commandName>Form.Command.ДоступныеПеременные</commandName>
-                    <representation>Auto</representation>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <placementArea>UserCmds</placementArea>
-                    <representationInContextMenu>Auto</representationInContextMenu>
-                  </items>
-                  <items xsi:type="form:FormGroup">
-                    <name>ЯзыкКонтекстноеМенюШаблоны</name>
-                    <id>296</id>
-                    <items xsi:type="form:Button">
-                      <name>ЯзыкКонтекстноеМенюКнопка1</name>
-                      <id>298</id>
-                      <title>
-                        <key>ru</key>
-                        <value>Импорт Excel, Mxl, Ods</value>
-                      </title>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <extendedTooltip>
-                        <name>ЯзыкКонтекстноеМенюКнопка1РасширеннаяПодсказка</name>
-                        <id>299</id>
-                        <visible>true</visible>
-                        <enabled>true</enabled>
-                        <userVisible>
-                          <common>true</common>
-                        </userVisible>
-                        <type>Label</type>
-                        <autoMaxWidth>true</autoMaxWidth>
-                        <autoMaxHeight>true</autoMaxHeight>
-                        <extInfo xsi:type="form:LabelDecorationExtInfo">
-                          <horizontalAlign>Left</horizontalAlign>
-                        </extInfo>
-                      </extendedTooltip>
-                      <commandName>Form.Command.ШаблонExcel</commandName>
-                      <representation>Auto</representation>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <placementArea>UserCmds</placementArea>
-                      <representationInContextMenu>Auto</representationInContextMenu>
-                    </items>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <title>
-                      <key>ru</key>
-                      <value>Шаблоны</value>
-                    </title>
-                    <toolTip>
-                      <key>ru</key>
-                      <value>Язык контекстное меню шаблоны</value>
-                    </toolTip>
-                    <extendedTooltip>
-                      <name>ЯзыкКонтекстноеМенюШаблоныРасширеннаяПодсказка</name>
-                      <id>297</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <type>Label</type>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <extInfo xsi:type="form:LabelDecorationExtInfo">
-                        <horizontalAlign>Left</horizontalAlign>
-                      </extInfo>
-                    </extendedTooltip>
-                    <type>Popup</type>
-                    <extInfo xsi:type="form:PopupGroupExtInfo">
-                      <representation>Auto</representation>
-                    </extInfo>
-                  </items>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>TextDocumentField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:TextDocFieldExtInfo">
-                  <width>50</width>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <height>10</height>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <horizontalStretch>true</horizontalStretch>
-                  <verticalStretch>true</verticalStretch>
-                </extInfo>
-              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3278,6 +3090,10 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -3340,24 +3156,6 @@
       </edit>
     </columns>
     <columns>
-      <name>ТекстЗапроса</name>
-      <title>
-        <key>ru</key>
-        <value>Текст запроса</value>
-      </title>
-      <id>2</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>ПараметрыЗапроса</name>
       <title>
         <key>ru</key>
@@ -3375,36 +3173,6 @@
       </edit>
     </columns>
     <columns>
-      <name>ПоказателиРезультата</name>
-      <title>
-        <key>ru</key>
-        <value>стрПометок; сооАдресовРезультатов</value>
-      </title>
-      <id>7</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ПоказателиВыполнения</name>
-      <title>
-        <key>ru</key>
-        <value>сооВремя; чСпособВыгрузки</value>
-      </title>
-      <id>8</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
       <name>КлючНастроек</name>
       <title>
         <key>ru</key>
@@ -3413,107 +3181,6 @@
       <id>4</id>
       <valueType>
         <types>UUID</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>Язык</name>
-      <title>
-        <key>ru</key>
-        <value>Язык</value>
-      </title>
-      <id>6</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ПоказателиСтроки</name>
-      <title>
-        <key>ru</key>
-        <value>Показатели строки</value>
-      </title>
-      <id>9</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ТекстСКД</name>
-      <title>
-        <key>ru</key>
-        <value>Текст запроса</value>
-      </title>
-      <id>10</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ДоступныеОбработки</name>
-      <title>
-        <key>ru</key>
-        <value>Доступные обработки</value>
-      </title>
-      <id>12</id>
-      <valueType>
-        <types>ValueTree</types>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ПоказателиВыполненияПроцесса</name>
-      <title>
-        <key>ru</key>
-        <value>Показатели выполнения процесса</value>
-      </title>
-      <id>14</id>
-      <valueType/>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>НастройкиПользователя</name>
-      <title>
-        <key>ru</key>
-        <value>Настройки пользователя</value>
-      </title>
-      <id>17</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -3579,129 +3246,6 @@
         </edit>
       </columns>
     </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>ДеревоЗапросов.ДоступныеОбработки</segments>
-      </tablePath>
-      <columns>
-        <name>Имя</name>
-        <title>
-          <key>ru</key>
-          <value>Имя</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>Представление</name>
-        <title>
-          <key>ru</key>
-          <value>Обработка</value>
-        </title>
-        <id>2</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>СсылкаНаКартинку</name>
-        <title>
-          <key>ru</key>
-          <value>Ссылка на картинку</value>
-        </title>
-        <id>3</id>
-        <valueType>
-          <types>String</types>
-          <stringQualifiers/>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ИспользоватьНастройки</name>
-        <title>
-          <key>ru</key>
-          <value>Использовать настройки</value>
-        </title>
-        <id>4</id>
-        <valueType>
-          <types>Boolean</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>Настройка</name>
-        <title>
-          <key>ru</key>
-          <value>Настройка</value>
-        </title>
-        <id>5</id>
-        <valueType/>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ТипЭлемента</name>
-        <title>
-          <key>ru</key>
-          <value>Тип элемента</value>
-        </title>
-        <id>6</id>
-        <valueType/>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>КлючНастроек</name>
-        <title>
-          <key>ru</key>
-          <value>Ключ настроек</value>
-        </title>
-        <id>7</id>
-        <valueType>
-          <types>UUID</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
   </attributes>
   <attributes>
     <name>ИмяФайлаНастройки</name>
@@ -3723,23 +3267,6 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ИмяФайлаНастройки</segments>
     </settingsSavedData>
-  </attributes>
-  <attributes>
-    <name>Комментарий</name>
-    <title>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </title>
-    <id>6</id>
-    <valueType>
-      <types>FormattedDocument</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>СохраненныйОбраз</name>
@@ -3995,30 +3522,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыполнитьВстроенныйЯзык</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить</value>
-    </title>
-    <id>11</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить встроенный язык</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Выполнить_Ei</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьВстроенныйЯзык</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
