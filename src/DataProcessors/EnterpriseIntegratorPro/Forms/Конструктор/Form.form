@@ -3391,7 +3391,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Forward</picture>
+      <picture>CommonPicture.Таблица_Ei</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
