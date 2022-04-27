@@ -68,6 +68,7 @@
   <commonPictures>CommonPicture.Слияние_Ei</commonPictures>
   <commonPictures>CommonPicture.Колонки_Ei</commonPictures>
   <commonPictures>CommonPicture.Загрузить_Ei</commonPictures>
+  <commonPictures>CommonPicture.ЗагрузитьФайл_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -80,13 +81,16 @@
   <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантСКДСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантЗапросСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантПроцессыСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
@@ -124,7 +128,7 @@
   <commonModules>CommonModule.ОбработкаЗавершениеПотокаВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентПовтороноеИспользование_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
@@ -165,12 +169,13 @@
   <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
