@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="163db098-05f8-4812-9fc6-09f31f85f179">
+  <name>ХешАдресов_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хеш адресов</value>
+  </synonym>
+  <type>
+    <types>FixedMap</types>
+  </type>
+</mdclass:SessionParameter>

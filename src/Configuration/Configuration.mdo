@@ -72,6 +72,7 @@
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
+  <sessionParameters>SessionParameter.ХешАдресов_Ei</sessionParameters>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
@@ -132,6 +133,7 @@
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияСервер_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОтладкаКлиент_Ei</commonModules>
