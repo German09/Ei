@@ -172,6 +172,7 @@
   <commonModules>CommonModule.ТипыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияРеквизитыСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>

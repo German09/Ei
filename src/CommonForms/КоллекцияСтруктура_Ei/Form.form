@@ -161,6 +161,14 @@
               <event>AfterDeleteRow</event>
               <name>СтруктураПослеУдаления</name>
             </handlers>
+            <handlers>
+              <event>BeforeAddRow</event>
+              <name>СтруктураПередНачаломДобавления</name>
+            </handlers>
+            <handlers>
+              <event>BeforeDeleteRow</event>
+              <name>СтруктураПередУдалением</name>
+            </handlers>
             <searchStringAddition>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -981,6 +989,24 @@
       <id>14</id>
       <valueType>
         <types>ValueTree</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяОригинала</name>
+      <title>
+        <key>ru</key>
+        <value>Заполняется имя колонки в случаее копировании из ИмяРанее</value>
+      </title>
+      <id>19</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
