@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64ba7b2a-8cef-49f6-bb8e-25957af2f735">
+  <name>Основвная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основвная</value>
+  </synonym>
+  <comment>id10b4e779-894a-4fd2-9f39-d2667f0ed268  id35aa2004-0249-4cf2-a033-b24ce518b861</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

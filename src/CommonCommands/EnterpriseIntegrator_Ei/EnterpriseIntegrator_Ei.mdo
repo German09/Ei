@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc72963f-dd9b-470d-a142-2526b4754a48">
+  <name>EnterpriseIntegrator_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Enterprise Integrator</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

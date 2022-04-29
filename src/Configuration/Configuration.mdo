@@ -106,6 +106,7 @@
   <commonModules>CommonModule.КонструкторКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.КонструкторКлиент_Ei</commonModules>
   <commonModules>CommonModule.КэшПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.КэшПользователяКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.НаборВариантовВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НаборВариантовКлиент_Ei</commonModules>
   <commonModules>CommonModule.НаборВариантовКлиентСервер_Ei</commonModules>
@@ -142,7 +143,6 @@
   <commonModules>CommonModule.ПараметрыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ПараметрыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПеретаскиваниеКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ПеречисленияКлиентСерверПовторноеИспользование_Ei</commonModules>
   <commonModules>CommonModule.ПользовательКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбъектыВызовСервера_Ei</commonModules>
@@ -180,6 +180,9 @@
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
+  <commonCommands>CommonCommand.EnterpriseIntegrator_Ei</commonCommands>
+  <commonForms>CommonForm.Основвная</commonForms>
+  <commonForms>CommonForm.Отладка</commonForms>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
@@ -193,7 +196,6 @@
   <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
   <commonForms>CommonForm.КоллекцияРедактор_Ei</commonForms>
   <commonForms>CommonForm.КоллекцияСтруктура_Ei</commonForms>
-  <dataProcessors>DataProcessor.EnterpriseIntegratorPro</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>
