@@ -181,7 +181,7 @@
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
   <commonCommands>CommonCommand.EnterpriseIntegrator_Ei</commonCommands>
-  <commonForms>CommonForm.Основвная</commonForms>
+  <commonForms>CommonForm.Основная</commonForms>
   <commonForms>CommonForm.Отладка</commonForms>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
