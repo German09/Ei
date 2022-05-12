@@ -35,6 +35,7 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>Структура.Имя</segments>
               </dataPath>
+              <defaultItem>true</defaultItem>
               <extendedTooltip>
                 <name>СтруктураИмяРасширеннаяПодсказка</name>
                 <id>19</id>

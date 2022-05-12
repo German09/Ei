@@ -112,6 +112,10 @@
               <event>BeforeEditEnd</event>
               <name>ДеревоЗапросовПередОкончаниемРедактирования</name>
             </handlers>
+            <handlers>
+              <event>BeforeAddRow</event>
+              <name>ДеревоЗапросовПередНачаломДобавления</name>
+            </handlers>
             <searchStringAddition>
               <visible>true</visible>
               <enabled>true</enabled>
