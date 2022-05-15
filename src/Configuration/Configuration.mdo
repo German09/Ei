@@ -69,6 +69,8 @@
   <commonPictures>CommonPicture.Колонки_Ei</commonPictures>
   <commonPictures>CommonPicture.Загрузить_Ei</commonPictures>
   <commonPictures>CommonPicture.ЗагрузитьФайл_Ei</commonPictures>
+  <commonPictures>CommonPicture.ВерхНиз_Ei</commonPictures>
+  <commonPictures>CommonPicture.Копия_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -177,6 +179,7 @@
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
+  <commonModules>CommonModule.КоллекцияУстановитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
@@ -196,6 +199,7 @@
   <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
   <commonForms>CommonForm.КоллекцияРедактор_Ei</commonForms>
   <commonForms>CommonForm.КоллекцияСтруктура_Ei</commonForms>
+  <commonForms>CommonForm.УстановитьЗначение_Ei</commonForms>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>

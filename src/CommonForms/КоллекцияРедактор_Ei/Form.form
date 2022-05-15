@@ -91,19 +91,43 @@
     <name>ТекущееЗначение</name>
     <title>
       <key>ru</key>
-      <value>Текущее значение</value>
+      <value>Установить</value>
     </title>
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Установить текушее значении для строк колонки</value>
+      <value>Установить текущее значении для строк колонки</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ВерхНиз_Ei</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ТекущееЗначение</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СкопироватьКолонку</name>
+    <title>
+      <key>ru</key>
+      <value>Скопировать</value>
+    </title>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Копия_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СкопироватьКолонку</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
