@@ -38,11 +38,13 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
+    <groupHorizontalAlign>Center</groupHorizontalAlign>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <width>30</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
@@ -101,6 +103,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
+    <groupHorizontalAlign>Center</groupHorizontalAlign>
     <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -148,6 +151,11 @@
       <segments>Пояснение</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение будет установлено</value>
+    </toolTip>
+    <toolTipRepresentation>ShowTop</toolTipRepresentation>
     <extendedTooltip>
       <name>ПояснениеРасширеннаяПодсказка</name>
       <id>35</id>
@@ -159,6 +167,7 @@
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <groupHorizontalAlign>Center</groupHorizontalAlign>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
@@ -188,16 +197,16 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаОК</name>
-      <id>4</id>
+      <name>ФормаУстановить</name>
+      <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКРасширеннаяПодсказка</name>
-        <id>5</id>
+        <name>ФормаУстановитьРасширеннаяПодсказка</name>
+        <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -210,7 +219,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.OK</commandName>
+      <commandName>Form.Command.Установить</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
@@ -258,7 +267,6 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -318,19 +326,29 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>Установить</name>
+    <title>
+      <key>ru</key>
+      <value>Установить</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ВерхНиз_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Установить</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <parameters>
     <name>Всего</name>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <keyParameter>true</keyParameter>
-  </parameters>
-  <parameters>
-    <name>Видимых</name>
     <valueType>
       <types>Number</types>
       <numberQualifiers>
@@ -348,6 +366,19 @@
         <precision>10</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Значение</name>
+    <valueType/>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Колонка</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>
