@@ -3098,6 +3098,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -3347,9 +3351,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>НастройкиПользователя</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>КэшПользователя</name>
@@ -3365,6 +3366,27 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>СтрНастройкиПользователя</name>
+    <title>
+      <key>ru</key>
+      <value>Стр настройки пользователя</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>СтрНастройкиПользователя</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ДСВКоллекцию</name>

@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>http://main.1c-ei.ru/</vendor>
-  <version>0.5.19</version>
+  <version>2.1.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -38,13 +38,15 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Выбор_Ei</subsystems>
+  <subsystems>Subsystem.Ei</subsystems>
   <subsystems>Subsystem.Наследование_Ei</subsystems>
   <subsystems>Subsystem.Процессы_Ei</subsystems>
   <subsystems>Subsystem.Варианты_Ei</subsystems>
   <subsystems>Subsystem.ВозвращаемоеЗначение_Ei</subsystems>
   <subsystems>Subsystem.Результаты_Ei</subsystems>
   <subsystems>Subsystem.Обработки_Ei</subsystems>
+  <subsystems>Subsystem.Выбор_Ei</subsystems>
+  <commonPictures>CommonPicture.Ei</commonPictures>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
   <commonPictures>CommonPicture.Отладка_Ei</commonPictures>
@@ -134,6 +136,7 @@
   <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
@@ -183,9 +186,10 @@
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
-  <commonCommands>CommonCommand.EnterpriseIntegrator_Ei</commonCommands>
-  <commonForms>CommonForm.Основная</commonForms>
-  <commonForms>CommonForm.Отладка</commonForms>
+  <commonModules>CommonModule.РасширениеКлиент_Ei</commonModules>
+  <commonCommands>CommonCommand.Ei</commonCommands>
+  <commonForms>CommonForm.Ei</commonForms>
+  <commonForms>CommonForm.Отладка_Ei</commonForms>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
