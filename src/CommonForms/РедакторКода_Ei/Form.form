@@ -631,14 +631,17 @@
     <name>HTML</name>
     <id>1</id>
     <visible>true</visible>
-    <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>HTML</segments>
+      <segments>Язык</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПриИзменении_ПолеФормыПолеHTMLДокумента</name>
+    </handlers>
     <extendedTooltip>
       <name>HTMLРасширеннаяПодсказка</name>
       <id>3</id>
@@ -716,10 +719,10 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>HTML</name>
+    <name>Язык</name>
     <title>
       <key>ru</key>
-      <value>HTML</value>
+      <value>Язык</value>
     </title>
     <id>2</id>
     <valueType>

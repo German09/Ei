@@ -7,7 +7,7 @@
   </synonym>
   <comment>В составе предполагается указывать только общие модули</comment>
   <content>CommonModule.ВариантКлиентСервер_Запрос_Ei</content>
-  <content>CommonModule.ВариантКлиентСервер_Комментарий_Ei</content>
+  <content>CommonModule.ВариантКомментарийКлиентСервер_Ei</content>
   <content>CommonModule.ВариантКлиентСервер_Ei_Процессы</content>
   <content>CommonModule.ВариантСКДКлиентСервер_Ei</content>
   <content>CommonModule.ВариантКоллекцияКлиентСервер_Ei</content>

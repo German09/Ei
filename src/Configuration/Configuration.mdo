@@ -22,7 +22,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="86117293-5478-48c6-aaed-b80dbbf5608d"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Ei</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -87,6 +87,7 @@
   <commonTemplates>CommonTemplate.НаследованиеОбластьМодуляФормы_Ei</commonTemplates>
   <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантАлгоритСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
@@ -95,7 +96,7 @@
   <commonModules>CommonModule.ВариантВызовСервера_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКомментарийКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
