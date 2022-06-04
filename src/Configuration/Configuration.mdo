@@ -85,12 +85,6 @@
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеОбластьМодуляФормы_Ei</commonTemplates>
-  <commonModules>CommonModule.РедакторКодаОбщий_Ei</commonModules>
-  <commonModules>CommonModule.РедакторКодаКлиент_Ei</commonModules>
-  <commonModules>CommonModule.РедакторКодаСервер_Ei</commonModules>
-  <commonModules>CommonModule.JSON_Клиент_Ei</commonModules>
-  <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
-  <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДКлиентСервер_Ei</commonModules>
@@ -197,6 +191,12 @@
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РасширениеКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РедакторКодаОбщий_Ei</commonModules>
+  <commonModules>CommonModule.РедакторКодаКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РедакторКодаСервер_Ei</commonModules>
+  <commonModules>CommonModule.JSON_Клиент_Ei</commonModules>
+  <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
+  <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonCommands>CommonCommand.РедакторКода_Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
