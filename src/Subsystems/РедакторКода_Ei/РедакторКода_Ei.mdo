@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32056e5-3a74-43fe-b568-2768e494891a">
+  <name>РедакторКода_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор кода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РедакторКодаОбщий_Ei</content>
+  <content>CommonModule.РедакторКодаКлиент_Ei</content>
+  <content>CommonModule.РедакторКодаСервер_Ei</content>
+  <content>CommonModule.JSON_Клиент_Ei</content>
+  <content>CommonModule.JSON_Сервер_Ei</content>
+  <content>CommonModule.JSON_Общий_Ei</content>
+  <content>SessionParameter.РедакторКодаДанные_Ei</content>
+  <content>CommonForm.РедакторКода_Ei</content>
+  <content>CommonCommand.РедакторКода_Ei</content>
+  <content>CommonTemplate.РедакторКода_src_Ei</content>
+  <content>CommonTemplate.РедакторКода_Сниппеты_Ei</content>
+</mdclass:Subsystem>

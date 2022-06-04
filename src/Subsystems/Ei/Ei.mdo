@@ -6,4 +6,5 @@
     <picture>CommonPicture.Ei</picture>
   </picture>
   <content>CommonCommand.Ei</content>
+  <content>CommonCommand.РедакторКода_Ei</content>
 </mdclass:Subsystem>
