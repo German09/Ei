@@ -91,20 +91,20 @@
   <commonModules>CommonModule.JSON_Клиент_Ei</commonModules>
   <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
   <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантВызовСервера_СКД_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_Алгоритм</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_СКД_Ei</commonModules>
+  <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантСКДКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантСКДКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Запрос_Ei</commonModules>
+  <commonModules>CommonModule.ВариантВызовСервера_Запрос_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиент_Запрос_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Алгоритм</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_СКД_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Комментарий_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
   <commonModules>CommonModule.ВариантПроцессыСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
