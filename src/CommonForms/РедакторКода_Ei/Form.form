@@ -638,10 +638,6 @@
       <segments>Язык</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <handlers>
-      <event>OnChange</event>
-      <name>ПриИзменении_ПолеФормыПолеHTMLДокумента</name>
-    </handlers>
     <extendedTooltip>
       <name>HTMLРасширеннаяПодсказка</name>
       <id>3</id>
@@ -725,24 +721,6 @@
       <value>Язык</value>
     </title>
     <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Алгоритм</name>
-    <title>
-      <key>ru</key>
-      <value>Алгоритм</value>
-    </title>
-    <id>3</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
