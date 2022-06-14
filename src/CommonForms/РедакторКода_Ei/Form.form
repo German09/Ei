@@ -4,9 +4,67 @@
     <key>ru</key>
     <value>Редактор кода</value>
   </title>
-  <items xsi:type="form:FormGroup">
-    <name>КоманднаяПанельHTML</name>
-    <id>4</id>
+  <items xsi:type="form:FormField">
+    <name>HTML</name>
+    <id>1</id>
+    <visible>true</visible>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Язык</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <extendedTooltip>
+      <name>HTMLРасширеннаяПодсказка</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>HTMLКонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>HTMLDocumentField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:HtmlFieldExtInfo">
+      <handlers>
+        <event>DocumentComplete</event>
+        <name>ДокументСформирован_ПолеФормыПолеHTMLДокумента</name>
+      </handlers>
+      <handlers>
+        <event>OnClick</event>
+        <name>ПриНажатии_ПолеФормыПолеHTMLДокумента</name>
+      </handlers>
+      <width>50</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>10</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <verticalStretch>true</verticalStretch>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>42</id>
@@ -594,100 +652,6 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Командная панель HTML</value>
-    </title>
-    <toolTip>
-      <key>ru</key>
-      <value>Командная панель HTML</value>
-    </toolTip>
-    <extendedTooltip>
-      <name>КоманднаяПанельHTMLРасширеннаяПодсказка</name>
-      <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>CommandBar</type>
-    <extInfo xsi:type="form:CommandBarExtInfo">
-      <horizontalAlign>Left</horizontalAlign>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>HTML</name>
-    <id>1</id>
-    <visible>true</visible>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Язык</segments>
-    </dataPath>
-    <titleLocation>None</titleLocation>
-    <extendedTooltip>
-      <name>HTMLРасширеннаяПодсказка</name>
-      <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>HTMLКонтекстноеМеню</name>
-      <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>HTMLDocumentField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:HtmlFieldExtInfo">
-      <handlers>
-        <event>DocumentComplete</event>
-        <name>ДокументСформирован_ПолеФормыПолеHTMLДокумента</name>
-      </handlers>
-      <handlers>
-        <event>OnClick</event>
-        <name>ПриНажатии_ПолеФормыПолеHTMLДокумента</name>
-      </handlers>
-      <width>50</width>
-      <autoMaxWidth>true</autoMaxWidth>
-      <height>10</height>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <verticalStretch>true</verticalStretch>
-    </extInfo>
-  </items>
-  <autoCommandBar>
-    <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

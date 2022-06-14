@@ -3043,7 +3043,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаВыполнитьЗапрос</name>
+      <name>ИсполнитьВариант</name>
       <id>49</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3051,7 +3051,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыполнитьЗапросРасширеннаяПодсказка</name>
+        <name>ИсполнитьВариантРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3073,6 +3073,35 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <shape>Usual</shape>
       <pictureLocation>Right</pictureLocation>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ВаринатыКП</name>
+      <id>568</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Форма группа1</value>
+      </title>
+      <extendedTooltip>
+        <name>ВаринатыКПРасширеннаяПодсказка</name>
+        <id>569</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
