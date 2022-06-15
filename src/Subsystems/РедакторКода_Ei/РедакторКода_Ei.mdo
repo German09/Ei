@@ -13,8 +13,7 @@
   <content>CommonModule.JSON_Сервер_Ei</content>
   <content>CommonModule.JSON_Общий_Ei</content>
   <content>SessionParameter.РедакторКодаДанные_Ei</content>
-  <content>CommonForm.РедакторКода_Ei</content>
-  <content>CommonCommand.РедакторКода_Ei</content>
+  <content>CommonForm.РедакторКодаАлгоритм_Ei</content>
   <content>CommonTemplate.РедакторКода_src_Ei</content>
   <content>CommonTemplate.РедакторКода_Сниппеты_Ei</content>
 </mdclass:Subsystem>
