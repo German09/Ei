@@ -7,8 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.ВариантКлиент_Запрос_Ei</content>
+  <content>CommonModule.ВариантЗапросКлиент_Ei</content>
   <content>CommonForm.Запрос_Ei</content>
-  <content>CommonModule.ВариантКлиентСервер_Запрос_Ei</content>
+  <content>CommonModule.ВариантЗапросКлиентСервер_Ei</content>
   <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
 </mdclass:Subsystem>
