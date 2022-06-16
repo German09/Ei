@@ -222,6 +222,7 @@
   <commonForms>CommonForm.КоллекцияСтруктура_Ei</commonForms>
   <commonForms>CommonForm.УстановитьЗначение_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаАлгоритм_Ei</commonForms>
+  <commonForms>CommonForm.РедакторКодаЗапрос_Ei</commonForms>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>
