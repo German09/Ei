@@ -38,7 +38,7 @@
               </userVisible>
               <dataPath xsi:type="form:MultiLanguageDataPath">
                 <paths xsi:type="form:DataPath">
-                  <segments>ДеревоЗапросов.Запрос</segments>
+                  <segments>ДеревоЗапросов.ИмяНабора</segments>
                 </paths>
               </dataPath>
               <extendedTooltip>
@@ -3159,10 +3159,10 @@
       <segments>ДеревоЗапросов</segments>
     </settingsSavedData>
     <columns>
-      <name>Запрос</name>
+      <name>ИмяНабора</name>
       <title>
         <key>ru</key>
-        <value>Запрос</value>
+        <value>Имя набора</value>
       </title>
       <id>1</id>
       <valueType>
