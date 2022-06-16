@@ -12,7 +12,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ТекстЗапроса</segments>
+      <segments>Запрос</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -369,10 +369,10 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>ТекстЗапроса</name>
+    <name>Запрос</name>
     <title>
       <key>ru</key>
-      <value>Текст запроса</value>
+      <value>Запрос</value>
     </title>
     <id>2</id>
     <valueType>
