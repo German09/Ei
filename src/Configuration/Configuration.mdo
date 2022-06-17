@@ -93,14 +93,12 @@
   <commonTemplates>CommonTemplate.РедакторКода_Сниппеты_Ei</commonTemplates>
   <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>
-  <commonModules>CommonModule.ВариантАлгоритСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантЗапросСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
