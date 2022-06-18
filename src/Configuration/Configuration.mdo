@@ -80,6 +80,14 @@
   <commonPictures>CommonPicture.Подсказки_Ei</commonPictures>
   <commonPictures>CommonPicture.Конструктор_Ei</commonPictures>
   <commonPictures>CommonPicture.Язык_Ei</commonPictures>
+  <commonPictures>CommonPicture.Сохранить_Ei</commonPictures>
+  <commonPictures>CommonPicture.СохранитьКак_Ei</commonPictures>
+  <commonPictures>CommonPicture.Открыть_Ei</commonPictures>
+  <commonPictures>CommonPicture.Новый_Ei</commonPictures>
+  <commonPictures>CommonPicture.Амперсанд_Ei</commonPictures>
+  <commonPictures>CommonPicture.Обновить_Ei</commonPictures>
+  <commonPictures>CommonPicture.ВСписок_Ei</commonPictures>
+  <commonPictures>CommonPicture.Период_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
