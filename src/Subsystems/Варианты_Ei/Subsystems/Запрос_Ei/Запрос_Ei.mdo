@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.ВариантЗапросКлиент_Ei</content>
-  <content>CommonForm.Запрос_Ei</content>
   <content>CommonModule.ВариантЗапросКлиентСервер_Ei</content>
   <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
 </mdclass:Subsystem>

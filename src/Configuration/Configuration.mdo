@@ -88,6 +88,9 @@
   <commonPictures>CommonPicture.Обновить_Ei</commonPictures>
   <commonPictures>CommonPicture.ВСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Период_Ei</commonPictures>
+  <commonPictures>CommonPicture.Ссылка_Ei</commonPictures>
+  <commonPictures>CommonPicture.НеСсылка_Ei</commonPictures>
+  <commonPictures>CommonPicture.Выполнить2_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -216,7 +219,6 @@
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
-  <commonForms>CommonForm.Запрос_Ei</commonForms>
   <commonForms>CommonForm.ВозврЗначение_Ei</commonForms>
   <commonForms>CommonForm.СКД_Ei</commonForms>
   <commonForms>CommonForm.ТД_Ei</commonForms>
