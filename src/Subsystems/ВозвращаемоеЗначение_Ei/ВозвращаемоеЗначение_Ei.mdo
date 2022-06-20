@@ -8,5 +8,4 @@
   <comment>Планка возврщаемых значений в формах обработки</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <content>CommonModule.ВозврЗначениеКлиент_Ei</content>
-  <content>CommonForm.ВозврЗначение_Ei</content>
 </mdclass:Subsystem>
