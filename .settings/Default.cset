@@ -1,28 +1,58 @@
 {
   "version": 1,
   "settings": {
-    "common-module-name-client-server": {
+    "notify-description-to-server-procedure": {
       "enabled": false
     },
-    "common-module-name-client-cached": {
+    "mdo-name-length": {
+      "enabled": false
+    },
+    "doc-comment-parameter-in-description-suggestion": {
       "enabled": false
     },
     "doc-comment-description-ends-on-dot": {
       "enabled": true
     },
-    "common-module-name-client": {
+    "doc-comment-procedure-return-section": {
       "enabled": false
     },
-    "common-module-name-server-call-cached": {
+    "doc-comment-complex-type-with-link": {
       "enabled": false
     },
-    "common-module-name-cached": {
+    "bsl-canonical-pragma": {
       "enabled": false
     },
-    "common-module-type": {
+    "module-region-empty": {
       "enabled": false
     },
-    "common-module-name-server-call": {
+    "doc-comment-use-minus": {
+      "enabled": false
+    },
+    "doc-comment-type": {
+      "enabled": false
+    },
+    "doc-comment-field-name": {
+      "enabled": false
+    },
+    "doc-comment-field-in-description-suggestion": {
+      "enabled": false
+    },
+    "module-empty-method": {
+      "enabled": false
+    },
+    "module-unused-local-variable": {
+      "enabled": false
+    },
+    "doc-comment-ref-link": {
+      "enabled": false
+    },
+    "bsl-nstr-string-literal-format": {
+      "enabled": false
+    },
+    "module-unused-method": {
+      "enabled": false
+    },
+    "change-and-validate-instead-of-around": {
       "enabled": false
     }
   }
