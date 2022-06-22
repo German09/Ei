@@ -2942,6 +2942,37 @@
       <name>ГлавнаяГруппа</name>
       <id>588</id>
       <items xsi:type="form:Button">
+        <name>НаборВариантовВидимость</name>
+        <id>600</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НаборВариантовВидимостьРасширеннаяПодсказка</name>
+          <id>601</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.НаборВариантовВидимость</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <check>true</check>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
         <name>ФормаФайлСохранить</name>
         <id>254</id>
         <visible>true</visible>
@@ -3228,15 +3259,19 @@
       <name>ПараметрыКП</name>
       <id>574</id>
       <items xsi:type="form:Button">
-        <name>ФормаПараметры</name>
+        <name>ПараметрыВидимостьТаблицы</name>
         <id>590</id>
+        <title>
+          <key>ru</key>
+          <value>Параметры</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаПараметрыРасширеннаяПодсказка</name>
+          <name>ПараметрыВидимостьТаблицыРасширеннаяПодсказка</name>
           <id>591</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3250,7 +3285,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.Параметры</commandName>
+        <commandName>Form.Command.ПараметрыВидимостьТаблицы</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4035,10 +4070,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>Параметры</name>
+    <name>ПараметрыВидимостьТаблицы</name>
     <title>
       <key>ru</key>
-      <value>Параметры</value>
+      <value>Параметры видимость таблицы</value>
     </title>
     <id>23</id>
     <use>
@@ -4049,10 +4084,52 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Параметры</name>
+        <name>ПараметрыВидимостьТаблицы</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВаринатыВидимостьПанелей</name>
+    <title>
+      <key>ru</key>
+      <value>Варианты</value>
+    </title>
+    <id>24</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Варианты_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВаринатыВидимостьПанелей</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НаборВариантовВидимость</name>
+    <title>
+      <key>ru</key>
+      <value>Набор вариантов видимость</value>
+    </title>
+    <id>25</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Набор_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НаборВариантовВидимость</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

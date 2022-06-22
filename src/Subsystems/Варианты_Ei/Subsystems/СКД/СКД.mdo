@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>СКД</value>
   </synonym>
-  <content>CommonForm.СКД_Ei</content>
   <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
 </mdclass:Subsystem>

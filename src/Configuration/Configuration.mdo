@@ -91,6 +91,8 @@
   <commonPictures>CommonPicture.Ссылка_Ei</commonPictures>
   <commonPictures>CommonPicture.НеСсылка_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить2_Ei</commonPictures>
+  <commonPictures>CommonPicture.Варианты_Ei</commonPictures>
+  <commonPictures>CommonPicture.Набор_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -107,7 +109,6 @@
   <commonModules>CommonModule.ВариантСКДКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантСКДСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
@@ -198,8 +199,8 @@
   <commonModules>CommonModule.КоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияРеквизитыСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантКоллекцияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКоллекцияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияУстановитьКлиент_Ei</commonModules>
@@ -219,7 +220,6 @@
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
-  <commonForms>CommonForm.СКД_Ei</commonForms>
   <commonForms>CommonForm.ТД_Ei</commonForms>
   <commonForms>CommonForm.ВариантВыбор_Ei</commonForms>
   <commonForms>CommonForm.Алгоритм_Обработка_Ei</commonForms>
@@ -230,6 +230,7 @@
   <commonForms>CommonForm.УстановитьЗначение_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаАлгоритм_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаЗапрос_Ei</commonForms>
+  <commonForms>CommonForm.РедакторКодаСКД_Ei</commonForms>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>
