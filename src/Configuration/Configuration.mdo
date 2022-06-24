@@ -93,6 +93,8 @@
   <commonPictures>CommonPicture.Выполнить2_Ei</commonPictures>
   <commonPictures>CommonPicture.Варианты_Ei</commonPictures>
   <commonPictures>CommonPicture.Набор_Ei</commonPictures>
+  <commonPictures>CommonPicture.Закладка_Ei</commonPictures>
+  <commonPictures>CommonPicture.Ярлык_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>

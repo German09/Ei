@@ -2159,37 +2159,6 @@
                 <items xsi:type="form:FormGroup">
                   <name>ГруппаФайл</name>
                   <id>362</id>
-                  <items xsi:type="form:Button">
-                    <name>Сохранить</name>
-                    <id>327</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <extendedTooltip>
-                      <name>СохранитьРасширеннаяПодсказка</name>
-                      <id>328</id>
-                      <visible>true</visible>
-                      <enabled>true</enabled>
-                      <userVisible>
-                        <common>true</common>
-                      </userVisible>
-                      <type>Label</type>
-                      <autoMaxWidth>true</autoMaxWidth>
-                      <autoMaxHeight>true</autoMaxHeight>
-                      <extInfo xsi:type="form:LabelDecorationExtInfo">
-                        <horizontalAlign>Left</horizontalAlign>
-                      </extInfo>
-                    </extendedTooltip>
-                    <commandName>Form.Item.РезультатЗапросаТД.StandardCommand.Save</commandName>
-                    <representation>Picture</representation>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <placementArea>UserCmds</placementArea>
-                    <representationInContextMenu>Auto</representationInContextMenu>
-                    <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
-                  </items>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3756,12 +3725,12 @@
     <name>ПараметрыПолучить</name>
     <title>
       <key>ru</key>
-      <value>Получить параметры</value>
+      <value>Заполнить</value>
     </title>
     <id>5</id>
     <toolTip>
       <key>ru</key>
-      <value>Параметры получить из текста запроса или СКД</value>
+      <value>Параметры получить из текста запроса или СКД. Получение происходит автоматически при изменении.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3774,7 +3743,7 @@
         <name>ПолучитьПараметры</name>
       </handler>
     </action>
-    <representation>Picture</representation>
+    <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -3908,7 +3877,7 @@
     <name>ПараметрыВСписок</name>
     <title>
       <key>ru</key>
-      <value>В список/значение</value>
+      <value>Список</value>
     </title>
     <id>13</id>
     <toolTip>
@@ -3926,14 +3895,14 @@
         <name>ПараметрыВСписок</name>
       </handler>
     </action>
-    <representation>Picture</representation>
+    <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПараметрыУстановитьПериод</name>
     <title>
       <key>ru</key>
-      <value>Установить период</value>
+      <value>Период</value>
     </title>
     <id>14</id>
     <toolTip>
@@ -3951,7 +3920,7 @@
         <name>ПараметрыУстановитьПериод</name>
       </handler>
     </action>
-    <representation>Picture</representation>
+    <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -4073,7 +4042,7 @@
     <name>ПараметрыВидимостьТаблицы</name>
     <title>
       <key>ru</key>
-      <value>Параметры видимость таблицы</value>
+      <value>Скрыть/показать параметры</value>
     </title>
     <id>23</id>
     <use>
@@ -4087,7 +4056,7 @@
         <name>ПараметрыВидимостьТаблицы</name>
       </handler>
     </action>
-    <representation>TextPicture</representation>
+    <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -4097,6 +4066,10 @@
       <value>Варианты</value>
     </title>
     <id>24</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Видимость закладок вариантов</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4115,9 +4088,13 @@
     <name>НаборВариантовВидимость</name>
     <title>
       <key>ru</key>
-      <value>Набор вариантов видимость</value>
+      <value>Видимость дерева</value>
     </title>
     <id>25</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Видимость дерева набора вариантов</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
