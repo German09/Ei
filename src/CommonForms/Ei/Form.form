@@ -3225,6 +3225,35 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>РезультатыКП</name>
+      <id>602</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>РезультатыКП</value>
+      </title>
+      <extendedTooltip>
+        <name>РезультатыКПРасширеннаяПодсказка</name>
+        <id>603</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>ПараметрыКП</name>
       <id>574</id>
       <items xsi:type="form:Button">
@@ -4042,9 +4071,13 @@
     <name>ПараметрыВидимостьТаблицы</name>
     <title>
       <key>ru</key>
-      <value>Скрыть/показать параметры</value>
+      <value>Параметры</value>
     </title>
     <id>23</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Скрыть/показать параметры</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4060,7 +4093,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ВаринатыВидимостьПанелей</name>
+    <name>ВидимостьПанелей_Варианты_Ei</name>
     <title>
       <key>ru</key>
       <value>Варианты</value>
@@ -4088,7 +4121,7 @@
     <name>НаборВариантовВидимость</name>
     <title>
       <key>ru</key>
-      <value>Видимость дерева</value>
+      <value>Набор</value>
     </title>
     <id>25</id>
     <toolTip>
