@@ -224,7 +224,7 @@
   <commonForms>CommonForm.Процессы_Ei</commonForms>
   <commonForms>CommonForm.ТД_Ei</commonForms>
   <commonForms>CommonForm.ВариантВыбор_Ei</commonForms>
-  <commonForms>CommonForm.Алгоритм_Обработка_Ei</commonForms>
+  <commonForms>CommonForm.ОбработкаАлгоритм_Ei</commonForms>
   <commonForms>CommonForm.Выполнить_Обработка_Ei</commonForms>
   <commonForms>CommonForm.ДляКаждого_Обработка_Ei</commonForms>
   <commonForms>CommonForm.КоллекцияРедактор_Ei</commonForms>
