@@ -113,11 +113,11 @@
   <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВариантКлиентСервер_Ei_Процессы</commonModules>
-  <commonModules>CommonModule.ВариантКлиент_Ei_Процессы</commonModules>
+  <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ВариантПроцессыКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантПроцессыСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
@@ -208,6 +208,7 @@
   <commonModules>CommonModule.КоллекцияУстановитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФайлыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РасширениеКлиент_Ei</commonModules>
   <commonModules>CommonModule.РедакторКодаОбщий_Ei</commonModules>
