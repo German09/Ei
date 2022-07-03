@@ -112,10 +112,10 @@
   <commonModules>CommonModule.ВариантСКДКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийСервер_Ei</commonModules>
-  <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантПроцессыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантПроцессыСервер_Ei</commonModules>
