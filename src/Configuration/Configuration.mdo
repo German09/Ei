@@ -208,8 +208,8 @@
   <commonModules>CommonModule.КоллекцияУстановитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ФайлыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
+  <commonModules>CommonModule.EDTКлиент_Ei</commonModules>
   <commonModules>CommonModule.РасширениеКлиент_Ei</commonModules>
   <commonModules>CommonModule.РедакторКодаОбщий_Ei</commonModules>
   <commonModules>CommonModule.РедакторКодаКлиент_Ei</commonModules>
