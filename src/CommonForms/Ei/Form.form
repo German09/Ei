@@ -3575,6 +3575,26 @@
           <common>true</common>
         </edit>
       </columns>
+      <columns>
+        <name>Ключ</name>
+        <title>
+          <key>ru</key>
+          <value>Ключ</value>
+        </title>
+        <id>25</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers>
+            <length>12</length>
+          </stringQualifiers>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
     </additionalColumns>
   </attributes>
   <attributes>
