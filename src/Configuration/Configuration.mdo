@@ -217,6 +217,7 @@
   <commonModules>CommonModule.JSON_Клиент_Ei</commonModules>
   <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
   <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
   <commonForms>CommonForm.Отладка_Ei</commonForms>

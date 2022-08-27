@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ДеревоВыбора_Путь</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоВыбора_Путь</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -238,10 +236,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВыбора.Представление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВыбора.Представление</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоВыбора_ПредставлениеРасширеннаяПодсказка</name>
@@ -382,10 +378,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоВыбора.ПредставлениеЗначения</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоВыбора.ПредставлениеЗначения</segments>
           </dataPath>
           <extendedTooltip>
             <name>ДеревоВыбораПредставлениеЗначенияРасширеннаяПодсказка</name>

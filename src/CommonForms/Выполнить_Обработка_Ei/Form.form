@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Вариант</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Вариант</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -65,10 +63,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Тип</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Тип</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>

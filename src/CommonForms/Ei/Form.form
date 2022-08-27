@@ -36,10 +36,8 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:MultiLanguageDataPath">
-                <paths xsi:type="form:DataPath">
-                  <segments>ДеревоЗапросов.ИмяНабора</segments>
-                </paths>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ДеревоЗапросов.ИмяНабора</segments>
               </dataPath>
               <extendedTooltip>
                 <name>ДеревоЗапросовЗапросРасширеннаяПодсказка</name>
@@ -904,10 +902,8 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
-                    <dataPath xsi:type="form:MultiLanguageDataPath">
-                      <paths xsi:type="form:DataPath">
-                        <segments>Процессы_ГрафСхема</segments>
-                      </paths>
+                    <dataPath xsi:type="form:DataPath">
+                      <segments>Процессы_ГрафСхема</segments>
                     </dataPath>
                     <titleLocation>None</titleLocation>
                     <excludedCommands>InsertItemActivity</excludedCommands>
@@ -1311,10 +1307,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ИмяПараметра</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ИмяПараметра</segments>
                 </dataPath>
                 <extendedTooltip>
                   <name>ДеревоЗапросовПараметрыЗапросаИмяПараметраРасширеннаяПодсказка</name>
@@ -1370,10 +1364,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ЗначениеПараметра</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ЗначениеПараметра</segments>
                   </dataPath>
                   <extendedTooltip>
                     <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраРасширеннаяПодсказка</name>
@@ -1437,10 +1429,8 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <dataPath xsi:type="form:MultiLanguageDataPath">
-                    <paths xsi:type="form:DataPath">
-                      <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ЭтоВыражение</segments>
-                    </paths>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>Items.ДеревоЗапросов.CurrentData.ПараметрыЗапроса.ЭтоВыражение</segments>
                   </dataPath>
                   <handlers>
                     <event>OnChange</event>
@@ -2573,10 +2563,8 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <dataPath xsi:type="form:MultiLanguageDataPath">
-                  <paths xsi:type="form:DataPath">
-                    <segments>РезультатЗапросаТД</segments>
-                  </paths>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>РезультатЗапросаТД</segments>
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <handlers>

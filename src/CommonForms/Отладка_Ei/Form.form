@@ -24,10 +24,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоСообщений.Тип</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоСообщений.Тип</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоСообщенийТипРасширеннаяПодсказка</name>
@@ -76,10 +74,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоСообщений.Действие</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоСообщений.Действие</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоСообщенийДействиеРасширеннаяПодсказка</name>
@@ -128,10 +124,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоСообщений.СообщениеОбОшибке</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоСообщений.СообщениеОбОшибке</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоСообщенийСообщениеОбОшибкеРасширеннаяПодсказка</name>
@@ -180,10 +174,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДеревоСообщений.Продолжительность</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДеревоСообщений.Продолжительность</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДеревоСообщенийПодолжительностьРасширеннаяПодсказка</name>
