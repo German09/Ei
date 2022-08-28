@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46307ef2-93cc-44b7-b565-f96dbe2576dd">
+  <name>Запрос</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ВариантЗапросКлиент_Ei</content>
+  <content>CommonModule.ВариантЗапросКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантЗапросВызовСервера_Ei</content>
+  <content>CommonForm.РедакторКодаЗапрос_Ei</content>
+  <content>CommonPicture.Запрос_Ei</content>
+  <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
+</mdclass:Subsystem>

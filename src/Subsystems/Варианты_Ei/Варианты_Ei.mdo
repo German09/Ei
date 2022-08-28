@@ -12,7 +12,9 @@
   <content>CommonModule.ВариантСКДКлиентСервер_Ei</content>
   <content>CommonModule.ВариантКоллекцияКлиентСервер_Ei</content>
   <content>CommonModule.ВариантАлгоритмКлиентСервер_Ei</content>
-  <subsystems>Запрос_Ei</subsystems>
-  <subsystems>Процессы_Ei</subsystems>
+  <content>CommonModule.ВариантJSONКлиентСервер_Ei</content>
+  <subsystems>Запрос</subsystems>
+  <subsystems>Процессы</subsystems>
   <subsystems>СКД</subsystems>
+  <subsystems>JSON</subsystems>
 </mdclass:Subsystem>

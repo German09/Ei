@@ -5,5 +5,10 @@
     <key>ru</key>
     <value>СКД</value>
   </synonym>
+  <content>CommonForm.РедакторКодаСКД_Ei</content>
+  <content>CommonModule.ВариантСКДКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантСКДКлиент_Ei</content>
+  <content>CommonModule.ВариантСКДВызовСервера_Ei</content>
+  <content>CommonPicture.СКД_Ei</content>
   <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
 </mdclass:Subsystem>

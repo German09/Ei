@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="575f7e46-cdcb-4a04-afae-7246ade152c3">
+  <name>JSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>JSON</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ВариантJSONКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантJSONКлиент_Ei</content>
+  <content>CommonModule.РедакторJSON_Ei</content>
+  <content>CommonPicture.Json_Ei</content>
+  <content>CommonForm.РедакторJSON_Ei</content>
+  <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c961a6d4-6e4f-4a8c-9369-f7126629ec5d">
+  <name>Процессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ПроцессыКлиент_Ei</content>
+  <content>CommonModule.ПроцессыКлиентСервер_Ei</content>
+  <content>CommonModule.ПроцессыВызовСервера_Ei</content>
+  <content>CommonModule.ВариантПроцессыКлиентСервер_Ei</content>
+  <content>CommonForm.Процессы_Ei</content>
+  <content>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</content>
+  <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
+</mdclass:Subsystem>

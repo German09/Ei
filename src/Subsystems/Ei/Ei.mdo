@@ -6,4 +6,5 @@
     <picture>CommonPicture.Ei</picture>
   </picture>
   <content>CommonCommand.Ei</content>
+  <subsystems>Наследование</subsystems>
 </mdclass:Subsystem>

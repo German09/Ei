@@ -39,7 +39,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Ei</subsystems>
-  <subsystems>Subsystem.Наследование_Ei</subsystems>
   <subsystems>Subsystem.Процессы_Ei</subsystems>
   <subsystems>Subsystem.Варианты_Ei</subsystems>
   <subsystems>Subsystem.ВозвращаемоеЗначение_Ei</subsystems>
@@ -95,6 +94,7 @@
   <commonPictures>CommonPicture.Набор_Ei</commonPictures>
   <commonPictures>CommonPicture.Закладка_Ei</commonPictures>
   <commonPictures>CommonPicture.Ярлык_Ei</commonPictures>
+  <commonPictures>CommonPicture.Json_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -119,6 +119,8 @@
   <commonModules>CommonModule.ВариантПроцессыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантПроцессыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантПроцессыСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантJSONКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантJSONКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантыКлиентСервер_Ei</commonModules>
@@ -218,6 +220,7 @@
   <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
   <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
   <commonModules>CommonModule.КоннекторHTTP_Ei</commonModules>
+  <commonModules>CommonModule.РедакторJSON_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
   <commonForms>CommonForm.Отладка_Ei</commonForms>
@@ -235,6 +238,7 @@
   <commonForms>CommonForm.РедакторКодаАлгоритм_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаЗапрос_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаСКД_Ei</commonForms>
+  <commonForms>CommonForm.РедакторJSON_Ei</commonForms>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>

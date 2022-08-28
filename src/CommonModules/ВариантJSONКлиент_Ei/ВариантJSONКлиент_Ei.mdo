@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5d1a579-bad1-4273-a435-dbca759a72f6">
+  <name>ВариантJSONКлиент_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант JSONКлиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
