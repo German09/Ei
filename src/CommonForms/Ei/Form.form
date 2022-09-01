@@ -66,6 +66,7 @@
               </contextMenu>
               <type>InputField</type>
               <editMode>EnterOnInput</editMode>
+              <fixingInTable>Left</fixingInTable>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
@@ -114,6 +115,10 @@
             <handlers>
               <event>BeforeAddRow</event>
               <name>ДеревоЗапросовПередНачаломДобавления</name>
+            </handlers>
+            <handlers>
+              <event>DragCheck</event>
+              <name>ДеревоЗапросовПроверкаПеретаскивания</name>
             </handlers>
             <searchStringAddition>
               <visible>true</visible>
