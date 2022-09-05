@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f3db6cb-470c-4880-b59a-41cbf63e62b2">
+  <name>Json</name>
+  <synonym>
+    <key>ru</key>
+    <value>Json</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Ei.Subsystem.Варианты</parentSubsystem>
+</mdclass:Subsystem>

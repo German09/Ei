@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d210ddbe-fce4-4d05-9c2a-e06e96efd624">
-  <name>Результаты_Ei</name>
+  <name>Результаты</name>
   <synonym>
     <key>ru</key>
     <value>Результаты</value>
@@ -9,4 +9,5 @@
   <content>CommonModule.РезультатКлиентСервер_Дерево_Ei</content>
   <content>CommonModule.РезультатКлиентСервер_ТД_Ei</content>
   <content>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</content>
+  <parentSubsystem>Subsystem.Ei</parentSubsystem>
 </mdclass:Subsystem>

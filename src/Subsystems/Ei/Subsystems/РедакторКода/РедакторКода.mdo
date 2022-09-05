@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32056e5-3a74-43fe-b568-2768e494891a">
-  <name>РедакторКода_Ei</name>
+  <name>РедакторКода</name>
   <synonym>
     <key>ru</key>
     <value>Редактор кода</value>
@@ -16,4 +16,5 @@
   <content>CommonForm.РедакторКодаАлгоритм_Ei</content>
   <content>CommonTemplate.РедакторКода_src_Ei</content>
   <content>CommonTemplate.РедакторКода_Сниппеты_Ei</content>
+  <parentSubsystem>Subsystem.Ei</parentSubsystem>
 </mdclass:Subsystem>

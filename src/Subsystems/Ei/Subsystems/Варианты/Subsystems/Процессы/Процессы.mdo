@@ -13,5 +13,5 @@
   <content>CommonModule.ВариантПроцессыКлиентСервер_Ei</content>
   <content>CommonForm.Процессы_Ei</content>
   <content>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</content>
-  <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
+  <parentSubsystem>Subsystem.Ei.Subsystem.Варианты</parentSubsystem>
 </mdclass:Subsystem>

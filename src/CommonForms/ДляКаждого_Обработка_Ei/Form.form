@@ -19,7 +19,7 @@
               <name>ГруппаКнопокСхемы</name>
               <id>82</id>
               <items xsi:type="form:FormGroup">
-                <name>ГруппаВставкиСхемы</name>
+                <name>КППроцессы</name>
                 <id>84</id>
                 <items xsi:type="form:Button">
                   <name>Кнопка2</name>
@@ -178,14 +178,14 @@
                 </userVisible>
                 <title>
                   <key>ru</key>
-                  <value>Группа вставки схемы</value>
+                  <value>КППроцессы</value>
                 </title>
                 <toolTip>
                   <key>ru</key>
                   <value>Группа вставки схемы</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаВставкиСхемыРасширеннаяПодсказка</name>
+                  <name>КППроцессыРасширеннаяПодсказка</name>
                   <id>85</id>
                   <visible>true</visible>
                   <enabled>true</enabled>

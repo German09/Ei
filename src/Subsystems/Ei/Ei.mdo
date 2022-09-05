@@ -7,4 +7,11 @@
   </picture>
   <content>CommonCommand.Ei</content>
   <subsystems>Наследование</subsystems>
+  <subsystems>Варианты</subsystems>
+  <subsystems>Результаты</subsystems>
+  <subsystems>Обработки</subsystems>
+  <subsystems>Процессы</subsystems>
+  <subsystems>ВозвращаемоеЗначение</subsystems>
+  <subsystems>Выбор</subsystems>
+  <subsystems>РедакторКода</subsystems>
 </mdclass:Subsystem>

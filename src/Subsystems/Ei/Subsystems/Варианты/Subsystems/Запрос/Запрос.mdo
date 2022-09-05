@@ -12,5 +12,5 @@
   <content>CommonModule.ВариантЗапросВызовСервера_Ei</content>
   <content>CommonForm.РедакторКодаЗапрос_Ei</content>
   <content>CommonPicture.Запрос_Ei</content>
-  <parentSubsystem>Subsystem.Варианты_Ei</parentSubsystem>
+  <parentSubsystem>Subsystem.Ei.Subsystem.Варианты</parentSubsystem>
 </mdclass:Subsystem>

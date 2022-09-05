@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad3d0a14-5b0f-45c1-bbe8-389df2573548">
+  <name>Варианты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты</value>
+  </synonym>
+  <comment>В составе предполагается указывать только общие модули</comment>
+  <content>CommonModule.ВариантЗапросКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантКомментарийКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантПроцессыКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантСКДКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантКоллекцияКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантАлгоритмКлиентСервер_Ei</content>
+  <content>CommonModule.ВариантJSONКлиентСервер_Ei</content>
+  <subsystems>Запрос</subsystems>
+  <subsystems>Алгоритм</subsystems>
+  <subsystems>Коллекция</subsystems>
+  <subsystems>Процессы</subsystems>
+  <subsystems>Json</subsystems>
+  <parentSubsystem>Subsystem.Ei</parentSubsystem>
+</mdclass:Subsystem>
