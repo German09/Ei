@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6629bf9a-d019-4505-9637-4dae7e24f258">
+  <name>Список</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</content>
+  <content>CommonModule.РезультатВызовСервера_ДинСписок_Ei</content>
+  <parentSubsystem>Subsystem.Ei.Subsystem.Результаты</parentSubsystem>
+</mdclass:Subsystem>

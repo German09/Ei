@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="007603e9-788c-4aca-99f3-902e44873ef8">
+  <name>Дерево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РезультатВызовСервера_Дерево_Ei</content>
+  <content>CommonModule.РезультатКлиентСервер_Дерево_Ei</content>
+  <parentSubsystem>Subsystem.Ei.Subsystem.Результаты</parentSubsystem>
+</mdclass:Subsystem>
