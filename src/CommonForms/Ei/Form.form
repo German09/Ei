@@ -903,6 +903,10 @@
                       <event>Clearing</event>
                       <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраОчистка</name>
                     </handlers>
+                    <handlers>
+                      <event>AutoComplete</event>
+                      <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраАвтоПодбор</name>
+                    </handlers>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <wrap>true</wrap>
