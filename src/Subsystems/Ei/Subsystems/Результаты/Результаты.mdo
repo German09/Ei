@@ -5,10 +5,10 @@
     <key>ru</key>
     <value>Результаты</value>
   </synonym>
-  <content>CommonModule.РезультатКлиентСервер_Таблица_Ei</content>
-  <content>CommonModule.РезультатКлиентСервер_Дерево_Ei</content>
-  <content>CommonModule.РезультатКлиентСервер_ТД_Ei</content>
-  <content>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</content>
+  <content>CommonModule.РезультатТаблицаКлиентСервер_Ei</content>
+  <content>CommonModule.РезультатДеревоКлиентСервер_Ei</content>
+  <content>CommonModule.РезультатТДКлиентСервер_Ei</content>
+  <content>CommonModule.РезультатДинСписокКлиентСервер_Ei</content>
   <subsystems>Таблица</subsystems>
   <subsystems>Дерево</subsystems>
   <subsystems>Список</subsystems>

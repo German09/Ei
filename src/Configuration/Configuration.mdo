@@ -177,17 +177,16 @@
   <commonModules>CommonModule.ПроцессыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.РаботаСГС_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_Дерево_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_Таблица_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_ТД_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиент_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиент_ТД_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_Дерево_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатДинСписокКлиент__Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_Таблица_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДинСписокКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДинСписокВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДинСписокКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТаблицаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТаблицаВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДеревоКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДеревоВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТДКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТДВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТДКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
