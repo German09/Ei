@@ -9,9 +9,11 @@
   <content>CommonModule.РезультатДеревоКлиентСервер_Ei</content>
   <content>CommonModule.РезультатТДКлиентСервер_Ei</content>
   <content>CommonModule.РезультатДинСписокКлиентСервер_Ei</content>
+  <content>CommonModule.РезультатJSONКлиентСервер_Ei</content>
   <subsystems>Таблица</subsystems>
   <subsystems>Дерево</subsystems>
   <subsystems>Список</subsystems>
   <subsystems>ТД</subsystems>
+  <subsystems>Json2</subsystems>
   <parentSubsystem>Subsystem.Ei</parentSubsystem>
 </mdclass:Subsystem>

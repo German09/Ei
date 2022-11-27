@@ -187,6 +187,8 @@
   <commonModules>CommonModule.РезультатТДКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатТДВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.РезультатТДКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатJSONКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатJSONКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
@@ -215,7 +217,7 @@
   <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
   <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
   <commonModules>CommonModule.КоннекторHTTP_Ei</commonModules>
-  <commonModules>CommonModule.РедакторJSON_Ei</commonModules>
+  <commonModules>CommonModule.РедакторJSONКлиент_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
   <commonForms>CommonForm.Отладка_Ei</commonForms>
@@ -234,6 +236,7 @@
   <commonForms>CommonForm.РедакторКодаЗапрос_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаСКД_Ei</commonForms>
   <commonForms>CommonForm.РедакторJSON_Ei</commonForms>
+  <commonForms>CommonForm.РедакторJSON2_Ei</commonForms>
   <commonForms>CommonForm.Настройки_Ei</commonForms>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
