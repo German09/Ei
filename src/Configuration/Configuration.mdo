@@ -189,6 +189,7 @@
   <commonModules>CommonModule.РезультатТДКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатJSONКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатJSONКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатJSONВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
