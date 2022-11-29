@@ -7,9 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.РезультатКлиентСервер_ТД_Ei</content>
-  <content>CommonModule.РезультатКлиент_ТД_Ei</content>
-  <content>CommonModule.РезультатВызовСервера_ТД_Ei</content>
+  <content>CommonModule.РезультатТДКлиентСервер_Ei</content>
+  <content>CommonModule.РезультатТДКлиент_Ei</content>
+  <content>CommonModule.РезультатТДВызовСервера_Ei</content>
   <content>CommonForm.ТД_Ei</content>
   <parentSubsystem>Subsystem.Ei.Subsystem.Результаты</parentSubsystem>
 </mdclass:Subsystem>

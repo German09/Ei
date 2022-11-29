@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b07cd10-cb92-4d3b-8430-618dfbf322c9">
-  <name>РезультатКлиент_ДинСписок_Ei</name>
-  <synonym>
-    <key>ru</key>
-    <value>Результат клиент дин список</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
-</mdclass:CommonModule>

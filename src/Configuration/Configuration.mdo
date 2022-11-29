@@ -88,6 +88,7 @@
   <commonPictures>CommonPicture.Закладка_Ei</commonPictures>
   <commonPictures>CommonPicture.Ярлык_Ei</commonPictures>
   <commonPictures>CommonPicture.Json_Ei</commonPictures>
+  <commonPictures>CommonPicture.Настройки_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -136,7 +137,9 @@
   <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.НастройкиПользователяВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.НастройкиПользователяКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаАлгоритмКлиентСервер_Ei</commonModules>
@@ -174,17 +177,19 @@
   <commonModules>CommonModule.ПроцессыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроцессыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.РаботаСГС_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_Дерево_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_Таблица_Ei</commonModules>
-  <commonModules>CommonModule.РезультатВызовСервера_ТД_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиент_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиент_ТД_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_Дерево_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_ДинСписок_Ei</commonModules>
-  <commonModules>CommonModule.РезультатДинСписокКлиент__Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_Таблица_Ei</commonModules>
-  <commonModules>CommonModule.РезультатКлиентСервер_ТД_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДинСписокКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДинСписокВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДинСписокКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТаблицаКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТаблицаВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДеревоКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатДеревоВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТДКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТДВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.РезультатТДКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатJSONКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.РезультатJSONКлиент_Ei</commonModules>
+  <commonModules>CommonModule.РезультатJSONВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиент_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РезультатыКлиентСерверПовтИсп_Ei</commonModules>
@@ -213,7 +218,7 @@
   <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
   <commonModules>CommonModule.JSON_Общий_Ei</commonModules>
   <commonModules>CommonModule.КоннекторHTTP_Ei</commonModules>
-  <commonModules>CommonModule.РедакторJSON_Ei</commonModules>
+  <commonModules>CommonModule.РедакторJSONКлиент_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
   <commonForms>CommonForm.Отладка_Ei</commonForms>
@@ -232,6 +237,8 @@
   <commonForms>CommonForm.РедакторКодаЗапрос_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаСКД_Ei</commonForms>
   <commonForms>CommonForm.РедакторJSON_Ei</commonForms>
+  <commonForms>CommonForm.РедакторJSON2_Ei</commonForms>
+  <commonForms>CommonForm.Настройки_Ei</commonForms>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
 </mdclass:Configuration>

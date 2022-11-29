@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.РезультатВызовСервера_Дерево_Ei</content>
-  <content>CommonModule.РезультатКлиентСервер_Дерево_Ei</content>
+  <content>CommonModule.РезультатДеревоВызовСервера_Ei</content>
+  <content>CommonModule.РезультатДеревоКлиентСервер_Ei</content>
   <parentSubsystem>Subsystem.Ei.Subsystem.Результаты</parentSubsystem>
 </mdclass:Subsystem>
