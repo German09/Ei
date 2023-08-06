@@ -2618,10 +2618,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -3220,28 +3216,6 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДоступныеПеременные</name>
-    <title>
-      <key>ru</key>
-      <value>Доступные переменные</value>
-    </title>
-    <id>16</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Доступные переменные</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+Space</shortcut>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ДоступныеПеременные</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
