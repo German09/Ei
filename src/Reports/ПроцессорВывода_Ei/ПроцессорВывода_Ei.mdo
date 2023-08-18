@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="315a9aba-a45c-4f10-99bf-55c3ecc54a06">
+  <producedTypes>
+    <objectType typeId="aaef6d81-f582-442f-9979-c059cfa4a629" valueTypeId="c6cdb476-9b5b-4437-87e3-2bb71e459f83"/>
+    <managerType typeId="2008120e-4164-45af-b0dd-32bef62e0a53" valueTypeId="6a8d4974-5a78-4a7a-a118-0f9957bff213"/>
+  </producedTypes>
+  <name>ПроцессорВывода_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процессор вывода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>
