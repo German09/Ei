@@ -2882,6 +2882,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>СохраненныйОбраз</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ДатаИзменения</name>
@@ -2990,6 +2993,24 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>СтрНастройкиПользователя</segments>
     </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ЗапомненныйОбраз</name>
+    <title>
+      <key>ru</key>
+      <value>Заполненный образ файла настройки</value>
+    </title>
+    <id>30</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ДСВКоллекцию</name>

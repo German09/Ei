@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5053a79b-1cbe-42c4-9629-8bb722814a9b">
+  <name>НастройкиПользователя_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователя ei</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

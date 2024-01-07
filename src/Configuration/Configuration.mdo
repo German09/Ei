@@ -139,6 +139,7 @@
   <commonModules>CommonModule.НаследованиеФормСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.НастройкиПользователя_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиентСерверПовтИсп_Ei</commonModules>
