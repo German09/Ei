@@ -121,6 +121,7 @@
   <commonModules>CommonModule.ВариантыКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ВозврЗначениеКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыборВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ВыборКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВыборВызовСервераПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
@@ -243,4 +244,5 @@
   <reports>Report.ПроцессорВывода_Ei</reports>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
+  <dataProcessors>DataProcessor.ОбъектКлиент_Ei</dataProcessors>
 </mdclass:Configuration>
