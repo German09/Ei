@@ -242,6 +242,7 @@
   <commonForms>CommonForm.РедакторJSON_Ei</commonForms>
   <commonForms>CommonForm.РедакторJSON2_Ei</commonForms>
   <commonForms>CommonForm.Настройки_Ei</commonForms>
+  <commonForms>CommonForm.Клиент_Ei</commonForms>
   <reports>Report.ПроцессорВывода_Ei</reports>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>

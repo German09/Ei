@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5259a22d-598b-4a8d-9c34-af1f7cc319da">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5259a22d-598b-4a8d-9c34-af1f7cc319da">
   <producedTypes>
     <objectType typeId="10494a32-6985-4c2b-a2e0-92807175798f" valueTypeId="e1564d64-27b6-4399-a4e7-32ac9ace7ae0"/>
     <managerType typeId="c4f12d20-f00a-41ce-bca1-bd431ff11f8a" valueTypeId="2217e51d-2ff8-49a5-b040-31c8e896bbe6"/>
@@ -10,4 +10,19 @@
     <value>Объект клиент</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="45a2cf7b-b87e-424a-a66d-336a79036835">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
 </mdclass:DataProcessor>
