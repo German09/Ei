@@ -6,5 +6,7 @@
     <value>Наследование форм сервер повт исп ei</value>
   </synonym>
   <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringRequest</returnValuesReuse>
 </mdclass:CommonModule>
