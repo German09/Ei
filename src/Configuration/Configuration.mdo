@@ -137,10 +137,10 @@
   <commonModules>CommonModule.НаборВариантовКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормКлиент_Ei</commonModules>
-  <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НаследованиеФормСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.НаследованиеФормКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователя_Ei</commonModules>
   <commonModules>CommonModule.НастройкиПользователяКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбработкиКлиент_Ei</commonModules>

@@ -6,4 +6,6 @@
     <value>Общий модуль клиент ei</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
