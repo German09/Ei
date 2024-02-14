@@ -20261,7 +20261,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20299,7 +20299,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20337,7 +20337,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20375,7 +20375,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20413,7 +20413,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20451,7 +20451,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20527,7 +20527,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20565,7 +20565,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20603,7 +20603,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20641,7 +20641,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20679,7 +20679,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20717,7 +20717,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20755,7 +20755,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20793,7 +20793,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20831,7 +20831,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20869,7 +20869,7 @@
 			</c>
 			<c>
 				<c>
-					<f>2</f>
+					<f>14</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -20892,7 +20892,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>14</defaultFormatIndex>
+	<defaultFormatIndex>15</defaultFormatIndex>
 	<height>583</height>
 	<vgRows>583</vgRows>
 	<line width="1" gap="false">
@@ -20904,7 +20904,7 @@
 		<width>105</width>
 	</format>
 	<format>
-		<width>349</width>
+		<width>280</width>
 	</format>
 	<format>
 		<width>296</width>
@@ -20953,6 +20953,9 @@
 	</format>
 	<format>
 		<width>317</width>
+	</format>
+	<format>
+		<width>349</width>
 	</format>
 	<format>
 		<width>72</width>
