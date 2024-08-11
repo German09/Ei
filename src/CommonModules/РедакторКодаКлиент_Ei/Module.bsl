@@ -270,6 +270,7 @@
 	HTML.hideScrollX();
 	HTML.hideScrollY();
 	HTML.setOption("generateModificationEvent", Истина); //HTML.enableModificationEvent(Истина);
+	HTML.setOption("generateBeforeShowSuggestEvent", Истина); //для см. ПоказатьПодсказки
 	HTML.minimap(Ложь); //отключим отображение карты кода
 	HTML.setLanguageMode(Режим);
 	
@@ -381,6 +382,13 @@
 	Возврат "%1Ext";
 КонецФункции	 
 
+// View.
+// 
+// Параметры:
+//  Элемент - Поле, ПолеФормы - Элемент
+// 
+// Возвращаемое значение:
+// 	ВнешнийОбъект - см. https://github.com/salexdv/bsl_console
 Функция View(Элемент) Экспорт
 	Возврат Элемент.Документ.defaultView;
 КонецФункции
@@ -593,15 +601,20 @@
 
 Процедура ПолеHTML_ПриНажатии(Форма, Элемент, ДанныеСобытия, СтандартнаяОбработка, Обработчик) Экспорт
 	Событие=ДанныеСобытия.Event.eventData1C;
-	Если Событие=Неопределено Тогда 
-		Возврат;
-	ИначеЕсли Событие.event="EVENT_QUERY_CONSTRUCT" Тогда
-		КонструкторЗапросаВызвать(Форма,Элемент, Событие.params, Обработчик);
-	ИначеЕсли Событие.event="EVENT_FORMAT_CONSTRUCT" Тогда
-		КонструкторФорматнойСтрокиВызвать(Форма, Элемент, Событие.params, Обработчик);
-	ИначеЕсли Событие.event="EVENT_GET_METADATA" Тогда
-		ОбработкаСобытияПолученияМетаданных(Элемент, Событие.params);
-	КонецЕсли;
+	Если Не Событие = Неопределено Тогда 
+		Если Событие.event="EVENT_QUERY_CONSTRUCT" Тогда
+			КонструкторЗапросаВызвать(Форма,Элемент, Событие.params, Обработчик);
+		ИначеЕсли Событие.event="EVENT_FORMAT_CONSTRUCT" Тогда
+			КонструкторФорматнойСтрокиВызвать(Форма, Элемент, Событие.params, Обработчик);
+		ИначеЕсли Событие.event="EVENT_GET_METADATA" Тогда
+			ОбработкаСобытияПолученияМетаданных(Элемент, Событие.params);
+		ИначеЕсли Событие.event = "EVENT_ON_SELECT_SUGGEST_ROW" Тогда
+			//выбор строки из автодобавления
+		ИначеЕсли Событие.event = "EVENT_BEFORE_SHOW_SUGGEST" Тогда
+			//переопределение автодополнения	
+			ПоказатьПодсказки(Элемент,Событие.params.trigger, Событие.params.last_expression, Событие.params.last_word);	
+		КонецЕсли;
+	КонецЕсли;	
 КонецПроцедуры
 #КонецОбласти
 
@@ -764,3 +777,19 @@
 	НаследованиеФормКлиент_Ei.Дополнить(ФормаРодитель,Форма,Контейнер,,КонтейнерКП);//,ПереопредПутиРеквизитов);
 	Форма[Имя] 		= Инициализация();
 КонецПроцедуры
+
+// см. https://github.com/salexdv/bsl_console/blob/develop/docs/before_suggest_event.md 
+// 
+// Параметры:
+//  Элемент				- ПолеФормы -				
+//  Триггер				- Строка-
+//  ПоследнееВыражение	- Строка- 
+//  ПоследнееСлово		- Строка-
+Процедура ПоказатьПодсказки(Элемент, Триггер, ПоследнееВыражение, ПоследнееСлово)	
+	HTML = View(Элемент);
+//	HTML.setOption("showSnippetsOnCustomSuggestions",Истина); 
+//	HTML.setOption("generateBeforeShowSuggestEvent", Ложь);
+//	HTML.showCustomSuggestions(СтрокаСпискаАвтодополненияHTML); //см. https://github.com/salexdv/bsl_console/blob/develop/docs/custom_suggestions.md
+//	//РедакторHTML.enableBeforeShowSuggestEvent(Истина);
+//	HTML.setOption("generateBeforeShowSuggestEvent", Истина);		
+КонецПроцедуры	
