@@ -100,6 +100,7 @@
   <commonTemplates>CommonTemplate.НаследованиеОбластьМодуляФормы_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.РедакторКода_src_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.РедакторКода_Сниппеты_Ei</commonTemplates>
+  <commonTemplates>CommonTemplate.ВариантЗапросШаблонОбертки_Ei</commonTemplates>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>
@@ -107,6 +108,7 @@
   <commonModules>CommonModule.ВариантСКДКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантСКДВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВариантЗапросВызовСервераПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВариантЗапросВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВариантКомментарийКлиентСервер_Ei</commonModules>

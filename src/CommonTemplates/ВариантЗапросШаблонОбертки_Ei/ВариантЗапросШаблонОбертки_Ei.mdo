@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce67721a-4da2-4486-8302-5b0aac3376d8">
+  <name>ВариантЗапросШаблонОбертки_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант запрос шаблон обертки</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>
