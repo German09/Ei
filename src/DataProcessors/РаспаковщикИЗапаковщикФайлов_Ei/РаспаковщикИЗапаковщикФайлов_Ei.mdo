@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b7e8b92-5ac4-4618-91b8-ad2e0b746db6">
+  <producedTypes>
+    <objectType typeId="acab0357-1527-4ed3-8883-9bac17817d0d" valueTypeId="72df1450-a680-4cf9-9f87-1aef0173a402"/>
+    <managerType typeId="f7b6cc45-b616-4df8-8f70-86cbef7f7a52" valueTypeId="a8435c79-973e-46a2-9324-13ec5cfe2184"/>
+  </producedTypes>
+  <name>РаспаковщикИЗапаковщикФайлов_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>ZhokhovM: Распаковщик и запаковщик файлов</value>
+  </synonym>
+  <defaultForm>DataProcessor.РаспаковщикИЗапаковщикФайлов_Ei.Form.ФормаУправляемая</defaultForm>
+  <attributes uuid="291a6bf7-fab7-44cb-ba4d-cdeca7c531b7">
+    <name>ВерсияВХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия в хранилище</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7884bce7-103b-4ce9-9f4e-547b0e41adbf">
+    <name>ВерсияВХранилищеПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия в хранилище по</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="98d89692-b4ea-4750-a5cb-f654ca4709a5">
+    <name>ВерсияВХранилищеС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия в хранилище С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15e4648b-e39b-4d6c-8bf4-7351ea5cb70a">
+    <name>ВыбранныйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбранный файл</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16360e8c-5442-4f32-afc0-ef278a0ab731">
+    <name>ЗамерВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замер времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30f0d46e-35f1-4737-8c62-d87676bd0518">
+    <name>ИзвлечьТекстовыйФормат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извлечь текстовый формат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e2f71bf-a23e-41a8-b62a-558e6bbf846b">
+    <name>КаталогРаспаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог распаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee99ad3e-4b71-4b39-b697-9432a9174cac">
+    <name>КонвертироватьВСтарыйФормат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конвертировать в старый формат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56a7982f-209a-4793-8250-fd1656b3fd96">
+    <name>НеСоздаватьКопию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не создавать копию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d89a31d-5a6b-4902-a8d5-180539e56b90">
+    <name>НовыйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый файл</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="55d968e6-3ba5-45e3-9d06-c59e862d827b">
+    <name>СохранитьКонфигурацииПоставщиковБазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить конфигурации поставщиков база данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab39799f-d0f2-4f6a-8f7a-7200f31dcdb9">
+    <name>СохранитьКонфигурацииПоставщиковОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить конфигурации поставщиков основная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a2865d1a-f526-4af1-815d-37eb1f6f0867">
+    <name>СохранитьКонфигурациюБазыДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить конфигурацию базы данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bb254fac-89b3-458b-845a-e7fc05613cb5">
+    <name>СохранитьКонфигурациюИлиРасширениеКонфигурацииХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить конфигурацию или расширение конфигурации хранилища</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f1763e25-6b2b-4756-9e7e-0bf4e5c7ba5c">
+    <name>СохранитьОбъектыКонфигурацииИлиРасширенияКонфигурацииХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить объекты конфигурации или расширения конфигурации хранилища</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="008fdbfd-8ae8-4790-b2d1-32bda9c18cce">
+    <name>СохранитьОсновнуюКонфигурацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить основную конфигурацию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7d80082d-8120-431c-bc8c-5fbbd09b5826">
+    <name>СохранитьРасширенияКонфигурацииБазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить расширения конфигурации база данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b972b68c-c69c-4e4a-a27c-8a97b782fb3e">
+    <name>СохранитьРасширенияКонфигурацииОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить расширения конфигурации основная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c1506996-d450-4fde-be31-2f51773b791d">
+    <name>ФормаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb10aaea-1720-42dc-97d3-ed4cda191961">
+  <name>АрхивВнешнейОбработки_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Архив внешней обработки</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

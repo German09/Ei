@@ -101,6 +101,7 @@
   <commonTemplates>CommonTemplate.РедакторКода_src_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.РедакторКода_Сниппеты_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.ВариантЗапросШаблонОбертки_Ei</commonTemplates>
+  <commonTemplates>CommonTemplate.АрхивВнешнейОбработки_Ei</commonTemplates>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>
@@ -163,7 +164,7 @@
   <commonModules>CommonModule.ОбщийМодульКлиентПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСерверПовтИсп_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульСервер_Ei</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияСервер_Ei</commonModules>
@@ -213,6 +214,7 @@
   <commonModules>CommonModule.КоллекцияУстановитьКлиент_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.КоллекцияСтруктураКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФайлыКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
   <commonModules>CommonModule.EDTКлиент_Ei</commonModules>
   <commonModules>CommonModule.РасширениеКлиент_Ei</commonModules>
@@ -249,4 +251,5 @@
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектКлиент_Ei</dataProcessors>
+  <dataProcessors>DataProcessor.РаспаковщикИЗапаковщикФайлов_Ei</dataProcessors>
 </mdclass:Configuration>
