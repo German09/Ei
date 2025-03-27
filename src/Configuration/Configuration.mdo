@@ -160,7 +160,7 @@
   <commonModules>CommonModule.ОбработкаЗавершениеПотокаКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбработкаЗавершениеПотокаВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульВызовСервера_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСерверПовтИсп_Ei</commonModules>

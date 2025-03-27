@@ -3450,6 +3450,23 @@
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ПараметрыИзБуфера</name>
+    <title>
+      <key>ru</key>
+      <value>Параметры из буфера</value>
+    </title>
+    <id>28</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПараметрыИзБуфера</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
