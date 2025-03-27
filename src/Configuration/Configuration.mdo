@@ -89,6 +89,8 @@
   <commonPictures>CommonPicture.Ярлык_Ei</commonPictures>
   <commonPictures>CommonPicture.Json_Ei</commonPictures>
   <commonPictures>CommonPicture.Настройки_Ei</commonPictures>
+  <commonPictures>CommonPicture.Вставить_Ei</commonPictures>
+  <commonPictures>CommonPicture.ВставитьСправа_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -165,7 +167,7 @@
   <commonModules>CommonModule.ОбщийМодульКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияСервер_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияКлиентСервер_Ei</commonModules>

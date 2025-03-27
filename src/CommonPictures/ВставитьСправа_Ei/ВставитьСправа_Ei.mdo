@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae45a6a1-0b8e-4697-942c-8e2d9476feaf">
+  <name>ВставитьСправа_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставить справа</value>
+  </synonym>
+</mdclass:CommonPicture>
