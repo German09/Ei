@@ -132,7 +132,7 @@
   <commonModules>CommonModule.ВыборКлиент_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ВыполнитьКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.КонстантыГС_Ei</commonModules>
+  <commonModules>CommonModule.КонстантыКлиентСерверГС_Ei</commonModules>
   <commonModules>CommonModule.КонструкторКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.КонструкторКлиент_Ei</commonModules>
   <commonModules>CommonModule.КэшПользователяКлиентСервер_Ei</commonModules>
@@ -165,7 +165,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер_Ei</commonModules>
-  <commonModules>CommonModule.ОбщийМодульКлиентСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСерверПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения_Ei</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияПовтИсп_Ei</commonModules>
   <commonModules>CommonModule.ОписаниеЗначенияВызовСервера_Ei</commonModules>
