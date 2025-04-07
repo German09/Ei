@@ -896,16 +896,20 @@
                   <showInFooter>true</showInFooter>
                   <extInfo xsi:type="form:InputFieldExtInfo">
                     <handlers>
+                      <event>AutoComplete</event>
+                      <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраАвтоПодбор</name>
+                    </handlers>
+                    <handlers>
                       <event>StartChoice</event>
                       <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраНачалоВыбора</name>
                     </handlers>
                     <handlers>
-                      <event>Clearing</event>
-                      <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраОчистка</name>
+                      <event>Opening</event>
+                      <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраОткрытие</name>
                     </handlers>
                     <handlers>
-                      <event>AutoComplete</event>
-                      <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраАвтоПодбор</name>
+                      <event>Clearing</event>
+                      <name>ДеревоЗапросовПараметрыЗапросаЗначениеПараметраОчистка</name>
                     </handlers>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>

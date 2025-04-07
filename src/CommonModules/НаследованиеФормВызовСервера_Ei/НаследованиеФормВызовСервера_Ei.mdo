@@ -6,7 +6,5 @@
     <value>Наследование форм вызов сервера ei</value>
   </synonym>
   <server>true</server>
-  <externalConnection>true</externalConnection>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>
