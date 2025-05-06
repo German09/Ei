@@ -7,6 +7,7 @@
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
-  <serverCall>true</serverCall>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>
