@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>2.6.4.3</version>
+  <version>2.6.4.4</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
