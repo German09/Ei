@@ -491,60 +491,10 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркБыстрыеПодсказки</name>
       </handler>
     </action>
     <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ркВыполнитьНаКлиенте</name>
-    <title>
-      <key>ru</key>
-      <value>На клиенте</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить код на клиенте</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьДействие</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ркВыполнитьНаСервере</name>
-    <title>
-      <key>ru</key>
-      <value>На сервере</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить код на сервере</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.GenerateReport</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьДействие</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -563,7 +513,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркЗаменитьВхождения</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -580,7 +530,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркИзменитьРазмерШрифта</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -604,7 +554,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркКартаКода</name>
       </handler>
     </action>
     <representation>Picture</representation>
@@ -629,7 +579,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркОтключитьРежимСравнения</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -653,7 +603,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркПодсвечиватьЗапросы</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -674,7 +624,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркПоказатьПользовательскиеПодсказки</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -698,7 +648,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркПредыдущееРасхождение</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -719,7 +669,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркСветлаяТема</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -743,7 +693,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркСледующееРасхождение</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -767,7 +717,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркСтрокаСостояния</name>
       </handler>
     </action>
     <representation>Picture</representation>
@@ -785,7 +735,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркТемнаяТема</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -805,7 +755,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыполнитьДействие</name>
+        <name>ркЯзыкПодсказок</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
