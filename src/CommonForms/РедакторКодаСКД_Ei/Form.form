@@ -395,6 +395,7 @@
     <event>ChoiceProcessing</event>
     <name>ОбработкаВыбора</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

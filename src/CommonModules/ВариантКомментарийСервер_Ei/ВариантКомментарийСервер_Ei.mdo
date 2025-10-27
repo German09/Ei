@@ -6,4 +6,5 @@
     <value>Вариант вызов сервера комментарий</value>
   </synonym>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
