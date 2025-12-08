@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42827fe9-3261-436e-9d7c-2422267a0e2a">
+  <producedTypes>
+    <objectType typeId="f9489b8c-9851-4516-9785-07c875bb000c" valueTypeId="efc4263e-06ed-4577-b5dd-e4775d2b78fc"/>
+    <managerType typeId="36f19ef5-0cf0-40c8-8a89-3fa68b1305e6" valueTypeId="102cddb0-f129-4d85-a1fc-8adaa225b9cc"/>
+  </producedTypes>
+  <name>Комментарий_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комментарий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Комментарий_Ei.Form.Основная</defaultForm>
+  <forms uuid="99667007-e211-4190-afb4-664a96c111a3">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d7047271-a294-4652-a77e-7f4025180c7f">
+    <name>РедакторJSON_Ei</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор JSON</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

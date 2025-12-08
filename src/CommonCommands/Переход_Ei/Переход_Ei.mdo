@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb20804d-96de-4e0a-adee-2e79a809179b">
+  <name>Переход_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переход</value>
+  </synonym>
+  <group>FormNavigationPanelSeeAlso</group>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

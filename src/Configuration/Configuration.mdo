@@ -230,6 +230,7 @@
   <commonModules>CommonModule.КоннекторHTTP_Ei</commonModules>
   <commonModules>CommonModule.РедакторJSONКлиент_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
+  <commonCommands>CommonCommand.Переход_Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
   <commonForms>CommonForm.Отладка_Ei</commonForms>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
@@ -257,4 +258,5 @@
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектКлиент_Ei</dataProcessors>
   <dataProcessors>DataProcessor.РаспаковщикИЗапаковщикФайлов_Ei</dataProcessors>
+  <dataProcessors>DataProcessor.Комментарий_Ei</dataProcessors>
 </mdclass:Configuration>
