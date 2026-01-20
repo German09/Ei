@@ -20,13 +20,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d7047271-a294-4652-a77e-7f4025180c7f">
-    <name>РедакторJSON_Ei</name>
-    <synonym>
-      <key>ru</key>
-      <value>Редактор JSON</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:DataProcessor>

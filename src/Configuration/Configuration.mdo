@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>2.6.6.3</version>
+  <version>2.6.7.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -247,16 +247,15 @@
   <commonForms>CommonForm.РедакторКодаАлгоритм_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаЗапрос_Ei</commonForms>
   <commonForms>CommonForm.РедакторКодаСКД_Ei</commonForms>
-  <commonForms>CommonForm.РедакторJSON_Ei</commonForms>
   <commonForms>CommonForm.РедакторJSON2_Ei</commonForms>
   <commonForms>CommonForm.Настройки_Ei</commonForms>
   <commonForms>CommonForm.Клиент_Ei</commonForms>
   <commonForms>CommonForm.ПараметрыАлгоритм_Ei</commonForms>
-  <commonForms>CommonForm.Комментарий_Ei</commonForms>
   <reports>Report.ПроцессорВывода_Ei</reports>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектКлиент_Ei</dataProcessors>
   <dataProcessors>DataProcessor.РаспаковщикИЗапаковщикФайлов_Ei</dataProcessors>
   <dataProcessors>DataProcessor.Комментарий_Ei</dataProcessors>
+  <dataProcessors>DataProcessor.РедакторJSON_Ei</dataProcessors>
 </mdclass:Configuration>
