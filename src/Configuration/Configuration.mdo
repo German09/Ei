@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>2.6.7.3</version>
+  <version>2.6.7.4</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -221,9 +221,9 @@
   <commonModules>CommonModule.ФайлыКлиент_Ei</commonModules>
   <commonModules>CommonModule.EDTКлиент_Ei</commonModules>
   <commonModules>CommonModule.РасширениеКлиент_Ei</commonModules>
-  <commonModules>CommonModule.РедакторКодаОбщий_Ei</commonModules>
+  <commonModules>CommonModule.РедакторКодаКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.РедакторКодаКлиент_Ei</commonModules>
-  <commonModules>CommonModule.РедакторКодаСервер_Ei</commonModules>
+  <commonModules>CommonModule.РедакторКодаВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.JSON_Клиент_Ei</commonModules>
   <commonModules>CommonModule.JSON_Сервер_Ei</commonModules>
   <commonModules>CommonModule.JSON_Общий_Ei</commonModules>

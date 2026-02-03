@@ -6,9 +6,9 @@
     <value>Редактор кода</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <content>CommonModule.РедакторКодаОбщий_Ei</content>
+  <content>CommonModule.РедакторКодаКлиентСервер_Ei</content>
   <content>CommonModule.РедакторКодаКлиент_Ei</content>
-  <content>CommonModule.РедакторКодаСервер_Ei</content>
+  <content>CommonModule.РедакторКодаВызовСервера_Ei</content>
   <content>CommonModule.JSON_Клиент_Ei</content>
   <content>CommonModule.JSON_Сервер_Ei</content>
   <content>CommonModule.JSON_Общий_Ei</content>
