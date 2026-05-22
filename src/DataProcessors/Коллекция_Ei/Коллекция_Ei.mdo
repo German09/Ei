@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a78bcdd-63ce-4da8-8b51-4d9a30fe0593">
+  <producedTypes>
+    <objectType typeId="486f99be-0874-43dc-88dc-a0ed119f7296" valueTypeId="6f31829c-d1c2-4599-9a70-34c4c26706a8"/>
+    <managerType typeId="f207e06b-5804-438a-9cea-e893ab49d2cf" valueTypeId="205676a2-ec0a-4c92-a4bf-d7bc84b19726"/>
+  </producedTypes>
+  <name>Коллекция_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Коллекция_Ei.Form.Форма</defaultForm>
+  <forms uuid="d10a6714-be41-4234-a46f-b62f1306a2cc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e71156d2-22b4-420f-ad62-58b8ff65d1e1">
+    <name>Структура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонки коллекции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
