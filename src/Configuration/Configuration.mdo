@@ -104,6 +104,7 @@
   <commonTemplates>CommonTemplate.РедакторКода_Сниппеты_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.ВариантЗапросШаблонОбертки_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.АрхивВнешнейОбработки_Ei</commonTemplates>
+  <commonTemplates>CommonTemplate.ОтслеживаниеФайлов_ВК_Ei</commonTemplates>
   <commonModules>CommonModule.МодификацияКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ВариантАлгоритмКлиент_Ei</commonModules>

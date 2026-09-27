@@ -2203,12 +2203,20 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
+    <event>ExternalEvent</event>
+    <name>ВнешнееСобытие</name>
   </handlers>
   <handlers>
     <event>URLGetProcessing</event>
@@ -2437,7 +2445,7 @@
     <name>ИмяФайлаНастройки</name>
     <title>
       <key>ru</key>
-      <value>Имя файла настройки</value>
+      <value>Имя папки</value>
     </title>
     <id>5</id>
     <valueType>
