@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="360c1681-3002-44f0-8ebc-08b376386101">
+  <name>ИнструментыMCPСервер_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты MCP (сервер)</value>
+  </synonym>
+  <comment>Инструменты execute_code и execute_query для MCP-сервера 1c_mcp</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

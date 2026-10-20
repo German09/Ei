@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d54c6aca-d7c2-4836-8f35-179bf4ba316f">
+  <name>ЗапросыMCPСервер_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы MCP (сервер)</value>
+  </synonym>
+  <comment>Запрос клиентскому агенту из HTTP-сеанса MCP и ожидание ответа</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

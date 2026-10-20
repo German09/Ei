@@ -39,6 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Ei</subsystems>
+  <subsystems>Subsystem.mcp_MCPСервер_Ei</subsystems>
   <commonPictures>CommonPicture.Ei</commonPictures>
   <commonPictures>CommonPicture.ИерархическийСписок_Ei</commonPictures>
   <commonPictures>CommonPicture.Выполнить_Ei</commonPictures>
@@ -242,6 +243,9 @@
   <commonModules>CommonModule.ИсторияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ИсторияКлиент_Ei</commonModules>
   <commonModules>CommonModule.ЗапросыMCPКлиентПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ИнструментыMCPСервер_Ei</commonModules>
+  <commonModules>CommonModule.ПроверкаКодаMCPСервер_Ei</commonModules>
+  <commonModules>CommonModule.ЗапросыMCPСервер_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonCommands>CommonCommand.Переход_Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
@@ -270,4 +274,5 @@
   <dataProcessors>DataProcessor.Комментарий_Ei</dataProcessors>
   <dataProcessors>DataProcessor.РедакторJSON_Ei</dataProcessors>
   <dataProcessors>DataProcessor.Коллекция_Ei</dataProcessors>
+  <dataProcessors>DataProcessor.ИнструментыMCP_Ei</dataProcessors>
 </mdclass:Configuration>

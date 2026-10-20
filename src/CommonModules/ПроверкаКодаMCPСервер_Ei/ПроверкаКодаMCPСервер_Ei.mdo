@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e06190e8-657e-4863-8e7b-0fc9701d39b6">
+  <name>ПроверкаКодаMCPСервер_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка кода MCP (сервер)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

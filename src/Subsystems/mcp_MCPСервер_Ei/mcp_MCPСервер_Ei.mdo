@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab19d5d4-1e7c-478d-8473-3359276727fb">
+  <name>mcp_MCPСервер_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>MCP-сервер (Ei)</value>
+  </synonym>
+  <comment>Инструменты Ei для MCP-сервера 1c_mcp: имя содержит mcp_MCPСервер, по нему 1c_mcp находит контейнеры</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>mcp_КонтейнерыИнструментов</subsystems>
+</mdclass:Subsystem>

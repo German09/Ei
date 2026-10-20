@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f62d7b2-d709-4aa9-8ac4-0edf4aeb0a38">
+  <producedTypes>
+    <objectType typeId="a6f9634f-b17f-4c52-a77f-67d85cc7c719" valueTypeId="c5328600-9fe9-4f7a-a1ca-9f7b253ae586"/>
+    <managerType typeId="80828e91-0b66-4048-a271-f1c0b9f5c252" valueTypeId="bca86b1a-b9b6-485c-adb7-9041173a524f"/>
+  </producedTypes>
+  <name>ИнструментыMCP_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструменты MCP</value>
+  </synonym>
+  <comment>Контейнер инструментов MCP-сервера 1c_mcp, см. подсистему mcp_MCPСервер_Ei</comment>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
