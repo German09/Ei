@@ -215,6 +215,10 @@
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
   </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -251,6 +255,62 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КнопкиВыбора</name>
+    <title>
+      <key>ru</key>
+      <value>Кнопки выбора</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяКнопкиПоУмолчанию</name>
+    <title>
+      <key>ru</key>
+      <value>Имя кнопки по умолчанию</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТаймаутВыбора</name>
+    <title>
+      <key>ru</key>
+      <value>Таймаут выбора</value>
+    </title>
+    <id>11</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -300,6 +360,31 @@
       <stringQualifiers/>
     </valueType>
     <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Кнопки</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>КнопкаПоУмолчанию</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Таймаут</name>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>
