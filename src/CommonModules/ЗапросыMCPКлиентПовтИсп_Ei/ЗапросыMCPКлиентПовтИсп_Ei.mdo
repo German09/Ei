@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce4b8a7e-f3a4-4174-9717-bbb644a1bee8">
+  <name>ЗапросыMCPКлиентПовтИсп_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы MCP клиент повт исп</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

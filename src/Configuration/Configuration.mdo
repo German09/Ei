@@ -241,6 +241,7 @@
   <commonModules>CommonModule.ИсторияКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.ИсторияВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ИсторияКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ЗапросыMCPКлиентПовтИсп_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonCommands>CommonCommand.Переход_Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
@@ -261,7 +262,6 @@
   <commonForms>CommonForm.Настройки_Ei</commonForms>
   <commonForms>CommonForm.Клиент_Ei</commonForms>
   <commonForms>CommonForm.ПараметрыАлгоритм_Ei</commonForms>
-  <commonForms>CommonForm.ЗапросMCP_Ei</commonForms>
   <reports>Report.ПроцессорВывода_Ei</reports>
   <dataProcessors>DataProcessor.ОбъектНабора_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ОбъектВарианта_Ei</dataProcessors>
