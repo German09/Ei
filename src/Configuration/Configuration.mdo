@@ -96,6 +96,7 @@
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
   <sessionParameters>SessionParameter.ХешАдресов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.РедакторКодаДанные_Ei</sessionParameters>
+  <sessionParameters>SessionParameter.ЗапускВарианта_Ei</sessionParameters>
   <commonTemplates>CommonTemplate.СхемаПроцессаПоУмолчанию_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСобытия_Ei</commonTemplates>
   <commonTemplates>CommonTemplate.НаследованиеФормСвойства_Ei</commonTemplates>
@@ -232,10 +233,18 @@
   <commonModules>CommonModule.РедакторJSONКлиент_Ei</commonModules>
   <commonModules>CommonModule.ЗапросыMCPВызовСервера_Ei</commonModules>
   <commonModules>CommonModule.ЗапросыMCPКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ЖурналКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ЖурналВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ЖурналКлиентПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ЖурналКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ЖурналСерверПовтИсп_Ei</commonModules>
+  <commonModules>CommonModule.ИсторияКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ИсторияВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ИсторияКлиент_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonCommands>CommonCommand.Переход_Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
-  <commonForms>CommonForm.Отладка_Ei</commonForms>
+  <commonForms>CommonForm.ЖурналВыполнения_Ei</commonForms>
   <commonForms>CommonForm.Коллекция_Ei</commonForms>
   <commonForms>CommonForm.Выбор_Ei</commonForms>
   <commonForms>CommonForm.Процессы_Ei</commonForms>
