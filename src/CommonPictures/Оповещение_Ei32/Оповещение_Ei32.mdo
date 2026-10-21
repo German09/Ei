@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdc9f76a-5a1a-4a7e-a482-ad9cd8579632">
+  <name>Оповещение_Ei32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение Ei 32</value>
+  </synonym>
+  <comment>Логотип Ei 32x32 для оповещений пользователя: SVG из CommonPicture.Ei с размером 32px</comment>
+</mdclass:CommonPicture>
