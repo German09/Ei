@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1625b06-265b-4bb4-b32a-ed4d2c056008">
+  <name>ФоновоеВыполнениеКлиентСервер_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фоновое выполнение клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c731bac8-e1b3-47d7-8743-864396c52749">
+  <name>Оповещение_Ei60</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение Ei 60</value>
+  </synonym>
+  <comment>Огонь Ei 60x60 для всех оповещений пользователя: Material Icons local_fire_department, рамка обрезана по пламени</comment>
+</mdclass:CommonPicture>

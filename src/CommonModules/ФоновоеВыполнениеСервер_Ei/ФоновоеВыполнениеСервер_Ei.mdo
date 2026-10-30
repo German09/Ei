@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eb393c6-7808-4195-a636-9f904d0e4789">
+  <name>ФоновоеВыполнениеСервер_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фоновое выполнение (сервер)</value>
+  </synonym>
+  <comment>Фоновое задание выполнения варианта и учет фоновых запусков пользователя</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bad061c9-a892-4cf6-8e4f-36720b07daaf">
+  <name>ФоновоеВыполнение_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фоновое выполнение Ei</value>
+  </synonym>
+  <comment>Команда «Выполнить в фоне» формы Ei: треугольник «Выполнить» в кольце выполнения</comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9900ac68-1372-4c27-b680-6753e2255e41">
+  <name>ФоновоеВыполнениеКлиент_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фоновое выполнение клиент</value>
+  </synonym>
+  <comment>Фоновое выполнение вариантов: запуск, остановка, отображение в дереве наборов, результат по уведомлению</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7505444f-b48e-4ca2-87fe-eb2f659c5e91">
+  <name>История_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>История Ei</value>
+  </synonym>
+  <comment>История запусков и параметров, как картинка истории платформы, Material Icons history</comment>
+</mdclass:CommonPicture>

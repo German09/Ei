@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>2.9.3.13</version>
+  <version>2.9.5.10</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -92,7 +92,10 @@
   <commonPictures>CommonPicture.Настройки_Ei</commonPictures>
   <commonPictures>CommonPicture.Вставить_Ei</commonPictures>
   <commonPictures>CommonPicture.ВставитьСправа_Ei</commonPictures>
-  <commonPictures>CommonPicture.Оповещение_Ei32</commonPictures>
+  <commonPictures>CommonPicture.Оповещение_Ei60</commonPictures>
+  <commonPictures>CommonPicture.ФоновоеВыполнение_Ei</commonPictures>
+  <commonPictures>CommonPicture.Остановить_Ei</commonPictures>
+  <commonPictures>CommonPicture.История_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>
@@ -247,6 +250,10 @@
   <commonModules>CommonModule.ИнструментыMCPСервер_Ei</commonModules>
   <commonModules>CommonModule.ПроверкаКодаMCPСервер_Ei</commonModules>
   <commonModules>CommonModule.ЗапросыMCPСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФоновоеВыполнениеКлиент_Ei</commonModules>
+  <commonModules>CommonModule.ФоновоеВыполнениеКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФоновоеВыполнениеВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.ФоновоеВыполнениеСервер_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonCommands>CommonCommand.Переход_Ei</commonCommands>
   <commonForms>CommonForm.Ei</commonForms>
