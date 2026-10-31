@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="efb874ad-aeb5-4fa7-b471-b6998a4dd48d">
-  <name>EnterpriseIntegrator</name>
+  <name>EnterpriseIntelligence</name>
   <synonym>
     <key>ru</key>
-    <value>Enterprise integrator</value>
+    <value>Enterprise Intelligence</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>2.9.6.13</version>
+  <version>3.1.1.4</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -283,4 +283,5 @@
   <dataProcessors>DataProcessor.РедакторJSON_Ei</dataProcessors>
   <dataProcessors>DataProcessor.Коллекция_Ei</dataProcessors>
   <dataProcessors>DataProcessor.ИнструментыMCP_Ei</dataProcessors>
+  <dataProcessors>DataProcessor.ВариантЗапрос_Ei</dataProcessors>
 </mdclass:Configuration>
