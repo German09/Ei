@@ -950,7 +950,7 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <horizontalStretch>false</horizontalStretch>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>КомандыФормыРасширеннаяПодсказка</name>
         <id>634</id>
