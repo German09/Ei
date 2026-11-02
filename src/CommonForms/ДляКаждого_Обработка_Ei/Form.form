@@ -737,10 +737,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
   </handlers>
@@ -828,55 +824,6 @@
       <segments>НастройкиПользователя</segments>
     </settingsSavedData>
   </attributes>
-  <formCommands>
-    <name>ОтобразитьПоказателиПроцесса</name>
-    <title>
-      <key>ru</key>
-      <value>Отобразить показатели выполнения</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Отобразить показатели процесса</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Часы_Ei</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОтобразитьПоказателиПроцесса</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОчиститьВозрЗначение</name>
-    <title>
-      <key>ru</key>
-      <value>Очистить возр значение</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Очистить возр значение</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Close</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОчиститьВозрЗначение</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <parameters>
     <name>Настройка</name>
     <valueType>

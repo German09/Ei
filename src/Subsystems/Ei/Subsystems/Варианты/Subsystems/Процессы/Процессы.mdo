@@ -6,7 +6,6 @@
     <value>Процессы</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.ПроцессыКлиент_Ei</content>
   <content>CommonModule.ПроцессыКлиентСервер_Ei</content>
   <content>CommonModule.ПроцессыВызовСервера_Ei</content>

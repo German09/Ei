@@ -6,7 +6,6 @@
     <value>Json2</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.РезультатJSONКлиентСервер_Ei</content>
   <content>CommonModule.РезультатJSONКлиент_Ei</content>
   <parentSubsystem>Subsystem.Ei.Subsystem.Результаты</parentSubsystem>

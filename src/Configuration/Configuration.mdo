@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>3.1.5.1</version>
+  <version>3.1.7.4</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -96,6 +96,7 @@
   <commonPictures>CommonPicture.ФоновоеВыполнение_Ei</commonPictures>
   <commonPictures>CommonPicture.Остановить_Ei</commonPictures>
   <commonPictures>CommonPicture.История_Ei</commonPictures>
+  <commonPictures>CommonPicture.Цикл_Ei</commonPictures>
   <sessionParameters>SessionParameter.НаборВариантов_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Набор_Ei</sessionParameters>
   <sessionParameters>SessionParameter.Объект_Процессы_Ei</sessionParameters>

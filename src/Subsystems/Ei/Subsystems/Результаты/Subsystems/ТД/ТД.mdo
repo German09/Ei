@@ -6,7 +6,6 @@
     <value>ТД</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.РезультатТДКлиентСервер_Ei</content>
   <content>CommonModule.РезультатТДКлиент_Ei</content>
   <content>CommonModule.РезультатТДВызовСервера_Ei</content>

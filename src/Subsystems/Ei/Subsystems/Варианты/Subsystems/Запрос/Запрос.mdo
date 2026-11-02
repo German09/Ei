@@ -6,7 +6,6 @@
     <value>Запрос</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.ВариантЗапросКлиент_Ei</content>
   <content>CommonModule.ВариантЗапросКлиентСервер_Ei</content>
   <content>CommonModule.ВариантЗапросВызовСервера_Ei</content>

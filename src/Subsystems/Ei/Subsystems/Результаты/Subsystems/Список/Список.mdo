@@ -6,7 +6,6 @@
     <value>Список</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.РезультатДинСписокКлиентСервер_Ei</content>
   <content>CommonModule.РезультатДинСписокВызовСервера_Ei</content>
   <parentSubsystem>Subsystem.Ei.Subsystem.Результаты</parentSubsystem>
