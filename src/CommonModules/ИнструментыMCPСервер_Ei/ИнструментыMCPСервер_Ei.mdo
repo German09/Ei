@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Инструменты MCP (сервер)</value>
   </synonym>
-  <comment>Инструменты execute_code и execute_query для MCP-сервера 1c_mcp</comment>
+  <comment>Инструменты execute_code, execute_query, create_variants, get_variants, parse_nav_link и get_nav_link для MCP-сервера 1c_mcp</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
