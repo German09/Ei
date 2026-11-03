@@ -780,7 +780,7 @@
       </extendedTooltip>
       <type>Pages</type>
       <extInfo xsi:type="form:PagesGroupExtInfo">
-        <pagesRepresentation>TabsOnTop</pagesRepresentation>
+        <pagesRepresentation>TabsOnRight</pagesRepresentation>
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
