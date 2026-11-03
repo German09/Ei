@@ -675,6 +675,9 @@
         </extendedTooltip>
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Дерево_Ei</picture>
+          </picture>
           <group>HorizontalIfPossible</group>
           <showTitle>true</showTitle>
         </extInfo>
@@ -744,6 +747,9 @@
         </extendedTooltip>
         <type>Page</type>
         <extInfo xsi:type="form:PageGroupExtInfo">
+          <picture xsi:type="core:PictureRef">
+            <picture>CommonPicture.Объект_Ei</picture>
+          </picture>
           <group>Vertical</group>
           <showTitle>true</showTitle>
         </extInfo>
