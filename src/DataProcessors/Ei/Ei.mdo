@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93e9c310-2e39-4a24-8b67-6f26a5a67bcf">
+  <producedTypes>
+    <objectType typeId="96176a03-986b-4f82-8b26-6ba2fdf9f9ac" valueTypeId="ad0c6546-5cc2-4e0a-b607-f5f53fce1cfb"/>
+    <managerType typeId="39af97f2-5744-450b-bd79-370c3757d6ad" valueTypeId="f33658e3-fed7-4932-806c-4fc0291012ef"/>
+  </producedTypes>
+  <name>Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ei</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Ei.Form.Форма</defaultForm>
+  <forms uuid="b2311cd9-f74e-41f4-8260-c506e488aef7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ei</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

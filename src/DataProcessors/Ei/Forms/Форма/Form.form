@@ -757,56 +757,6 @@
           <representationInContextMenu>Auto</representationInContextMenu>
           <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
         </items>
-        <items xsi:type="form:FormGroup">
-          <name>ФормаГруппаФайлСтар</name>
-          <id>619</id>
-          <items xsi:type="form:Button">
-            <name>ФормаФайлОткрыть_</name>
-            <id>617</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ФормаФайлОткрыть_РасширеннаяПодсказка</name>
-              <id>618</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ФайлОткрыть_</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Форма группа1</value>
-          </title>
-          <extendedTooltip>
-            <name>ФормаГруппаФайлСтарРасширеннаяПодсказка</name>
-            <id>620</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <extInfo xsi:type="form:ButtonGroupExtInfo"/>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1978,6 +1928,31 @@
                   </picture>
                   <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
+                <items xsi:type="form:Button">
+                  <name>ДеревоЗапросовПараметрыЗапросаСсылкаНаПараметр</name>
+                  <id>669</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ДеревоЗапросовПараметрыЗапросаСсылкаНаПараметрРасширеннаяПодсказка</name>
+                    <id>670</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.СсылкаНаПараметр</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
                 <autoFill>true</autoFill>
               </contextMenu>
               <changeRowSet>true</changeRowSet>
@@ -2555,10 +2530,6 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -2581,6 +2552,10 @@
   <handlers>
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
+  </handlers>
+  <handlers>
+    <event>URLProcessing</event>
+    <name>ОбработкаНавигационнойСсылки</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoUrl>true</autoUrl>
@@ -3240,51 +3215,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ШаблонExcel</name>
-    <title>
-      <key>ru</key>
-      <value>Шаблон excel</value>
-    </title>
-    <id>17</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Шаблон excel</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ШаблонExcel_Начало</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОткрытьТДизФайла</name>
-    <title>
-      <key>ru</key>
-      <value>Импорт из файла</value>
-    </title>
-    <id>20</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Импортировать из Excel или MXL</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.OpenFile</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОткрытьТДизФайла</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ТДвТЗ</name>
     <title>
       <key>ru</key>
@@ -3428,29 +3358,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ФайлОткрыть_</name>
-    <title>
-      <key>ru</key>
-      <value>Открыть (стар.)</value>
-    </title>
-    <id>27</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Файл открыть</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <shortcut>Ctrl+O</shortcut>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ФайлОткрыть_</name>
-      </handler>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ПараметрыИзБуфера</name>
     <title>
       <key>ru</key>
@@ -3521,6 +3428,26 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ИсторияПараметра</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СсылкаНаПараметр</name>
+    <title>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </title>
+    <id>34</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.Ссылка_Ei</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СсылкаНаПараметр</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
