@@ -83,7 +83,7 @@
       </handlers>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
-      <height>10</height>
+      <height>3</height>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
