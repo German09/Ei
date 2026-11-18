@@ -28,7 +28,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>https://github.com/German09/Ei</vendor>
-  <version>3.2.8.12</version>
+  <version>3.2.10.13</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <languages uuid="5f7ce907-b1f8-452c-8747-c4c867d711eb">
     <name>Русский</name>
@@ -258,6 +258,10 @@
   <commonModules>CommonModule.НавигационныеСсылкиКлиент_Ei</commonModules>
   <commonModules>CommonModule.НавигационныеСсылкиКлиентСервер_Ei</commonModules>
   <commonModules>CommonModule.НавигационныеСсылкиВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.СхемаПроцессаEDTВызовСервера_Ei</commonModules>
+  <commonModules>CommonModule.КодНабораКлиентСервер_Ei</commonModules>
+  <commonModules>CommonModule.ВыполнениеФормыНабораСервер_Ei</commonModules>
+  <commonModules>CommonModule.ФормаНабораКлиент_Ei</commonModules>
   <commonCommands>CommonCommand.Ei</commonCommands>
   <commonCommands>CommonCommand.Переход_Ei</commonCommands>
   <commonForms>CommonForm.ЖурналВыполнения_Ei</commonForms>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c6fdb49-e8cf-48eb-a1d1-8bfec32701d3">
+  <name>СхемаПроцессаEDTВызовСервера_Ei</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схема процесса в формате EDT (Ei)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
