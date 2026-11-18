@@ -122,34 +122,6 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
-          <name>ФормаВыполнитьВОбработкеEDT</name>
-          <id>671</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ФормаВыполнитьВОбработкеEDTРасширеннаяПодсказка</name>
-            <id>672</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <commandName>Form.Command.ВыполнитьВОбработкеEDT</commandName>
-          <representation>Picture</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Отладка_Ei</picture>
-          </picture>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <items xsi:type="form:Button">
           <name>ФормаОстановитьФоновоеВыполнение</name>
           <id>631</id>
           <visible>true</visible>
@@ -3020,6 +2992,20 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>КаталогНабораEi</name>
+    <id>1200</id>
+    <valueType>
+      <types>String</types>
+    </valueType>
+  </attributes>
+  <attributes>
+    <name>ИмяНабораEi</name>
+    <id>1201</id>
+    <valueType>
+      <types>String</types>
+    </valueType>
+  </attributes>
   <formCommands>
     <name>ДСВКоллекцию</name>
     <title>
@@ -3218,31 +3204,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыполнитьВФоне</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыполнитьВОбработкеEDT</name>
-    <title>
-      <key>ru</key>
-      <value>Выполнить в обработке EDT</value>
-    </title>
-    <id>35</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выполнить сохраненный алгоритм в обработке набора, которую собрал EDT: в модуле формы алгоритма останавливается отладчик EDT</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Отладка_Ei</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыполнитьВОбработкеEDT</name>
       </handler>
     </action>
     <representation>Picture</representation>
