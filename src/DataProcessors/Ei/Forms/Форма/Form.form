@@ -1305,6 +1305,7 @@
             <key>ru</key>
             <value>Группа2</value>
           </title>
+          <width>28</width>
           <extendedTooltip>
             <name>ДеревоВариантовРасширеннаяПодсказка</name>
             <id>517</id>
