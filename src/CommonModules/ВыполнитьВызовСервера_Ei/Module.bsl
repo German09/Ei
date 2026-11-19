@@ -288,10 +288,6 @@
 //Выполняет запрос и возвращает ПОСЛЕДНИЙ результат в виде таблицы значений
 //
 //
-//Соединение = Новый COMОбъект("ADODB.Connection");
-//Соединение.Open("Provider=SQLOLEDB;Server=BI,49545;DataBase=HonestSign;User ID=pos5000;Password=pos5000");
-//Результат = РезультатТаблицаВызовСервера_Ei.RecordSetвТЗ(Соединение.Execute("SELECT TOP 10 * FROM Settings"));
-//
 //см. РезультатТаблицаВызовСервера_Ei.RecordSetвТЗ
 //
 //Параметры:
