@@ -7,3 +7,5 @@
 В редакторе можно переключаться между текстом, деревом и таблицей. Для обработки содержимого используйте [алгоритм](algorithm.md).
 
 ![Дерево JSON с базовой валютой RUB и массивом валют](images/json.png)
+
+Ei использует сборку `vanilla-jsoneditor` из проекта JSON. [Репозиторий сборки](https://github.com/German09/json) · [Исходная библиотека svelte-jsoneditor](https://github.com/josdejong/svelte-jsoneditor)
