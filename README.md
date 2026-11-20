@@ -70,3 +70,7 @@ Ei даёт ИИ-агенту и разработчику общий рабоч�
 - HTTP-клиент, включённый в исходники Ei. [Connector](https://github.com/vbondarevsky/Connector)
 
 [Публикации Инфостарта, использованные в Ei](docs/sources.md)
+
+## История проекта
+
+[Enterprise Integrator для 1С 8.2](docs/legacy/README.md) - архивное руководство по ранней версии Ei и ссылка на выпуск 2.62.
