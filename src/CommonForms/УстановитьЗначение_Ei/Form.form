@@ -341,7 +341,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Установить</name>
+        <name>ПодтвердитьУстановкуЗначения</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
